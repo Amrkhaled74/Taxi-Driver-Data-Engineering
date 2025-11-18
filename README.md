@@ -16,8 +16,8 @@ Table of Contents
 
 ----------------------------------------------------------------------------------
 
-
-1. Project Description
+1-
+## Project Description
 
 This project implements a complete automated ELT data pipeline for NYC LPEP (Green Taxi) trip records.
 
@@ -33,8 +33,8 @@ This pipeline addresses challenges such as:
 The final system provides fully automated ingestion -> transformation -> testing -> analytics.
 
 ----------------------------------------------------------------------------------
-
-2.  Use Cases
+2-
+## Use Cases
 
 2.1 Automated Data Ingestion
 
@@ -58,7 +58,8 @@ dbt tests automatically validate data accuracy and consistency.
 
 ----------------------------------------------------------------------------------
 
-3.  Technologies Used
+3.
+## Technologies Used
 
 -------------------------------------------------
 | Layer          | Technology                   |
@@ -78,7 +79,8 @@ dbt tests automatically validate data accuracy and consistency.
 ----------------------------------------------------------------------------------
 
 
-4. Pipeline Workflow
+4.
+## Pipeline Workflow
 
 This project uses a modern ELT batch architecture , orchestrated entirely by Apache Airflow.
 
@@ -116,7 +118,8 @@ snowflake_stage -> dbt_transformation -> dbt_testing
 
 ----------------------------------------------------------------------------------
 
-5. Setup & Installation
+5.
+## Setup & Installation
 
 To run this project, configure Snowflake , dbt, and Airflow.
 
@@ -179,7 +182,8 @@ CREATE STAGE taxi_stage;
 ----------------------------------------------------------------------------------
 
 
-6. Usage
+6.
+## Usage
 
 6.1 Add Data
 
@@ -212,8 +216,8 @@ Output Includes:
 
 ----------------------------------------------------------------------------------
 
-7. Data Schema
-
+7.
+## Data Schema
 The final model is a Star Schema optimized for analytics.
 
 Fact Table
@@ -239,7 +243,8 @@ This structure enables fast filtering, slicing, and drill-down in BI dashboards.
 
 ----------------------------------------------------------------------------------
 
-8  Monitoring & Logging
+8.
+## Monitoring & Logging
 
 8.1 Airflow UI
 
@@ -261,6 +266,7 @@ Example logs:
 * 'dbt_test.log'
 
 These help debug transformation issues.
+
 
 
 
