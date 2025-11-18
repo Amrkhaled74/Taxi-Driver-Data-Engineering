@@ -1,14 +1,15 @@
-Table of Contents
-1. [Apache Airflow Orchestration](#Apache-Airflow-Orchestration)
-2. [Pipeline Workflow](#-pipeline-workflow)
-3. [Configuration & Setup](#%EF%B8%8F-configuration--setup)
-4. [How to Run](#-how-to-run)
-5. [Task Details](#-task-details)
-
-
 ## 🌬️ Apache Airflow Orchestration
 
 This directory contains the DAGs (Directed Acyclic Graphs) responsible for orchestrating the **entire ELT pipeline**. Airflow manages scheduling, dependency resolution, and execution of tasks from raw data ingestion to final dbt transformation.
+---
+Table of Contents
+1. [Pipeline Workflow](#-pipeline-workflow)
+2. [Configuration & Setup](#%EF%B8%8F-configuration--setup)
+3. [How to Run](#-how-to-run)
+4. [Task Details](#-task-details)
+
+
+
 
 ---
 
