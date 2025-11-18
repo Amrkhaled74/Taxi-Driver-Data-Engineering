@@ -3,7 +3,7 @@ Table of Contents
 2. [Pipeline Workflow](#-pipeline-workflow)
 3. [Configuration & Setup](#%EF%B8%8F-configuration--setup)
 4. [How to Run](#-how-to-run)
-5. [Task Details](#-task-details)) 
+5. [Task Details](#-task-details)
 
 
 ## 🌬️ Apache Airflow Orchestration
