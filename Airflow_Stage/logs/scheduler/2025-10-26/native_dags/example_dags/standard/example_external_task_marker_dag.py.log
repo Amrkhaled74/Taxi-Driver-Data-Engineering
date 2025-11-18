@@ -1,0 +1,66 @@
+[2025-10-26T15:01:28.005+0000] {processor.py:186} INFO - Started process (PID=11862) to work on /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_marker_dag.py
+[2025-10-26T15:01:28.006+0000] {processor.py:914} INFO - Processing file /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_marker_dag.py for tasks to queue
+[2025-10-26T15:01:28.007+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:28.006+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_marker_dag.py
+[2025-10-26T15:01:28.010+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:28.009+0000] {dagbag.py:387} ERROR - Failed to import: /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_marker_dag.py
+Traceback (most recent call last):
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_marker_dag.py", line 47, in <module>
+    from airflow.sdk import DAG
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/sdk/__init__.py", line 134, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/sdk/definitions/dag.py", line 40, in <module>
+    from airflow.exceptions import (
+ImportError: cannot import name 'RemovedInAirflow4Warning' from 'airflow.exceptions' (/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/exceptions.py)
+[2025-10-26T15:01:28.011+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_marker_dag.py
+[2025-10-26T15:01:28.029+0000] {processor.py:208} INFO - Processing /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_marker_dag.py took 0.029 seconds
+[2025-10-26T15:01:31.065+0000] {processor.py:186} INFO - Started process (PID=11883) to work on /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_marker_dag.py
+[2025-10-26T15:01:31.065+0000] {processor.py:914} INFO - Processing file /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_marker_dag.py for tasks to queue
+[2025-10-26T15:01:31.066+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:31.066+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_marker_dag.py
+[2025-10-26T15:01:31.073+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:31.071+0000] {dagbag.py:387} ERROR - Failed to import: /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_marker_dag.py
+Traceback (most recent call last):
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_marker_dag.py", line 47, in <module>
+    from airflow.sdk import DAG
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/sdk/__init__.py", line 134, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/sdk/definitions/dag.py", line 40, in <module>
+    from airflow.exceptions import (
+ImportError: cannot import name 'RemovedInAirflow4Warning' from 'airflow.exceptions' (/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/exceptions.py)
+[2025-10-26T15:01:31.073+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_marker_dag.py
+[2025-10-26T15:01:31.109+0000] {processor.py:208} INFO - Processing /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_marker_dag.py took 0.052 seconds
+[2025-10-26T15:02:00.254+0000] {processor.py:186} INFO - Started process (PID=12031) to work on /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_marker_dag.py
+[2025-10-26T15:02:00.254+0000] {processor.py:914} INFO - Processing file /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_marker_dag.py for tasks to queue
+[2025-10-26T15:02:00.255+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:02:00.255+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_marker_dag.py
+[2025-10-26T15:02:00.261+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:02:00.260+0000] {dagbag.py:387} ERROR - Failed to import: /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_marker_dag.py
+Traceback (most recent call last):
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_marker_dag.py", line 47, in <module>
+    from airflow.sdk import DAG
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/sdk/__init__.py", line 134, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/sdk/definitions/dag.py", line 40, in <module>
+    from airflow.exceptions import (
+ImportError: cannot import name 'RemovedInAirflow4Warning' from 'airflow.exceptions' (/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/exceptions.py)
+[2025-10-26T15:02:00.262+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_marker_dag.py
+[2025-10-26T15:02:00.295+0000] {processor.py:208} INFO - Processing /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_marker_dag.py took 0.046 seconds

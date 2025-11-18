@@ -1,0 +1,133 @@
+[2025-10-26T14:36:16.638+0000] {executor_loader.py:254} INFO - Loaded executor: SequentialExecutor
+[2025-10-26T14:36:16.682+0000] {scheduler_job_runner.py:935} INFO - Starting the scheduler
+[2025-10-26T14:36:16.683+0000] {scheduler_job_runner.py:942} INFO - Processing each file at most -1 times
+[2025-10-26T14:36:16.689+0000] {manager.py:174} INFO - Launched DagFileProcessorManager with pid: 7262
+[2025-10-26T14:36:16.691+0000] {scheduler_job_runner.py:1847} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-10-26T14:36:16.692+0000] {settings.py:63} INFO - Configured default timezone UTC
+[2025-10-26T14:36:16.729+0000] {manager.py:406} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[2025-10-26T14:36:17.039+0000] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-24T00:00:00+00:00 [scheduled]>
+[2025-10-26T14:36:17.039+0000] {scheduler_job_runner.py:495} INFO - DAG dbt_snowflake_pipeline has 0/16 running and queued tasks
+[2025-10-26T14:36:17.039+0000] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-24T00:00:00+00:00 [scheduled]>
+[2025-10-26T14:36:17.041+0000] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-24T00:00:00+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2025-10-26T14:36:17.042+0000] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='dbt_snowflake_pipeline', task_id='dbt_run', run_id='scheduled__2025-10-24T00:00:00+00:00', try_number=3, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2025-10-26T14:36:17.042+0000] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'dbt_snowflake_pipeline', 'dbt_run', 'scheduled__2025-10-24T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dbt_snowflake_dag.py']
+[2025-10-26T14:36:17.050+0000] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'dbt_snowflake_pipeline', 'dbt_run', 'scheduled__2025-10-24T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dbt_snowflake_dag.py']
+[2025-10-26T14:36:18.224+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_snowflake_dag.py
+[2025-10-26T14:36:18.310+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-10-26T14:36:18.310+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-10-26T14:36:18.409+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-26T14:36:18.414+0000] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-10-26T14:36:18.418+0000] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2025-10-26T14:36:18.427+0000] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-26T14:36:18.520+0000] {task_command.py:467} INFO - Running <TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-24T00:00:00+00:00 [queued]> on host ubun
+[2025-10-26T14:36:19.105+0000] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='dbt_snowflake_pipeline', task_id='dbt_run', run_id='scheduled__2025-10-24T00:00:00+00:00', try_number=3, map_index=-1)
+[2025-10-26T14:36:19.109+0000] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=dbt_snowflake_pipeline, task_id=dbt_run, run_id=scheduled__2025-10-24T00:00:00+00:00, map_index=-1, run_start_date=2025-10-26 14:36:18.562696+00:00, run_end_date=2025-10-26 14:36:18.684767+00:00, run_duration=0.122071, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=3, max_tries=2, job_id=45, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2025-10-26 14:36:17.040459+00:00, queued_by_job_id=44, pid=7279
+[2025-10-26T14:36:19.403+0000] {dagrun.py:823} ERROR - Marking run <DagRun dbt_snowflake_pipeline @ 2025-10-24 00:00:00+00:00: scheduled__2025-10-24T00:00:00+00:00, state:running, queued_at: 2025-10-26 14:12:42.867018+00:00. externally triggered: False> failed
+Dag run  in failure state
+Dag information:dbt_snowflake_pipeline Run id: scheduled__2025-10-24T00:00:00+00:00 external trigger: False
+Failed with message: task_failure
+[2025-10-26T14:36:19.404+0000] {dagrun.py:905} INFO - DagRun Finished: dag_id=dbt_snowflake_pipeline, execution_date=2025-10-24 00:00:00+00:00, run_id=scheduled__2025-10-24T00:00:00+00:00, run_start_date=2025-10-26 14:12:42.891543+00:00, run_end_date=2025-10-26 14:36:19.403954+00:00, run_duration=1416.512411, state=failed, external_trigger=False, run_type=scheduled, data_interval_start=2025-10-24 00:00:00+00:00, data_interval_end=2025-10-25 00:00:00+00:00, dag_hash=14bef7a35001e8f15b7eff94917e4bd8
+[2025-10-26T14:36:19.407+0000] {dag.py:4180} INFO - Setting next_dagrun for dbt_snowflake_pipeline to 2025-10-25 00:00:00+00:00, run_after=2025-10-26 00:00:00+00:00
+[2025-10-26T14:36:20.589+0000] {scheduler_job_runner.py:1508} INFO - DAG dbt_snowflake_pipeline is at (or above) max_active_runs (1 of 1), not creating any more runs
+Dag run  in running state
+Dag information Queued at: 2025-10-26 14:36:20.586232+00:00 hash info: 14bef7a35001e8f15b7eff94917e4bd8
+[2025-10-26T14:36:20.625+0000] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-25T00:00:00+00:00 [scheduled]>
+[2025-10-26T14:36:20.626+0000] {scheduler_job_runner.py:495} INFO - DAG dbt_snowflake_pipeline has 0/16 running and queued tasks
+[2025-10-26T14:36:20.626+0000] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-25T00:00:00+00:00 [scheduled]>
+[2025-10-26T14:36:20.627+0000] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-25T00:00:00+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2025-10-26T14:36:20.628+0000] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='dbt_snowflake_pipeline', task_id='dbt_run', run_id='scheduled__2025-10-25T00:00:00+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2025-10-26T14:36:20.628+0000] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'dbt_snowflake_pipeline', 'dbt_run', 'scheduled__2025-10-25T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dbt_snowflake_dag.py']
+[2025-10-26T14:36:20.635+0000] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'dbt_snowflake_pipeline', 'dbt_run', 'scheduled__2025-10-25T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dbt_snowflake_dag.py']
+[2025-10-26T14:36:21.793+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_snowflake_dag.py
+[2025-10-26T14:36:21.879+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-10-26T14:36:21.879+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-10-26T14:36:21.977+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-26T14:36:21.983+0000] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-10-26T14:36:21.986+0000] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2025-10-26T14:36:21.994+0000] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-26T14:36:22.083+0000] {task_command.py:467} INFO - Running <TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-25T00:00:00+00:00 [queued]> on host ubun
+[2025-10-26T14:36:22.698+0000] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='dbt_snowflake_pipeline', task_id='dbt_run', run_id='scheduled__2025-10-25T00:00:00+00:00', try_number=1, map_index=-1)
+[2025-10-26T14:36:22.701+0000] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=dbt_snowflake_pipeline, task_id=dbt_run, run_id=scheduled__2025-10-25T00:00:00+00:00, map_index=-1, run_start_date=2025-10-26 14:36:22.127863+00:00, run_end_date=2025-10-26 14:36:22.292211+00:00, run_duration=0.164348, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=2, job_id=46, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2025-10-26 14:36:20.627089+00:00, queued_by_job_id=44, pid=7293
+[2025-10-26T14:41:16.975+0000] {scheduler_job_runner.py:1847} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-10-26T14:41:23.283+0000] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-25T00:00:00+00:00 [scheduled]>
+[2025-10-26T14:41:23.284+0000] {scheduler_job_runner.py:495} INFO - DAG dbt_snowflake_pipeline has 0/16 running and queued tasks
+[2025-10-26T14:41:23.284+0000] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-25T00:00:00+00:00 [scheduled]>
+[2025-10-26T14:41:23.286+0000] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-25T00:00:00+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2025-10-26T14:41:23.286+0000] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='dbt_snowflake_pipeline', task_id='dbt_run', run_id='scheduled__2025-10-25T00:00:00+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2025-10-26T14:41:23.287+0000] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'dbt_snowflake_pipeline', 'dbt_run', 'scheduled__2025-10-25T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dbt_snowflake_dag.py']
+[2025-10-26T14:41:23.306+0000] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'dbt_snowflake_pipeline', 'dbt_run', 'scheduled__2025-10-25T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dbt_snowflake_dag.py']
+[2025-10-26T14:41:24.470+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_snowflake_dag.py
+[2025-10-26T14:41:24.587+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-10-26T14:41:24.588+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-10-26T14:41:24.724+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-26T14:41:24.731+0000] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-10-26T14:41:24.735+0000] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2025-10-26T14:41:24.748+0000] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-26T14:41:24.888+0000] {task_command.py:467} INFO - Running <TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-25T00:00:00+00:00 [queued]> on host ubun
+[2025-10-26T14:41:25.494+0000] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='dbt_snowflake_pipeline', task_id='dbt_run', run_id='scheduled__2025-10-25T00:00:00+00:00', try_number=2, map_index=-1)
+[2025-10-26T14:41:25.497+0000] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=dbt_snowflake_pipeline, task_id=dbt_run, run_id=scheduled__2025-10-25T00:00:00+00:00, map_index=-1, run_start_date=2025-10-26 14:41:24.940626+00:00, run_end_date=2025-10-26 14:41:25.049041+00:00, run_duration=0.108415, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=2, job_id=47, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2025-10-26 14:41:23.285203+00:00, queued_by_job_id=44, pid=8534
+[2025-10-26T14:46:17.262+0000] {scheduler_job_runner.py:1847} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-10-26T14:46:25.567+0000] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-25T00:00:00+00:00 [scheduled]>
+[2025-10-26T14:46:25.568+0000] {scheduler_job_runner.py:495} INFO - DAG dbt_snowflake_pipeline has 0/16 running and queued tasks
+[2025-10-26T14:46:25.568+0000] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-25T00:00:00+00:00 [scheduled]>
+[2025-10-26T14:46:25.576+0000] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-25T00:00:00+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2025-10-26T14:46:25.576+0000] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='dbt_snowflake_pipeline', task_id='dbt_run', run_id='scheduled__2025-10-25T00:00:00+00:00', try_number=3, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2025-10-26T14:46:25.577+0000] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'dbt_snowflake_pipeline', 'dbt_run', 'scheduled__2025-10-25T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dbt_snowflake_dag.py']
+[2025-10-26T14:46:25.599+0000] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'dbt_snowflake_pipeline', 'dbt_run', 'scheduled__2025-10-25T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dbt_snowflake_dag.py']
+[2025-10-26T14:46:27.421+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_snowflake_dag.py
+[2025-10-26T14:46:27.503+0000] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-10-26T14:46:27.504+0000] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-10-26T14:46:27.636+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-26T14:46:27.643+0000] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2025-10-26T14:46:27.651+0000] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2025-10-26T14:46:27.660+0000] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-26T14:46:27.755+0000] {task_command.py:467} INFO - Running <TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-25T00:00:00+00:00 [queued]> on host ubun
+[2025-10-26T14:46:28.522+0000] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='dbt_snowflake_pipeline', task_id='dbt_run', run_id='scheduled__2025-10-25T00:00:00+00:00', try_number=3, map_index=-1)
+[2025-10-26T14:46:28.526+0000] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=dbt_snowflake_pipeline, task_id=dbt_run, run_id=scheduled__2025-10-25T00:00:00+00:00, map_index=-1, run_start_date=2025-10-26 14:46:27.798767+00:00, run_end_date=2025-10-26 14:46:27.979136+00:00, run_duration=0.180369, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=3, max_tries=2, job_id=49, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2025-10-26 14:46:25.572651+00:00, queued_by_job_id=44, pid=9386
+[2025-10-26T14:51:17.880+0000] {scheduler_job_runner.py:1847} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-10-26T14:56:18.054+0000] {scheduler_job_runner.py:1847} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-10-26T14:59:31.076+0000] {manager.py:537} INFO - DAG example_skip_dag is missing and will be deactivated.
+[2025-10-26T14:59:31.085+0000] {manager.py:537} INFO - DAG example_short_circuit_operator is missing and will be deactivated.
+[2025-10-26T14:59:31.086+0000] {manager.py:537} INFO - DAG example_short_circuit_decorator is missing and will be deactivated.
+[2025-10-26T14:59:31.086+0000] {manager.py:537} INFO - DAG example_setup_teardown_taskflow is missing and will be deactivated.
+[2025-10-26T14:59:31.086+0000] {manager.py:537} INFO - DAG example_setup_teardown is missing and will be deactivated.
+[2025-10-26T14:59:31.087+0000] {manager.py:537} INFO - DAG example_sensors is missing and will be deactivated.
+[2025-10-26T14:59:31.087+0000] {manager.py:537} INFO - DAG example_sensor_decorator is missing and will be deactivated.
+[2025-10-26T14:59:31.087+0000] {manager.py:537} INFO - DAG example_python_operator is missing and will be deactivated.
+[2025-10-26T14:59:31.093+0000] {manager.py:549} INFO - Deactivated 8 DAGs which are no longer present in file.
+[2025-10-26T14:59:31.122+0000] {manager.py:553} INFO - Deleted DAG example_sensors in serialized_dag table
+[2025-10-26T14:59:31.157+0000] {manager.py:553} INFO - Deleted DAG example_python_operator in serialized_dag table
+[2025-10-26T14:59:31.166+0000] {manager.py:553} INFO - Deleted DAG example_skip_dag in serialized_dag table
+[2025-10-26T14:59:31.174+0000] {manager.py:553} INFO - Deleted DAG example_sensor_decorator in serialized_dag table
+[2025-10-26T14:59:31.189+0000] {manager.py:553} INFO - Deleted DAG example_short_circuit_decorator in serialized_dag table
+[2025-10-26T14:59:31.199+0000] {manager.py:553} INFO - Deleted DAG example_short_circuit_operator in serialized_dag table
+[2025-10-26T14:59:31.210+0000] {manager.py:553} INFO - Deleted DAG example_setup_teardown in serialized_dag table
+[2025-10-26T14:59:31.225+0000] {manager.py:553} INFO - Deleted DAG example_setup_teardown_taskflow in serialized_dag table
+[2025-10-26T15:01:18.089+0000] {scheduler_job_runner.py:1847} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-10-26T15:01:28.665+0000] {processor.py:401} WARNING - Error when trying to pre-import module 'airflow.providers.standard.operators.hitl' found in /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py: Human in the loop functionality needs Airflow 3.1+.
+[2025-10-26T15:01:43.656+0000] {processor.py:401} WARNING - Error when trying to pre-import module 'airflow.timetables.assets' found in /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/example_assets.py: cannot import name 'Sentinel' from 'typing_extensions' (/home/khaled/airflow_venv/lib/python3.12/site-packages/typing_extensions.py)
+[2025-10-26T15:02:00.769+0000] {processor.py:401} WARNING - Error when trying to pre-import module 'airflow.providers.standard.operators.hitl' found in /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py: Human in the loop functionality needs Airflow 3.1+.

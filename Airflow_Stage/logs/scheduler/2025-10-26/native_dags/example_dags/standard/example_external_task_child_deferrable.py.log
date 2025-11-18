@@ -1,0 +1,29 @@
+[2025-10-26T15:01:29.222+0000] {processor.py:186} INFO - Started process (PID=11865) to work on /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_child_deferrable.py
+[2025-10-26T15:01:29.222+0000] {processor.py:914} INFO - Processing file /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_child_deferrable.py for tasks to queue
+[2025-10-26T15:01:29.223+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:29.223+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_child_deferrable.py
+[2025-10-26T15:01:29.229+0000] {processor.py:925} INFO - DAG(s) 'child_dag' retrieved from /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_child_deferrable.py
+[2025-10-26T15:01:29.330+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:29.329+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:child_dag
+[2025-10-26T15:01:29.342+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:29.342+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:child_dag
+[2025-10-26T15:01:29.352+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:29.352+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:child_dag
+[2025-10-26T15:01:29.368+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:29.368+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:child_dag
+[2025-10-26T15:01:29.377+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:29.376+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:child_dag
+[2025-10-26T15:01:29.385+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:29.385+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:child_dag
+[2025-10-26T15:01:29.394+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:29.394+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:child_dag
+[2025-10-26T15:01:29.394+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:29.394+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-26T15:01:29.402+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:29.402+0000] {dag.py:3262} INFO - Creating ORM DAG for child_dag
+[2025-10-26T15:01:29.408+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:29.407+0000] {dag.py:4180} INFO - Setting next_dagrun for child_dag to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-10-26T15:01:29.425+0000] {processor.py:208} INFO - Processing /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_child_deferrable.py took 0.208 seconds
+[2025-10-26T15:01:32.387+0000] {processor.py:186} INFO - Started process (PID=11910) to work on /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_child_deferrable.py
+[2025-10-26T15:01:32.387+0000] {processor.py:914} INFO - Processing file /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_child_deferrable.py for tasks to queue
+[2025-10-26T15:01:32.388+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:32.388+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_child_deferrable.py
+[2025-10-26T15:01:32.394+0000] {processor.py:925} INFO - DAG(s) 'child_dag' retrieved from /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_child_deferrable.py
+[2025-10-26T15:01:32.400+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:32.400+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-26T15:01:32.478+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:32.477+0000] {dag.py:4180} INFO - Setting next_dagrun for child_dag to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-10-26T15:01:32.502+0000] {processor.py:208} INFO - Processing /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_child_deferrable.py took 0.122 seconds
+[2025-10-26T15:02:01.393+0000] {processor.py:186} INFO - Started process (PID=12046) to work on /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_child_deferrable.py
+[2025-10-26T15:02:01.394+0000] {processor.py:914} INFO - Processing file /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_child_deferrable.py for tasks to queue
+[2025-10-26T15:02:01.394+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:02:01.394+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_child_deferrable.py
+[2025-10-26T15:02:01.402+0000] {processor.py:925} INFO - DAG(s) 'child_dag' retrieved from /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_child_deferrable.py
+[2025-10-26T15:02:01.412+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:02:01.412+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-26T15:02:01.426+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:02:01.426+0000] {dag.py:4180} INFO - Setting next_dagrun for child_dag to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-10-26T15:02:01.447+0000] {processor.py:208} INFO - Processing /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_child_deferrable.py took 0.059 seconds

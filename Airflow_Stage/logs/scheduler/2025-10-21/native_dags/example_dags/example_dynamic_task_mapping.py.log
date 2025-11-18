@@ -1,0 +1,103 @@
+[2025-10-21T14:29:32.957+0000] {processor.py:161} INFO - Started process (PID=7630) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:29:32.958+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-10-21T14:29:32.959+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:32.959+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:29:32.965+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:29:33.048+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:33.047+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:example_dynamic_task_mapping
+[2025-10-21T14:29:33.059+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:33.059+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_dynamic_task_mapping
+[2025-10-21T14:29:33.068+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:33.068+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_dynamic_task_mapping
+[2025-10-21T14:29:33.068+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:33.068+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:29:33.076+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:33.076+0000] {dag.py:3111} INFO - Creating ORM DAG for example_dynamic_task_mapping
+[2025-10-21T14:29:33.082+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:33.082+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2025-10-21T14:29:33.098+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.145 seconds
+[2025-10-21T14:31:43.794+0000] {processor.py:161} INFO - Started process (PID=7794) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:31:43.806+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-10-21T14:31:43.808+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:31:43.807+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:31:43.813+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:31:43.824+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:31:43.824+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:31:43.836+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:31:43.836+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2025-10-21T14:31:43.854+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.064 seconds
+[2025-10-21T14:48:58.130+0000] {processor.py:161} INFO - Started process (PID=12385) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:48:58.141+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-10-21T14:48:58.143+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:58.142+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:48:58.158+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:48:58.174+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:58.174+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:48:58.192+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:58.192+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2025-10-21T14:48:58.213+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.088 seconds
+[2025-10-21T14:49:53.984+0000] {processor.py:161} INFO - Started process (PID=12638) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:49:53.986+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-10-21T14:49:53.987+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:49:53.987+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:49:53.993+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:49:54.005+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:49:54.005+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:49:54.018+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:49:54.018+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2025-10-21T14:49:54.049+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.069 seconds
+[2025-10-21T14:50:48.297+0000] {processor.py:161} INFO - Started process (PID=12970) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:50:48.299+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-10-21T14:50:48.300+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:50:48.300+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:50:48.305+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:50:48.318+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:50:48.317+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:50:48.336+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:50:48.336+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2025-10-21T14:50:48.356+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.062 seconds
+[2025-10-21T14:51:46.238+0000] {processor.py:161} INFO - Started process (PID=13282) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:51:46.249+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-10-21T14:51:46.250+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:51:46.250+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:51:46.256+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:51:46.266+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:51:46.266+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:51:46.277+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:51:46.277+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2025-10-21T14:51:46.294+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.061 seconds
+[2025-10-21T14:52:44.973+0000] {processor.py:161} INFO - Started process (PID=13528) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:52:44.977+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-10-21T14:52:44.979+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:52:44.978+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:52:44.984+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:52:44.996+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:52:44.996+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:52:45.009+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:52:45.009+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2025-10-21T14:52:45.029+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.067 seconds
+[2025-10-21T14:53:39.836+0000] {processor.py:161} INFO - Started process (PID=13995) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:53:39.837+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-10-21T14:53:39.839+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:53:39.839+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:53:39.844+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:53:39.855+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:53:39.854+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:53:39.870+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:53:39.870+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2025-10-21T14:53:39.905+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.073 seconds
+[2025-10-21T14:54:38.290+0000] {processor.py:161} INFO - Started process (PID=14252) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:54:38.292+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-10-21T14:54:38.293+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:54:38.293+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:54:38.299+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:54:38.311+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:54:38.310+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:54:38.326+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:54:38.325+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2025-10-21T14:54:38.446+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.163 seconds
+[2025-10-21T14:55:32.988+0000] {processor.py:161} INFO - Started process (PID=14480) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:55:32.994+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-10-21T14:55:32.995+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:32.995+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:55:33.004+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:55:33.017+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:33.017+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:55:33.033+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:33.032+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2025-10-21T14:55:33.055+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.073 seconds
+[2025-10-21T14:56:55.517+0000] {processor.py:161} INFO - Started process (PID=14695) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:56:55.519+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-10-21T14:56:55.521+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:56:55.520+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:56:55.535+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:56:55.557+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:56:55.556+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:56:55.577+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:56:55.577+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2025-10-21T14:56:55.618+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.111 seconds
+[2025-10-21T14:59:58.994+0000] {processor.py:161} INFO - Started process (PID=14829) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:59:58.995+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-10-21T14:59:58.996+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:59:58.996+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:59:59.001+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T14:59:59.012+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:59:59.012+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:59:59.025+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:59:59.025+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2025-10-21T14:59:59.067+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.078 seconds
+[2025-10-21T15:00:54.901+0000] {processor.py:161} INFO - Started process (PID=15063) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T15:00:54.917+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-10-21T15:00:54.923+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:00:54.921+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T15:00:54.939+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T15:00:54.961+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:00:54.961+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T15:00:54.973+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:00:54.973+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2025-10-21T15:00:55.008+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.113 seconds
+[2025-10-21T15:01:48.480+0000] {processor.py:161} INFO - Started process (PID=15291) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T15:01:48.488+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-10-21T15:01:48.492+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:01:48.491+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T15:01:48.501+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-21T15:01:48.513+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:01:48.513+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T15:01:48.529+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:01:48.529+0000] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2025-10-21T15:01:48.562+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.099 seconds
+                                                                                                                                                                       

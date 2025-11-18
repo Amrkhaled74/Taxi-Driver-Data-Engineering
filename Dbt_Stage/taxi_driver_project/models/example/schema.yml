@@ -1,0 +1,321 @@
+version: 2
+
+models:
+
+  
+  - name: taxi_fact
+    description: 
+     The Trip Fact table serves as the central transactional component of the taxi data model. 
+      It integrates data from all related dimension tables — including Vendor, Payment Type, 
+      Rate Code, Trip Type, Passenger Count, Location, Datetime, and Trip Distance — 
+      to provide a unified and comprehensive record of each taxi trip.
+     
+     This table captures key measures and performance indicators such as fare amount, tips, taxes, extra
+     charges, and total revenue, enabling detailed analysis of trip performance, operational efficiency,
+      and financial outcomes.
+    columns:
+      - name: trip_type_sk
+        description: "Foreign key referencing the Trip Type Dimension, identifying how the trip was initiated (Street-hail or Dispatch)."
+
+      - name: vendor_id_sk
+        description: "Foreign key referencing the Vendor Dimension, indicating the taxi service provider that recorded the trip."
+
+      - name: payment_type_sk
+        description: "Foreign key referencing the Payment Type Dimension, specifying the payment method used for the trip."
+
+      - name: ratecode_id_sk
+        description: "Foreign key referencing the Rate Code Dimension, describing the rate type or fare agreement applied to the trip."
+
+      - name: passenger_count_sk
+        description: "Foreign key referencing the Passenger Count Dimension, representing the number of passengers in the trip."
+
+      - name: location_id_sk
+        description: "Foreign key referencing the Location Dimension, linking the pickup and drop-off locations for the trip."
+
+      - name: datetime_id_sk
+        description: "Foreign key referencing the Datetime Dimension, connecting the trip to its pickup and drop-off timestamps."
+
+      - name: trip_distance_id_sk
+        description: "Foreign key referencing the Trip Distance Dimension, classifying the total distance traveled."
+
+      - name: fare_amount
+        description: "The base fare calculated based on distance and trip duration. Includes logic to estimate values when missing."
+
+      - name: extra
+        description: "Additional charges such as late-night fees, airport fees, or congestion surcharges."
+
+      - name: mta_tax
+        description: "Tax imposed by the Metropolitan Transportation Authority (MTA)."
+
+      - name: tip_amount
+        description: "Tip provided by the passenger for the driver."
+
+      - name: tolls_amount
+        description: "Total tolls paid during the trip."
+
+      - name: ehail_fee
+        description: "Fee applied for dispatched trips booked electronically."
+
+      - name: total_amount
+        description: "
+          The total fare amount for each trip, calculated as the sum of:
+          fare_amount + extra + mta_tax + tip_amount + tolls_amount + ehail_fee.
+          This value represents the complete cost of the trip from the passenger’s perspective."
+
+
+
+  - name: vendor_dim
+    description: "
+      A vendor dimension represents the company or service provider responsible 
+      for processing the taxi trip data. Each vendor corresponds to a specific 
+      technology provider that operates the taxi meter and records trip details.
+
+      Vendor dimension table that assigns a surrogate key and maps each vendor ID 
+      to its corresponding vendor name. It standardizes vendor information 
+      and replaces missing IDs with zero for data consistency.
+
+      Vendor ID mappings:
+        1 = Creative Mobile Technologies, LLC
+        2 = Curb Mobility, LLC
+        6 = Myle Technologies Inc
+        Other or null = unknown "
+    columns:
+      - name: vendor_id_sk
+        description: "Surrogate key generated using row_number() to uniquely identify each vendor."
+        tests:
+          - unique
+          - not_null
+
+      - name: vendor_id
+        description: "Original vendor ID from the source data, with null values replaced by 0."
+
+      - name: vendor_name
+        description: "Vendor name mapped based on the vendor ID; unknown for unmapped IDs."
+
+
+
+
+  - name: Rate_Code_Dim
+    description: "
+      A rate code represents the fare or pricing category assigned to a taxi trip, 
+      indicating the type of trip or negotiated fare structure applied by the taxi meter system.
+
+      Rate code dimension table that assigns a surrogate key and maps each rate code ID 
+      to its corresponding description. It standardizes and cleans the data by replacing 
+      invalid or missing rate codes with 0 for consistency.
+
+      Rate Code ID mappings:
+        1 = Standard rate
+        2 = JFK
+        3 = Newark
+        4 = Nassau or Westchester
+        5 = Negotiated fare
+        6 = Group ride
+        Other or null = unknown "
+    columns:
+      - name: ratecode_id_sk
+        description: "Surrogate key generated using row_number() to uniquely identify each rate code."
+        tests:
+          - unique
+          - not_null
+
+      - name: ratecode_id
+        description: "Original rate code ID from the source data, with invalid or missing values replaced by 0."
+
+      - name: ratecode_id_name
+        description: "Descriptive name of the rate code, mapped based on the ratecode_id; 'unknown' for unmapped IDs."
+
+
+
+  - name: payment_type_dim
+    description: "
+      A payment type dimension represents the method of payment used for taxi trips, 
+      such as credit card, cash, or other forms. This table helps categorize trips 
+      based on how passengers paid for their rides, which is essential for financial 
+
+      Payment type dimension table that assigns a surrogate key and maps each payment type ID 
+      to its corresponding payment description. It ensures data consistency by replacing invalid 
+      or missing payment type values with 0.
+
+
+      reporting and analysis.
+      Payment Type ID mappings:
+        0 = Flex Fare trip
+        1 = Credit card
+        2 = Cash
+        3 = No charge
+        4 = Dispute
+        5 = Unknown
+        Other = Voided trip "
+    columns:
+      - name: payment_type_sk
+        description: "Surrogate key generated using row_number() to uniquely identify each payment type."
+        tests:
+          - unique
+          - not_null
+
+      - name: payment_type
+        description: "Original payment type ID from the source data, with invalid or missing values replaced by 0."
+
+      - name: payment_type_name
+        description: "Descriptive name of the payment type, mapped based on the payment_type ID; used to interpret how the trip was paid for."
+
+
+
+  - name: trip_distance_dim
+    description: "
+      The trip distance dimension represents the total distance traveled by a taxi during a trip, 
+      typically measured in miles. This dimension helps analyze trip lengths, fare calculations, 
+      and travel patterns across different areas and times. 
+
+      Trip distance dimension table that assigns a surrogate key and standardizes trip distance values. 
+      It replaces missing or invalid distances (less than 1 or greater than 250) with a randomly generated 
+      value within a realistic range to maintain data integrity."
+    columns:
+      - name: trip_distance_id_sk
+        description: "Surrogate key generated using row_number() to uniquely identify each trip distance record."
+        tests:
+          - unique
+          - not_null
+
+      - name: trip_distance
+        description: "The distance of the taxi trip. Invalid or missing values are replaced with a random value between 10.90 and 250.90 for consistency."
+
+
+  - name: trip_dim
+    description: " 
+      The trip type dimension represents how a taxi trip was initiated — whether the passenger 
+      hailed the taxi directly on the street or requested it through a dispatch system. 
+      This dimension helps categorize trips based on how they were booked, providing insights 
+      into passenger behavior, demand patterns, and operational efficiency.
+    
+      Trip type dimension table that assigns a surrogate key and maps each trip type ID 
+      to its corresponding description. It standardizes trip type values by replacing 
+      null or unknown entries with 0 to maintain data consistency.
+
+
+      Trip Type ID mappings:
+        1 = Street-hail
+        2 = Dispatch
+        Other or null = Unknown "
+    columns:
+      - name: trip_type_sk
+        description: "Surrogate key generated using row_number() to uniquely identify each trip type record."
+        tests:
+          - unique
+          - not_null
+
+      - name: trip_type
+        description: "Original trip type ID from the source data, with null values replaced by 0."
+
+      - name: trip_type_desc
+        description: "Descriptive name of the trip type, indicating how the trip was initiated (Street-hail, Dispatch, or Unknown)."
+
+
+
+
+
+  - name: Passenger_Count_Dim
+    description: "
+
+      The passenger count dimension represents the number of passengers in a taxi trip. 
+      This information is crucial for analyzing travel demand, ride-sharing patterns, 
+      vehicle utilization, and overall passenger trends across different trip categories.
+     
+      Passenger count dimension table that assigns a surrogate key and standardizes passenger count values. 
+      It replaces invalid or missing counts (less than or equal to 0 or greater than 9) with a randomly generated 
+      value between 1 and 9 to maintain data accuracy and realism."
+
+    columns:
+      - name: passenger_count_sk
+        description: "Surrogate key generated using row_number() to uniquely identify each passenger count record."
+        tests:
+          - unique
+          - not_null
+
+      - name: passenger_count
+        description: "The number of passengers on the trip. Invalid or missing values are replaced with a random value between 1 and 9 for consistency."
+
+  - name: location_dim
+    description: "
+      The location dimension represents the geographic zones where taxi trips start (pickup) and end (drop-off). 
+      Each record connects the adjusted and original location identifiers, allowing data analysts to track 
+      trip flows, detect geographic patterns, and improve spatial-based insights such as trip density, 
+      travel distance analysis, and demand forecasting.
+
+      Location dimension table that assigns a surrogate key and standardizes pickup and drop-off location IDs. 
+      It adjusts invalid or missing location IDs by generating realistic replacements using random values within 
+      defined ranges, ensuring data completeness and consistency.
+
+
+      This table is essential for linking trip facts to location-based information, supporting 
+      analytics on city coverage, trip origins, and destinations.
+      "
+
+    columns:
+      - name: location_id_sk
+        description: "Surrogate key generated using row_number() to uniquely identify each location record."
+        tests:
+          - unique
+          - not_null
+
+      - name: pickup_location_id
+        description: "Cleaned and standardized pickup location ID. Invalid or missing values are adjusted using random ranges for realism."
+
+      - name: dropoff_location_id
+        description: "Cleaned and standardized drop-off location ID. Adjusted based on pickup location and validity checks."
+
+      - name: original_pickup_location_id
+        description: "Original pickup location ID from the source data, before any standardization or adjustment."
+
+      - name: original_dropoff_location_id
+        description: "Original drop-off location ID from the source data, before any standardization or adjustment."
+
+
+  - name: date_dim
+    description: 
+      Datetime dimension table that assigns a surrogate key and enhances the time-based attributes 
+      for each taxi trip. It provides multiple granularities of time — such as day, week, month, 
+      quarter, and year — enabling detailed temporal analysis. 
+      This dimension supports performance evaluation, trend detection, and time-series analysis 
+      across pickup and drop-off periods.
+
+    columns:
+      - name: datetime_id_sk
+        description: "Surrogate key generated using row_number() to uniquely identify each datetime record."
+        tests:
+          - unique
+          - not_null
+
+      - name: original_pickup_datetime
+        description: "Original pickup datetime from the source data before standardization or correction."
+
+      - name: original_dropoff_datetime
+        description: "Original drop-off datetime from the source data before standardization or correction."
+
+      - name: pickup_datetime
+        description: "Cleaned and standardized pickup datetime formatted as text (VARCHAR)."
+
+      - name: dropoff_datetime
+        description: "Cleaned and standardized drop-off datetime formatted as text (VARCHAR)."
+
+      - name: day
+        description: "Numeric day of the month (1 – 31) extracted from the pickup or drop-off datetime."
+
+      - name: day_of_week
+        description: "Numeric representation of the weekday (1 = Monday, 7 = Sunday). Useful for identifying weekday/weekend patterns."
+
+      - name: day_of_year
+        description: "Numeric day of the year (1–365 or 366 in leap years)."
+
+      - name: week
+        description: "Week number of the year (1–52) corresponding to the pickup or drop-off date."
+
+      - name: month
+        description: "Month of the year (1–12) extracted from the datetime, useful for monthly trend analysis."
+
+      - name: quarter
+        description: "Quarter of the year (1–4), representing which quarter the trip occurred in."
+
+      - name: year
+        description: "Four-digit year (2025) extracted from the datetime."

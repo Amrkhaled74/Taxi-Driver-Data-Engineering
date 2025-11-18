@@ -1,0 +1,109 @@
+[2025-10-21T14:29:10.908+0000] {processor.py:161} INFO - Started process (PID=7540) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:29:10.909+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-21T14:29:10.911+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:10.911+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:29:10.917+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:29:11.055+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:11.054+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:example_setup_teardown
+[2025-10-21T14:29:11.073+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:11.073+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_setup_teardown
+[2025-10-21T14:29:11.087+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:11.086+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_setup_teardown
+[2025-10-21T14:29:11.091+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:11.090+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:29:11.126+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:11.122+0000] {dag.py:3111} INFO - Creating ORM DAG for example_setup_teardown
+[2025-10-21T14:29:11.143+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:11.143+0000] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:29:11.173+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.270 seconds
+[2025-10-21T14:30:43.581+0000] {processor.py:161} INFO - Started process (PID=7741) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:30:43.588+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-21T14:30:43.594+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:30:43.593+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:30:43.632+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:30:43.724+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:30:43.723+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:30:43.832+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:30:43.830+0000] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:30:44.154+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.590 seconds
+[2025-10-21T14:48:42.017+0000] {processor.py:161} INFO - Started process (PID=12263) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:48:42.022+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-21T14:48:42.023+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:42.023+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:48:42.028+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:48:42.041+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:42.041+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:48:42.054+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:42.054+0000] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:48:42.070+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.057 seconds
+[2025-10-21T14:49:38.270+0000] {processor.py:161} INFO - Started process (PID=12618) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:49:38.272+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-21T14:49:38.275+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:49:38.275+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:49:38.292+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:49:38.318+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:49:38.318+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:49:38.341+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:49:38.340+0000] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:49:38.377+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.115 seconds
+[2025-10-21T14:50:33.154+0000] {processor.py:161} INFO - Started process (PID=12903) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:50:33.165+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-21T14:50:33.168+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:50:33.167+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:50:33.173+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:50:33.187+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:50:33.187+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:50:33.201+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:50:33.201+0000] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:50:33.232+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.092 seconds
+[2025-10-21T14:51:29.907+0000] {processor.py:161} INFO - Started process (PID=13240) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:51:29.909+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-21T14:51:29.910+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:51:29.910+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:51:29.915+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:51:29.929+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:51:29.929+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:51:29.947+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:51:29.946+0000] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:51:29.972+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.069 seconds
+[2025-10-21T14:52:28.590+0000] {processor.py:161} INFO - Started process (PID=13479) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:52:28.600+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-21T14:52:28.601+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:52:28.601+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:52:28.606+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:52:28.616+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:52:28.616+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:52:28.628+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:52:28.628+0000] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:52:28.647+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.061 seconds
+[2025-10-21T14:53:25.005+0000] {processor.py:161} INFO - Started process (PID=13907) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:53:25.007+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-21T14:53:25.009+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:53:25.008+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:53:25.015+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:53:25.027+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:53:25.027+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:53:25.046+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:53:25.045+0000] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:53:25.080+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.080 seconds
+[2025-10-21T14:54:22.165+0000] {processor.py:161} INFO - Started process (PID=14162) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:54:22.166+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-21T14:54:22.168+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:54:22.168+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:54:22.186+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:54:22.241+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:54:22.239+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:54:22.272+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:54:22.271+0000] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:54:22.315+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.158 seconds
+[2025-10-21T14:55:17.355+0000] {processor.py:161} INFO - Started process (PID=14383) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:55:17.356+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-21T14:55:17.358+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:17.357+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:55:17.365+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:55:17.378+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:17.378+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:55:17.407+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:17.406+0000] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:55:17.438+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.089 seconds
+[2025-10-21T14:56:41.160+0000] {processor.py:161} INFO - Started process (PID=14678) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:56:41.161+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-21T14:56:41.162+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:56:41.162+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:56:41.168+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:56:41.182+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:56:41.181+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:56:41.197+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:56:41.197+0000] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:56:41.217+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.067 seconds
+[2025-10-21T14:59:08.565+0000] {processor.py:161} INFO - Started process (PID=14786) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:59:08.566+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-21T14:59:08.567+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:59:08.567+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:59:08.572+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T14:59:08.585+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:59:08.585+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:59:08.597+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:59:08.597+0000] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:59:08.633+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.072 seconds
+[2025-10-21T15:00:32.408+0000] {processor.py:161} INFO - Started process (PID=14876) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T15:00:32.409+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-21T15:00:32.411+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:00:32.410+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T15:00:32.417+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T15:00:32.434+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:00:32.433+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T15:00:32.460+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:00:32.457+0000] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T15:00:32.496+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.093 seconds
+[2025-10-21T15:01:31.852+0000] {processor.py:161} INFO - Started process (PID=15203) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T15:01:31.853+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-21T15:01:31.855+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:01:31.854+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T15:01:31.860+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T15:01:31.872+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:01:31.872+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T15:01:31.884+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:01:31.883+0000] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T15:01:31.916+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.068 seconds
+[2025-10-21T15:02:28.002+0000] {processor.py:161} INFO - Started process (PID=15345) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T15:02:28.004+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-10-21T15:02:28.007+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:02:28.007+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T15:02:28.014+0000] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-10-21T15:02:28.033+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:02:28.033+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T15:02:28.047+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:02:28.047+0000] {dag.py:3947} INFO - Setting next_dagrun for example_setup_teardown to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T15:02:28.064+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.071 seconds

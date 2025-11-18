@@ -1,0 +1,116 @@
+[2025-10-21T14:28:41.995+0000] {processor.py:161} INFO - Started process (PID=7470) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:28:41.996+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-10-21T14:28:42.005+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:28:42.004+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:28:42.010+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:28:42.034+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.045 seconds
+[2025-10-21T14:29:49.658+0000] {processor.py:161} INFO - Started process (PID=7698) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:29:49.660+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-10-21T14:29:49.662+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:49.661+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:29:49.663+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:29:49.671+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.016 seconds
+[2025-10-21T14:31:05.233+0000] {processor.py:161} INFO - Started process (PID=7752) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:31:05.250+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-10-21T14:31:05.275+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:31:05.269+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:31:05.307+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:31:05.594+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.449 seconds
+[2025-10-21T14:31:59.339+0000] {processor.py:161} INFO - Started process (PID=7808) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:31:59.348+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-10-21T14:31:59.350+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:31:59.349+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:31:59.352+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:31:59.360+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.025 seconds
+[2025-10-21T14:48:16.521+0000] {processor.py:161} INFO - Started process (PID=11992) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:48:16.540+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-10-21T14:48:16.548+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:16.545+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:48:16.561+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:48:16.594+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.099 seconds
+[2025-10-21T14:48:29.081+0000] {processor.py:161} INFO - Started process (PID=12110) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:48:29.082+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-10-21T14:48:29.083+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:29.083+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:48:29.085+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:48:29.095+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.017 seconds
+[2025-10-21T14:49:14.486+0000] {processor.py:161} INFO - Started process (PID=12422) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:49:14.487+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-10-21T14:49:14.489+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:49:14.488+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:49:14.490+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:49:14.498+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.016 seconds
+[2025-10-21T14:50:07.277+0000] {processor.py:161} INFO - Started process (PID=12738) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:50:07.279+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-10-21T14:50:07.281+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:50:07.280+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:50:07.282+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:50:07.291+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2025-10-21T14:50:58.467+0000] {processor.py:161} INFO - Started process (PID=12984) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:50:58.469+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-10-21T14:50:58.473+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:50:58.472+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:50:58.475+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:50:58.488+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.026 seconds
+[2025-10-21T14:51:56.696+0000] {processor.py:161} INFO - Started process (PID=13294) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:51:56.697+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-10-21T14:51:56.698+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:51:56.698+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:51:56.700+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:51:56.708+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.016 seconds
+[2025-10-21T14:52:04.426+0000] {processor.py:161} INFO - Started process (PID=13309) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:52:04.427+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-10-21T14:52:04.428+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:52:04.428+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:52:04.430+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:52:04.437+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.016 seconds
+[2025-10-21T14:52:55.105+0000] {processor.py:161} INFO - Started process (PID=13634) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:52:55.107+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-10-21T14:52:55.109+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:52:55.108+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:52:55.110+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:52:55.118+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.017 seconds
+[2025-10-21T14:53:50.211+0000] {processor.py:161} INFO - Started process (PID=14071) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:53:50.212+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-10-21T14:53:50.213+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:53:50.213+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:53:50.215+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:53:50.222+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.015 seconds
+[2025-10-21T14:54:47.633+0000] {processor.py:161} INFO - Started process (PID=14298) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:54:47.636+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-10-21T14:54:47.637+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:54:47.637+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:54:47.639+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:54:47.647+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2025-10-21T14:55:19.908+0000] {processor.py:161} INFO - Started process (PID=14408) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:55:19.908+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-10-21T14:55:19.909+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:19.909+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:55:19.911+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:55:19.918+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.015 seconds
+[2025-10-21T14:55:39.844+0000] {processor.py:161} INFO - Started process (PID=14489) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:55:39.846+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-10-21T14:55:39.848+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:39.847+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:55:39.850+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:55:39.863+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.025 seconds
+[2025-10-21T14:55:56.337+0000] {processor.py:161} INFO - Started process (PID=14532) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:55:56.338+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-10-21T14:55:56.339+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:56.339+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:55:56.340+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:55:56.349+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.017 seconds
+[2025-10-21T14:56:16.222+0000] {processor.py:161} INFO - Started process (PID=14600) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:56:16.223+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-10-21T14:56:16.224+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:56:16.224+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:56:16.226+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:56:16.234+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.017 seconds
+[2025-10-21T14:57:15.467+0000] {processor.py:161} INFO - Started process (PID=14727) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:57:15.491+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-10-21T14:57:15.494+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:57:15.494+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:57:15.506+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:57:15.529+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.072 seconds
+[2025-10-21T14:59:13.711+0000] {processor.py:161} INFO - Started process (PID=14793) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:59:13.745+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-10-21T14:59:13.752+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:59:13.752+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:59:13.754+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T14:59:13.773+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.069 seconds
+[2025-10-21T15:00:14.582+0000] {processor.py:161} INFO - Started process (PID=14852) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T15:00:14.591+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-10-21T15:00:14.594+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:00:14.594+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T15:00:14.600+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T15:00:14.634+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.067 seconds
+[2025-10-21T15:01:02.994+0000] {processor.py:161} INFO - Started process (PID=15090) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T15:01:02.996+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-10-21T15:01:02.997+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:01:02.997+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T15:01:02.999+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T15:01:03.006+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.016 seconds
+[2025-10-21T15:01:52.482+0000] {processor.py:161} INFO - Started process (PID=15295) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T15:01:52.483+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-10-21T15:01:52.485+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:01:52.484+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T15:01:52.486+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-10-21T15:01:52.497+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.024 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

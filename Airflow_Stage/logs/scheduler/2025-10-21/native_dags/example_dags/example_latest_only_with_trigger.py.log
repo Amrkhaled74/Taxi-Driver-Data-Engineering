@@ -1,0 +1,103 @@
+[2025-10-21T14:29:26.259+0000] {processor.py:161} INFO - Started process (PID=7611) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:29:26.260+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-10-21T14:29:26.266+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:26.263+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:29:26.273+0000] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:29:26.411+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:26.410+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:latest_only_with_trigger
+[2025-10-21T14:29:26.437+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:26.437+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:latest_only_with_trigger
+[2025-10-21T14:29:26.460+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:26.459+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:latest_only_with_trigger
+[2025-10-21T14:29:26.460+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:26.460+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:29:26.472+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:26.472+0000] {dag.py:3111} INFO - Creating ORM DAG for latest_only_with_trigger
+[2025-10-21T14:29:26.483+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:26.483+0000] {dag.py:3947} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-10-21 08:00:00+00:00, run_after=2025-10-21 12:00:00+00:00
+[2025-10-21T14:29:26.524+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.273 seconds
+[2025-10-21T14:31:37.132+0000] {processor.py:161} INFO - Started process (PID=7784) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:31:37.133+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-10-21T14:31:37.135+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:31:37.134+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:31:37.142+0000] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:31:37.160+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:31:37.160+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:31:37.199+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:31:37.198+0000] {dag.py:3947} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-10-21 08:00:00+00:00, run_after=2025-10-21 12:00:00+00:00
+[2025-10-21T14:31:37.245+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.117 seconds
+[2025-10-21T14:48:53.142+0000] {processor.py:161} INFO - Started process (PID=12372) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:48:53.154+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-10-21T14:48:53.155+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:53.155+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:48:53.160+0000] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:48:53.191+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:53.190+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:48:53.212+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:53.211+0000] {dag.py:3947} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-10-21 08:00:00+00:00, run_after=2025-10-21 12:00:00+00:00
+[2025-10-21T14:48:53.230+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.093 seconds
+[2025-10-21T14:49:48.982+0000] {processor.py:161} INFO - Started process (PID=12629) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:49:48.983+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-10-21T14:49:48.984+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:49:48.984+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:49:48.989+0000] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:49:49.001+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:49:49.001+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:49:49.014+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:49:49.014+0000] {dag.py:3947} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-10-21 08:00:00+00:00, run_after=2025-10-21 12:00:00+00:00
+[2025-10-21T14:49:49.046+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.069 seconds
+[2025-10-21T14:50:43.468+0000] {processor.py:161} INFO - Started process (PID=12965) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:50:43.469+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-10-21T14:50:43.471+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:50:43.471+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:50:43.481+0000] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:50:43.497+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:50:43.497+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:50:43.511+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:50:43.510+0000] {dag.py:3947} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-10-21 08:00:00+00:00, run_after=2025-10-21 12:00:00+00:00
+[2025-10-21T14:50:43.563+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.117 seconds
+[2025-10-21T14:51:39.943+0000] {processor.py:161} INFO - Started process (PID=13260) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:51:39.949+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-10-21T14:51:39.953+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:51:39.952+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:51:39.980+0000] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:51:40.005+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:51:40.005+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:51:40.048+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:51:40.048+0000] {dag.py:3947} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-10-21 08:00:00+00:00, run_after=2025-10-21 12:00:00+00:00
+[2025-10-21T14:51:40.120+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.183 seconds
+[2025-10-21T14:52:38.761+0000] {processor.py:161} INFO - Started process (PID=13493) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:52:38.762+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-10-21T14:52:38.764+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:52:38.763+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:52:38.768+0000] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:52:38.784+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:52:38.784+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:52:38.799+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:52:38.799+0000] {dag.py:3947} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-10-21 08:00:00+00:00, run_after=2025-10-21 12:00:00+00:00
+[2025-10-21T14:52:38.845+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.090 seconds
+[2025-10-21T14:53:34.542+0000] {processor.py:161} INFO - Started process (PID=13987) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:53:34.543+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-10-21T14:53:34.544+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:53:34.544+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:53:34.548+0000] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:53:34.563+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:53:34.562+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:53:34.575+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:53:34.575+0000] {dag.py:3947} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-10-21 08:00:00+00:00, run_after=2025-10-21 12:00:00+00:00
+[2025-10-21T14:53:34.595+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.057 seconds
+[2025-10-21T14:54:32.506+0000] {processor.py:161} INFO - Started process (PID=14223) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:54:32.510+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-10-21T14:54:32.513+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:54:32.513+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:54:32.518+0000] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:54:32.530+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:54:32.530+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:54:32.543+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:54:32.543+0000] {dag.py:3947} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-10-21 08:00:00+00:00, run_after=2025-10-21 12:00:00+00:00
+[2025-10-21T14:54:32.578+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.080 seconds
+[2025-10-21T14:55:28.068+0000] {processor.py:161} INFO - Started process (PID=14469) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:55:28.069+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-10-21T14:55:28.070+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:28.070+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:55:28.074+0000] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:55:28.087+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:28.087+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:55:28.104+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:28.104+0000] {dag.py:3947} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-10-21 08:00:00+00:00, run_after=2025-10-21 12:00:00+00:00
+[2025-10-21T14:55:28.123+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.060 seconds
+[2025-10-21T14:56:50.269+0000] {processor.py:161} INFO - Started process (PID=14688) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:56:50.270+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-10-21T14:56:50.272+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:56:50.271+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:56:50.276+0000] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:56:50.290+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:56:50.290+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:56:50.302+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:56:50.301+0000] {dag.py:3947} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-10-21 08:00:00+00:00, run_after=2025-10-21 12:00:00+00:00
+[2025-10-21T14:56:50.332+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.068 seconds
+[2025-10-21T14:59:54.283+0000] {processor.py:161} INFO - Started process (PID=14824) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:59:54.284+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-10-21T14:59:54.285+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:59:54.285+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:59:54.290+0000] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T14:59:54.302+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:59:54.302+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:59:54.317+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:59:54.317+0000] {dag.py:3947} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-10-21 08:00:00+00:00, run_after=2025-10-21 12:00:00+00:00
+[2025-10-21T14:59:54.347+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.071 seconds
+[2025-10-21T15:00:49.538+0000] {processor.py:161} INFO - Started process (PID=15036) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T15:00:49.540+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-10-21T15:00:49.541+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:00:49.541+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T15:00:49.546+0000] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T15:00:49.559+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:00:49.559+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T15:00:49.575+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:00:49.575+0000] {dag.py:3947} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-10-21 08:00:00+00:00, run_after=2025-10-21 12:00:00+00:00
+[2025-10-21T15:00:49.594+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.061 seconds
+[2025-10-21T15:01:43.271+0000] {processor.py:161} INFO - Started process (PID=15257) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T15:01:43.276+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-10-21T15:01:43.278+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:01:43.278+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T15:01:43.285+0000] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-10-21T15:01:43.301+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:01:43.300+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T15:01:43.315+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:01:43.315+0000] {dag.py:3947} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-10-21 08:00:00+00:00, run_after=2025-10-21 12:00:00+00:00
+[2025-10-21T15:01:43.346+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.083 seconds
+               

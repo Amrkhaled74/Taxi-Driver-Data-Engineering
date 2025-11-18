@@ -1,0 +1,98 @@
+[2025-10-23T11:39:32.649+0000] {processor.py:161} INFO - Started process (PID=5959) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T11:39:32.650+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-10-23T11:39:32.652+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:39:32.651+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T11:39:32.661+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T11:39:32.681+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:39:32.681+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T11:39:32.691+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:39:32.691+0000] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-10-23T11:39:32.727+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.082 seconds
+[2025-10-23T11:55:07.381+0000] {processor.py:161} INFO - Started process (PID=9568) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T11:55:07.392+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-10-23T11:55:07.395+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:55:07.395+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T11:55:07.402+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T11:55:07.420+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:55:07.420+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T11:55:07.429+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:55:07.429+0000] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-10-23T11:55:07.452+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.076 seconds
+[2025-10-23T11:56:20.601+0000] {processor.py:161} INFO - Started process (PID=9937) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T11:56:20.611+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-10-23T11:56:20.615+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:56:20.615+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T11:56:20.642+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T11:56:20.700+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:56:20.698+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T11:56:20.736+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:56:20.736+0000] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-10-23T11:56:20.780+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.183 seconds
+[2025-10-23T11:57:55.619+0000] {processor.py:161} INFO - Started process (PID=10028) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T11:57:55.629+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-10-23T11:57:55.632+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:57:55.631+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T11:57:55.643+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T11:57:55.664+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:57:55.664+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T11:57:55.676+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:57:55.675+0000] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-10-23T11:57:55.713+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.100 seconds
+[2025-10-23T11:58:47.828+0000] {processor.py:161} INFO - Started process (PID=10148) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T11:58:47.830+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-10-23T11:58:47.832+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:58:47.831+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T11:58:47.839+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T11:58:47.858+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:58:47.858+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T11:58:47.868+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:58:47.868+0000] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-10-23T11:58:47.901+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.079 seconds
+[2025-10-23T12:00:33.119+0000] {processor.py:161} INFO - Started process (PID=10236) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:00:33.121+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-10-23T12:00:33.122+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:00:33.122+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:00:33.129+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:00:33.143+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:00:33.143+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:00:33.150+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:00:33.150+0000] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-10-23T12:00:33.176+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.061 seconds
+[2025-10-23T12:02:10.039+0000] {processor.py:161} INFO - Started process (PID=10614) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:02:10.056+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-10-23T12:02:10.064+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:02:10.061+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:02:10.091+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:02:10.126+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:02:10.126+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:02:10.137+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:02:10.136+0000] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-10-23T12:02:10.156+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.131 seconds
+[2025-10-23T12:03:41.718+0000] {processor.py:161} INFO - Started process (PID=10736) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:03:41.729+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-10-23T12:03:41.733+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:03:41.732+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:03:41.742+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:03:41.760+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:03:41.760+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:03:41.768+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:03:41.768+0000] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-10-23T12:03:41.789+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.077 seconds
+[2025-10-23T12:04:49.158+0000] {processor.py:161} INFO - Started process (PID=10843) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:04:49.159+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-10-23T12:04:49.160+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:04:49.160+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:04:49.167+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:04:49.190+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:04:49.190+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:04:49.198+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:04:49.198+0000] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-10-23T12:04:49.229+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.076 seconds
+[2025-10-23T12:05:56.514+0000] {processor.py:161} INFO - Started process (PID=11238) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:05:56.516+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-10-23T12:05:56.517+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:05:56.517+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:05:56.524+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:05:56.541+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:05:56.541+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:05:56.645+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:05:56.645+0000] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-10-23T12:05:56.692+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.182 seconds
+[2025-10-23T12:07:02.440+0000] {processor.py:161} INFO - Started process (PID=11329) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:07:02.443+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-10-23T12:07:02.445+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:07:02.444+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:07:02.451+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:07:02.468+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:07:02.468+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:07:02.477+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:07:02.477+0000] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-10-23T12:07:02.498+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.063 seconds
+[2025-10-23T12:08:12.995+0000] {processor.py:161} INFO - Started process (PID=11418) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:08:12.997+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-10-23T12:08:12.998+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:08:12.998+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:08:13.005+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:08:13.023+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:08:13.022+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:08:13.033+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:08:13.033+0000] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-10-23T12:08:13.065+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.075 seconds
+[2025-10-23T12:09:27.636+0000] {processor.py:161} INFO - Started process (PID=11612) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:09:27.637+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-10-23T12:09:27.639+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:09:27.638+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:09:27.646+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:09:27.664+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:09:27.663+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:09:27.672+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:09:27.672+0000] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-10-23T12:09:27.695+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.064 seconds
+[2025-10-23T12:10:35.732+0000] {processor.py:161} INFO - Started process (PID=11691) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:10:35.734+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-10-23T12:10:35.738+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:10:35.737+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:10:35.746+0000] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-10-23T12:10:35.764+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:10:35.764+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:10:35.774+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:10:35.774+0000] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-10-23T12:10:35.796+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.068 seconds

@@ -1,0 +1,133 @@
+[2025-10-22T12:12:22.882+0000] {processor.py:161} INFO - Started process (PID=8349) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:12:22.882+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-10-22T12:12:22.883+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:12:22.883+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:12:22.917+0000] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:12:23.369+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:12:23.368+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:12:23.400+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:12:23.400+0000] {dag.py:3947} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-10-22T12:12:23.604+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.737 seconds
+[2025-10-22T12:13:51.105+0000] {processor.py:161} INFO - Started process (PID=9283) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:13:51.116+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-10-22T12:13:51.118+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:13:51.117+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:13:51.126+0000] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:13:51.152+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:13:51.152+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:13:51.167+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:13:51.166+0000] {dag.py:3947} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-10-22T12:13:51.246+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.149 seconds
+[2025-10-22T12:14:48.487+0000] {processor.py:161} INFO - Started process (PID=9348) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:14:48.494+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-10-22T12:14:48.500+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:14:48.500+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:14:48.508+0000] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:14:48.543+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:14:48.542+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:14:48.585+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:14:48.584+0000] {dag.py:3947} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-10-22T12:14:48.634+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.157 seconds
+[2025-10-22T12:15:42.141+0000] {processor.py:161} INFO - Started process (PID=9618) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:15:42.153+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-10-22T12:15:42.155+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:15:42.155+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:15:42.160+0000] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:15:42.172+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:15:42.172+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:15:42.180+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:15:42.179+0000] {dag.py:3947} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-10-22T12:15:42.199+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.062 seconds
+[2025-10-22T12:16:56.811+0000] {processor.py:161} INFO - Started process (PID=9799) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:16:56.822+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-10-22T12:16:56.825+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:16:56.825+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:16:56.833+0000] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:16:56.848+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:16:56.848+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:16:56.863+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:16:56.863+0000] {dag.py:3947} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-10-22T12:16:56.909+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.104 seconds
+[2025-10-22T12:18:30.791+0000] {processor.py:161} INFO - Started process (PID=10262) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:18:30.802+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-10-22T12:18:30.804+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:18:30.803+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:18:30.809+0000] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:18:30.825+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:18:30.825+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:18:30.835+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:18:30.834+0000] {dag.py:3947} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-10-22T12:18:30.856+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.070 seconds
+[2025-10-22T12:22:48.671+0000] {processor.py:161} INFO - Started process (PID=10701) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:22:48.673+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-10-22T12:22:48.674+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:22:48.674+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:22:48.678+0000] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:22:48.689+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:22:48.689+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:22:48.696+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:22:48.696+0000] {dag.py:3947} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-10-22T12:22:48.714+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.047 seconds
+[2025-10-22T12:23:48.425+0000] {processor.py:161} INFO - Started process (PID=11209) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:23:48.428+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-10-22T12:23:48.429+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:23:48.429+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:23:48.436+0000] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:23:48.446+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:23:48.446+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:23:48.455+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:23:48.455+0000] {dag.py:3947} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-10-22T12:23:48.475+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.053 seconds
+[2025-10-22T12:24:41.666+0000] {processor.py:161} INFO - Started process (PID=11348) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:24:41.669+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-10-22T12:24:41.670+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:24:41.670+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:24:41.675+0000] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:24:41.685+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:24:41.685+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:24:41.692+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:24:41.692+0000] {dag.py:3947} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-10-22T12:24:41.724+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.062 seconds
+[2025-10-22T12:25:39.199+0000] {processor.py:161} INFO - Started process (PID=11430) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:25:39.210+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-10-22T12:25:39.212+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:25:39.212+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:25:39.217+0000] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:25:39.229+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:25:39.228+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:25:39.245+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:25:39.245+0000] {dag.py:3947} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-10-22T12:25:39.274+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.080 seconds
+[2025-10-22T12:26:37.238+0000] {processor.py:161} INFO - Started process (PID=11639) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:26:37.240+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-10-22T12:26:37.242+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:26:37.242+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:26:37.247+0000] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:26:37.260+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:26:37.259+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:26:37.268+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:26:37.268+0000] {dag.py:3947} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-10-22T12:26:37.292+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.062 seconds
+[2025-10-22T12:27:50.046+0000] {processor.py:161} INFO - Started process (PID=12070) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:27:50.048+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-10-22T12:27:50.050+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:27:50.049+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:27:50.054+0000] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:27:50.064+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:27:50.064+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:27:50.071+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:27:50.071+0000] {dag.py:3947} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-10-22T12:27:50.093+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.052 seconds
+[2025-10-22T12:28:49.332+0000] {processor.py:161} INFO - Started process (PID=12287) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:28:49.344+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-10-22T12:28:49.355+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:28:49.355+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:28:49.362+0000] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:28:49.381+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:28:49.381+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:28:49.391+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:28:49.391+0000] {dag.py:3947} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-10-22T12:28:49.441+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.119 seconds
+[2025-10-22T12:29:45.878+0000] {processor.py:161} INFO - Started process (PID=12483) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:29:45.890+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-10-22T12:29:45.892+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:29:45.892+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:29:45.896+0000] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:29:45.909+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:29:45.909+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:29:45.920+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:29:45.920+0000] {dag.py:3947} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-10-22T12:29:45.940+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.068 seconds
+[2025-10-22T12:30:38.167+0000] {processor.py:161} INFO - Started process (PID=12549) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:30:38.172+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-10-22T12:30:38.174+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:30:38.173+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:30:38.180+0000] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:30:38.192+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:30:38.192+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:30:38.200+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:30:38.200+0000] {dag.py:3947} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-10-22T12:30:38.222+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.060 seconds
+[2025-10-22T12:32:13.012+0000] {processor.py:161} INFO - Started process (PID=12747) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:32:13.020+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-10-22T12:32:13.023+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:32:13.023+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:32:13.035+0000] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:32:13.054+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:32:13.054+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:32:13.065+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:32:13.065+0000] {dag.py:3947} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-10-22T12:32:13.092+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.095 seconds
+[2025-10-22T12:37:16.655+0000] {processor.py:161} INFO - Started process (PID=13174) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:37:16.661+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-10-22T12:37:16.666+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:37:16.665+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:37:16.675+0000] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:37:16.693+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:37:16.693+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:37:16.711+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:37:16.711+0000] {dag.py:3947} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-10-22T12:37:16.749+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.114 seconds
+[2025-10-22T12:38:37.536+0000] {processor.py:161} INFO - Started process (PID=13249) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:38:37.547+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-10-22T12:38:37.549+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:38:37.549+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:38:37.555+0000] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:38:37.572+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:38:37.572+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:38:37.586+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:38:37.586+0000] {dag.py:3947} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-10-22T12:38:37.617+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.088 seconds
+[2025-10-22T12:39:53.283+0000] {processor.py:161} INFO - Started process (PID=13312) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:39:53.285+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-10-22T12:39:53.286+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:39:53.286+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:39:53.290+0000] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-10-22T12:39:53.394+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:39:53.394+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:39:53.401+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:39:53.401+0000] {dag.py:3947} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-10-22T12:39:53.424+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.146 seconds

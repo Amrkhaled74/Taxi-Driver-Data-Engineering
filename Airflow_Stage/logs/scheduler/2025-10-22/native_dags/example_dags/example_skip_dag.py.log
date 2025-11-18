@@ -1,0 +1,161 @@
+[2025-10-22T12:11:59.800+0000] {processor.py:161} INFO - Started process (PID=8146) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:11:59.810+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-10-22T12:11:59.830+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:11:59.829+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:11:59.851+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:11:59.893+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:11:59.893+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:11:59.949+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:11:59.949+0000] {dag.py:3947} INFO - Setting next_dagrun for example_skip_dag to 2025-10-21 00:00:00+00:00, run_after=2025-10-22 00:00:00+00:00
+[2025-10-22T12:12:00.002+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.219 seconds
+[2025-10-22T12:13:14.070+0000] {processor.py:161} INFO - Started process (PID=8930) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:13:14.076+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-10-22T12:13:14.077+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:13:14.077+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:13:14.085+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:13:14.261+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:13:14.259+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:13:14.283+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:13:14.282+0000] {dag.py:3947} INFO - Setting next_dagrun for example_skip_dag to 2025-10-21 00:00:00+00:00, run_after=2025-10-22 00:00:00+00:00
+[2025-10-22T12:13:14.342+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.288 seconds
+[2025-10-22T12:14:11.351+0000] {processor.py:161} INFO - Started process (PID=9305) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:14:11.373+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-10-22T12:14:11.376+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:14:11.376+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:14:11.385+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:14:11.414+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:14:11.414+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:14:11.437+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:14:11.437+0000] {dag.py:3947} INFO - Setting next_dagrun for example_skip_dag to 2025-10-21 00:00:00+00:00, run_after=2025-10-22 00:00:00+00:00
+[2025-10-22T12:14:11.465+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.124 seconds
+[2025-10-22T12:15:03.777+0000] {processor.py:161} INFO - Started process (PID=9479) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:15:03.780+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-10-22T12:15:03.782+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:15:03.781+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:15:03.788+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:15:03.805+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:15:03.805+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:15:03.823+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:15:03.823+0000] {dag.py:3947} INFO - Setting next_dagrun for example_skip_dag to 2025-10-21 00:00:00+00:00, run_after=2025-10-22 00:00:00+00:00
+[2025-10-22T12:15:03.846+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.077 seconds
+[2025-10-22T12:15:52.333+0000] {processor.py:161} INFO - Started process (PID=9628) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:15:52.334+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-10-22T12:15:52.335+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:15:52.335+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:15:52.340+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:15:52.355+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:15:52.355+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:15:52.368+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:15:52.368+0000] {dag.py:3947} INFO - Setting next_dagrun for example_skip_dag to 2025-10-21 00:00:00+00:00, run_after=2025-10-22 00:00:00+00:00
+[2025-10-22T12:15:52.416+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.087 seconds
+[2025-10-22T12:16:44.355+0000] {processor.py:161} INFO - Started process (PID=9783) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:16:44.357+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-10-22T12:16:44.359+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:16:44.358+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:16:44.364+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:16:44.377+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:16:44.377+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:16:44.393+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:16:44.393+0000] {dag.py:3947} INFO - Setting next_dagrun for example_skip_dag to 2025-10-21 00:00:00+00:00, run_after=2025-10-22 00:00:00+00:00
+[2025-10-22T12:16:44.414+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.064 seconds
+[2025-10-22T12:17:33.890+0000] {processor.py:161} INFO - Started process (PID=9888) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:17:33.892+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-10-22T12:17:33.893+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:17:33.893+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:17:33.898+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:17:33.909+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:17:33.909+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:17:33.923+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:17:33.923+0000] {dag.py:3947} INFO - Setting next_dagrun for example_skip_dag to 2025-10-21 00:00:00+00:00, run_after=2025-10-22 00:00:00+00:00
+[2025-10-22T12:17:33.957+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.071 seconds
+[2025-10-22T12:19:21.850+0000] {processor.py:161} INFO - Started process (PID=10359) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:19:21.852+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-10-22T12:19:21.854+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:19:21.854+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:19:21.860+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:19:21.875+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:19:21.875+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:19:21.893+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:19:21.892+0000] {dag.py:3947} INFO - Setting next_dagrun for example_skip_dag to 2025-10-21 00:00:00+00:00, run_after=2025-10-22 00:00:00+00:00
+[2025-10-22T12:19:21.930+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.085 seconds
+[2025-10-22T12:22:27.858+0000] {processor.py:161} INFO - Started process (PID=10641) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:22:27.870+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-10-22T12:22:27.872+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:22:27.872+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:22:27.885+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:22:27.900+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:22:27.900+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:22:27.915+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:22:27.915+0000] {dag.py:3947} INFO - Setting next_dagrun for example_skip_dag to 2025-10-21 00:00:00+00:00, run_after=2025-10-22 00:00:00+00:00
+[2025-10-22T12:22:27.933+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.084 seconds
+[2025-10-22T12:23:26.286+0000] {processor.py:161} INFO - Started process (PID=11122) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:23:26.297+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-10-22T12:23:26.302+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:23:26.302+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:23:26.306+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:23:26.317+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:23:26.317+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:23:26.328+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:23:26.328+0000] {dag.py:3947} INFO - Setting next_dagrun for example_skip_dag to 2025-10-21 00:00:00+00:00, run_after=2025-10-22 00:00:00+00:00
+[2025-10-22T12:23:26.363+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.082 seconds
+[2025-10-22T12:24:22.367+0000] {processor.py:161} INFO - Started process (PID=11259) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:24:22.369+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-10-22T12:24:22.376+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:24:22.375+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:24:22.383+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:24:22.396+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:24:22.396+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:24:22.410+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:24:22.410+0000] {dag.py:3947} INFO - Setting next_dagrun for example_skip_dag to 2025-10-21 00:00:00+00:00, run_after=2025-10-22 00:00:00+00:00
+[2025-10-22T12:24:22.428+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.065 seconds
+[2025-10-22T12:25:14.123+0000] {processor.py:161} INFO - Started process (PID=11395) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:25:14.124+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-10-22T12:25:14.126+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:25:14.126+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:25:14.132+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:25:14.149+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:25:14.149+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:25:14.162+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:25:14.161+0000] {dag.py:3947} INFO - Setting next_dagrun for example_skip_dag to 2025-10-21 00:00:00+00:00, run_after=2025-10-22 00:00:00+00:00
+[2025-10-22T12:25:14.250+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.136 seconds
+[2025-10-22T12:26:08.836+0000] {processor.py:161} INFO - Started process (PID=11508) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:26:08.839+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-10-22T12:26:08.841+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:26:08.841+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:26:08.848+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:26:08.867+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:26:08.867+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:26:08.884+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:26:08.883+0000] {dag.py:3947} INFO - Setting next_dagrun for example_skip_dag to 2025-10-21 00:00:00+00:00, run_after=2025-10-22 00:00:00+00:00
+[2025-10-22T12:26:08.902+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.078 seconds
+[2025-10-22T12:27:05.545+0000] {processor.py:161} INFO - Started process (PID=11768) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:27:05.546+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-10-22T12:27:05.548+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:27:05.547+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:27:05.555+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:27:05.576+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:27:05.576+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:27:05.605+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:27:05.605+0000] {dag.py:3947} INFO - Setting next_dagrun for example_skip_dag to 2025-10-21 00:00:00+00:00, run_after=2025-10-22 00:00:00+00:00
+[2025-10-22T12:27:05.651+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.117 seconds
+[2025-10-22T12:28:20.161+0000] {processor.py:161} INFO - Started process (PID=12117) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:28:20.183+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-10-22T12:28:20.188+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:28:20.188+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:28:20.210+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:28:20.259+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:28:20.259+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:28:20.311+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:28:20.310+0000] {dag.py:3947} INFO - Setting next_dagrun for example_skip_dag to 2025-10-21 00:00:00+00:00, run_after=2025-10-22 00:00:00+00:00
+[2025-10-22T12:28:20.403+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.259 seconds
+[2025-10-22T12:29:15.985+0000] {processor.py:161} INFO - Started process (PID=12422) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:29:15.995+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-10-22T12:29:15.996+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:29:15.996+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:29:16.000+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:29:16.011+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:29:16.011+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:29:16.028+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:29:16.028+0000] {dag.py:3947} INFO - Setting next_dagrun for example_skip_dag to 2025-10-21 00:00:00+00:00, run_after=2025-10-22 00:00:00+00:00
+[2025-10-22T12:29:16.048+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.068 seconds
+[2025-10-22T12:30:12.100+0000] {processor.py:161} INFO - Started process (PID=12514) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:30:12.114+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-10-22T12:30:12.116+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:30:12.116+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:30:12.135+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:30:12.157+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:30:12.156+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:30:12.169+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:30:12.169+0000] {dag.py:3947} INFO - Setting next_dagrun for example_skip_dag to 2025-10-21 00:00:00+00:00, run_after=2025-10-22 00:00:00+00:00
+[2025-10-22T12:30:12.202+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.107 seconds
+[2025-10-22T12:31:02.178+0000] {processor.py:161} INFO - Started process (PID=12573) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:31:02.179+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-10-22T12:31:02.180+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:31:02.180+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:31:02.185+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:31:02.199+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:31:02.199+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:31:02.210+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:31:02.210+0000] {dag.py:3947} INFO - Setting next_dagrun for example_skip_dag to 2025-10-21 00:00:00+00:00, run_after=2025-10-22 00:00:00+00:00
+[2025-10-22T12:31:02.249+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.082 seconds
+[2025-10-22T12:31:53.202+0000] {processor.py:161} INFO - Started process (PID=12653) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:31:53.204+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-10-22T12:31:53.209+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:31:53.207+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:31:53.214+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:31:53.235+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:31:53.235+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:31:53.258+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:31:53.258+0000] {dag.py:3947} INFO - Setting next_dagrun for example_skip_dag to 2025-10-21 00:00:00+00:00, run_after=2025-10-22 00:00:00+00:00
+[2025-10-22T12:31:53.283+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.087 seconds
+[2025-10-22T12:36:17.199+0000] {processor.py:161} INFO - Started process (PID=12928) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:36:17.201+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-10-22T12:36:17.207+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:36:17.203+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:36:17.222+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:36:17.258+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:36:17.257+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:36:17.281+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:36:17.281+0000] {dag.py:3947} INFO - Setting next_dagrun for example_skip_dag to 2025-10-21 00:00:00+00:00, run_after=2025-10-22 00:00:00+00:00
+[2025-10-22T12:36:17.321+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.132 seconds
+[2025-10-22T12:37:53.240+0000] {processor.py:161} INFO - Started process (PID=13209) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:37:53.250+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-10-22T12:37:53.252+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:37:53.252+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:37:53.256+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:37:53.269+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:37:53.269+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:37:53.373+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:37:53.373+0000] {dag.py:3947} INFO - Setting next_dagrun for example_skip_dag to 2025-10-21 00:00:00+00:00, run_after=2025-10-22 00:00:00+00:00
+[2025-10-22T12:37:53.396+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.161 seconds
+[2025-10-22T12:39:04.928+0000] {processor.py:161} INFO - Started process (PID=13272) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:39:04.940+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-10-22T12:39:04.941+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:39:04.941+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:39:04.947+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:39:04.962+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:39:04.962+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:39:04.981+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:39:04.981+0000] {dag.py:3947} INFO - Setting next_dagrun for example_skip_dag to 2025-10-21 00:00:00+00:00, run_after=2025-10-22 00:00:00+00:00
+[2025-10-22T12:39:05.110+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.188 seconds
+[2025-10-22T12:40:27.237+0000] {processor.py:161} INFO - Started process (PID=13353) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:40:27.238+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-10-22T12:40:27.241+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:40:27.240+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:40:27.247+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-10-22T12:40:27.268+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:40:27.268+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:40:27.289+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:40:27.289+0000] {dag.py:3947} INFO - Setting next_dagrun for example_skip_dag to 2025-10-21 00:00:00+00:00, run_after=2025-10-22 00:00:00+00:00
+[2025-10-22T12:40:27.329+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.099 seconds

@@ -1,0 +1,67 @@
+[2025-10-26T15:01:27.781+0000] {processor.py:186} INFO - Started process (PID=11861) to work on /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2025-10-26T15:01:27.784+0000] {processor.py:914} INFO - Processing file /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2025-10-26T15:01:27.785+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:27.785+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2025-10-26T15:01:27.789+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:27.788+0000] {dagbag.py:387} ERROR - Failed to import: /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 21, in <module>
+    from airflow.providers.standard.operators.trigger_dagrun import TriggerDagRunOperator
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/providers/standard/operators/trigger_dagrun.py", line 40, in <module>
+    from airflow.providers.common.compat.sdk import BaseOperatorLink, XCom, timezone
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/providers/common/compat/_compat_utils.py", line 94, in __getattr__
+    module = __import__(module_path, fromlist=[name])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/sdk/execution_time/xcom.py", line 39, in <module>
+    XCom = resolve_xcom_backend()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/sdk/execution_time/xcom.py", line 33, in resolve_xcom_backend
+    raise TypeError(
+TypeError: Your custom XCom class `BaseXCom` is not a subclass of `BaseXCom`.
+[2025-10-26T15:01:27.789+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2025-10-26T15:01:27.809+0000] {processor.py:208} INFO - Processing /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.045 seconds
+[2025-10-26T15:01:29.839+0000] {processor.py:186} INFO - Started process (PID=11876) to work on /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2025-10-26T15:01:29.839+0000] {processor.py:914} INFO - Processing file /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2025-10-26T15:01:29.840+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:29.840+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2025-10-26T15:01:29.847+0000] {processor.py:925} INFO - DAG(s) 'example_external_task' retrieved from /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2025-10-26T15:01:29.930+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:29.929+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_external_task
+[2025-10-26T15:01:29.942+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:29.941+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_external_task
+[2025-10-26T15:01:29.951+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:29.951+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:example_external_task
+[2025-10-26T15:01:29.966+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:29.966+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_external_task
+[2025-10-26T15:01:29.975+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:29.974+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_external_task
+[2025-10-26T15:01:29.983+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:29.983+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_external_task
+[2025-10-26T15:01:29.995+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:29.995+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_external_task
+[2025-10-26T15:01:29.995+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:29.995+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-26T15:01:30.003+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:30.003+0000] {dag.py:3262} INFO - Creating ORM DAG for example_external_task
+[2025-10-26T15:01:30.008+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:30.008+0000] {dag.py:4180} INFO - Setting next_dagrun for example_external_task to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-10-26T15:01:30.032+0000] {processor.py:208} INFO - Processing /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.201 seconds
+[2025-10-26T15:01:59.089+0000] {processor.py:186} INFO - Started process (PID=12029) to work on /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2025-10-26T15:01:59.090+0000] {processor.py:914} INFO - Processing file /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2025-10-26T15:01:59.091+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:59.090+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2025-10-26T15:01:59.094+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:01:59.093+0000] {dagbag.py:387} ERROR - Failed to import: /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 21, in <module>
+    from airflow.providers.standard.operators.trigger_dagrun import TriggerDagRunOperator
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/providers/standard/operators/trigger_dagrun.py", line 40, in <module>
+    from airflow.providers.common.compat.sdk import BaseOperatorLink, XCom, timezone
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/providers/common/compat/_compat_utils.py", line 94, in __getattr__
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/sdk/execution_time/xcom.py", line 39, in <module>
+    XCom = resolve_xcom_backend()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/sdk/execution_time/xcom.py", line 33, in resolve_xcom_backend
+    raise TypeError(
+TypeError: Your custom XCom class `BaseXCom` is not a subclass of `BaseXCom`.
+[2025-10-26T15:01:59.094+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2025-10-26T15:01:59.127+0000] {processor.py:208} INFO - Processing /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.045 seconds
+[2025-10-26T15:02:01.693+0000] {processor.py:186} INFO - Started process (PID=12047) to work on /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2025-10-26T15:02:01.693+0000] {processor.py:914} INFO - Processing file /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2025-10-26T15:02:01.694+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:02:01.694+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2025-10-26T15:02:01.700+0000] {processor.py:925} INFO - DAG(s) 'example_external_task' retrieved from /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2025-10-26T15:02:01.713+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:02:01.713+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-26T15:02:01.726+0000] {logging_mixin.py:190} INFO - [2025-10-26T15:02:01.726+0000] {dag.py:4180} INFO - Setting next_dagrun for example_external_task to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-10-26T15:02:01.770+0000] {processor.py:208} INFO - Processing /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.082 seconds

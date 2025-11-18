@@ -1,0 +1,265 @@
+[2025-10-26 14:36:16 +0000] [7260] [INFO] Starting gunicorn 23.0.0
+[2025-10-26 14:36:16 +0000] [7260] [INFO] Listening at: http://[::]:8793 (7260)
+[2025-10-26 14:36:16 +0000] [7260] [INFO] Using worker: sync
+[2025-10-26 14:36:16 +0000] [7261] [INFO] Booting worker with pid: 7261
+[2025-10-26 14:36:16 +0000] [7263] [INFO] Booting worker with pid: 7263
+Process DagFileProcessor971-Process:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+    settings.configure_orm()
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+    engine_args = prepare_engine_args(disable_connection_pool, pool_class)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+    if is_sqlalchemy_v1():
+       ^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+    return version.parse(metadata.version("sqlalchemy")).major == 1
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+Process DagFileProcessor1368-Process:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+Process DagFileProcessor1369-Process:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+Process DagFileProcessor1370-Process:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+Process DagFileProcessor1371-Process:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+Process DagFileProcessor1372-Process:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+Process DagFileProcessor1373-Process:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+Process DagFileProcessor1374-Process:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy
+Process DagFileProcessor1375-Process:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 397, in from_name
+    return next(cls.discover(name=name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 207, in _run_file_processor
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 179, in _handle_dag_file_processing
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/settings.py", line 476, in configure_orm
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/settings.py", line 601, in prepare_engine_args
+  File "/home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/utils/sqlalchemy.py", line 556, in is_sqlalchemy_v1
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 889, in version
+    return distribution(distribution_name).version
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 862, in distribution
+    return Distribution.from_name(distribution_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 399, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for sqlalchemy

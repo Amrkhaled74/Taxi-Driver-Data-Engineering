@@ -1,0 +1,134 @@
+[2025-10-23T11:38:56.044+0000] {processor.py:161} INFO - Started process (PID=5804) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T11:38:56.045+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-10-23T11:38:56.046+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:38:56.046+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T11:38:56.053+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T11:38:56.069+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:38:56.069+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T11:38:56.078+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:38:56.078+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-10-23T11:38:56.109+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.069 seconds
+[2025-10-23T11:53:48.155+0000] {processor.py:161} INFO - Started process (PID=9108) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T11:53:48.158+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-10-23T11:53:48.160+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:53:48.159+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T11:53:48.176+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T11:53:48.223+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:53:48.223+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T11:53:48.234+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:53:48.234+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-10-23T11:53:48.285+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.135 seconds
+[2025-10-23T11:55:26.208+0000] {processor.py:161} INFO - Started process (PID=9625) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T11:55:26.219+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-10-23T11:55:26.221+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:55:26.220+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T11:55:26.226+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T11:55:26.237+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:55:26.237+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T11:55:26.245+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:55:26.245+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-10-23T11:55:26.264+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.061 seconds
+[2025-10-23T11:56:57.351+0000] {processor.py:161} INFO - Started process (PID=9961) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T11:56:57.367+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-10-23T11:56:57.373+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:56:57.373+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T11:56:57.396+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T11:56:57.440+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:56:57.438+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T11:56:57.477+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:56:57.473+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-10-23T11:56:57.568+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.238 seconds
+[2025-10-23T11:57:45.054+0000] {processor.py:161} INFO - Started process (PID=10019) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T11:57:45.056+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-10-23T11:57:45.057+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:57:45.057+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T11:57:45.065+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T11:57:45.078+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:57:45.078+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T11:57:45.090+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:57:45.090+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-10-23T11:57:45.128+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.078 seconds
+[2025-10-23T11:58:34.153+0000] {processor.py:161} INFO - Started process (PID=10077) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T11:58:34.154+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-10-23T11:58:34.156+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:58:34.156+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T11:58:34.166+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T11:58:34.180+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:58:34.180+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T11:58:34.189+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:58:34.189+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-10-23T11:58:34.221+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.074 seconds
+[2025-10-23T11:59:58.136+0000] {processor.py:161} INFO - Started process (PID=10197) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T11:59:58.175+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-10-23T11:59:58.197+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:59:58.196+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T11:59:58.232+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T11:59:58.380+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:59:58.378+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T11:59:58.490+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:59:58.488+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-10-23T11:59:58.677+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.654 seconds
+[2025-10-23T12:00:44.211+0000] {processor.py:161} INFO - Started process (PID=10248) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:00:44.212+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-10-23T12:00:44.214+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:00:44.214+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:00:44.221+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:00:44.232+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:00:44.231+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:00:44.240+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:00:44.240+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-10-23T12:00:44.271+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.064 seconds
+[2025-10-23T12:01:43.757+0000] {processor.py:161} INFO - Started process (PID=10449) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:01:43.805+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-10-23T12:01:43.872+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:01:43.860+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:01:44.212+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:01:44.900+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:01:44.898+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:01:45.126+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:01:45.121+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-10-23T12:01:46.323+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 2.709 seconds
+[2025-10-23T12:03:19.516+0000] {processor.py:161} INFO - Started process (PID=10678) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:03:19.527+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-10-23T12:03:19.528+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:03:19.528+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:03:19.537+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:03:19.554+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:03:19.554+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:03:19.563+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:03:19.563+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-10-23T12:03:19.582+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.070 seconds
+[2025-10-23T12:04:24.470+0000] {processor.py:161} INFO - Started process (PID=10821) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:04:24.483+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-10-23T12:04:24.485+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:04:24.485+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:04:24.495+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:04:24.509+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:04:24.509+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:04:24.519+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:04:24.519+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-10-23T12:04:24.554+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.089 seconds
+[2025-10-23T12:05:19.811+0000] {processor.py:161} INFO - Started process (PID=11177) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:05:19.822+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-10-23T12:05:19.823+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:05:19.823+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:05:19.829+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:05:19.840+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:05:19.840+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:05:19.849+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:05:19.848+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-10-23T12:05:19.866+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.061 seconds
+[2025-10-23T12:06:02.657+0000] {processor.py:161} INFO - Started process (PID=11246) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:06:02.659+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-10-23T12:06:02.661+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:06:02.660+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:06:02.667+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:06:02.677+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:06:02.677+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:06:02.686+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:06:02.686+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-10-23T12:06:02.707+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.054 seconds
+[2025-10-23T12:06:46.805+0000] {processor.py:161} INFO - Started process (PID=11306) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:06:46.806+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-10-23T12:06:46.808+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:06:46.807+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:06:46.814+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:06:46.825+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:06:46.824+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:06:46.833+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:06:46.833+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-10-23T12:06:46.865+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.065 seconds
+[2025-10-23T12:07:31.071+0000] {processor.py:161} INFO - Started process (PID=11367) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:07:31.072+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-10-23T12:07:31.074+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:07:31.073+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:07:31.080+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:07:31.092+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:07:31.092+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:07:31.187+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:07:31.187+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-10-23T12:07:31.206+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.141 seconds
+[2025-10-23T12:08:22.158+0000] {processor.py:161} INFO - Started process (PID=11431) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:08:22.159+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-10-23T12:08:22.161+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:08:22.160+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:08:22.170+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:08:22.181+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:08:22.181+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:08:22.190+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:08:22.190+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-10-23T12:08:22.222+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.071 seconds
+[2025-10-23T12:09:11.240+0000] {processor.py:161} INFO - Started process (PID=11537) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:09:11.242+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-10-23T12:09:11.244+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:09:11.243+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:09:11.254+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:09:11.284+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:09:11.283+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:09:11.296+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:09:11.296+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-10-23T12:09:11.340+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.106 seconds
+[2025-10-23T12:09:59.061+0000] {processor.py:161} INFO - Started process (PID=11646) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:09:59.062+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-10-23T12:09:59.064+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:09:59.063+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:09:59.070+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:09:59.081+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:09:59.081+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:09:59.090+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:09:59.090+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-10-23T12:09:59.123+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.067 seconds
+[2025-10-23T12:10:43.348+0000] {processor.py:161} INFO - Started process (PID=11700) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:10:43.349+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-10-23T12:10:43.351+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:10:43.350+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:10:43.357+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-10-23T12:10:43.368+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:10:43.368+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:10:43.378+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:10:43.378+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-10-23T12:10:43.402+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.059 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

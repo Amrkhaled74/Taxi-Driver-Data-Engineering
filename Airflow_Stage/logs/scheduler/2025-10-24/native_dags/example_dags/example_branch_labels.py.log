@@ -1,0 +1,526 @@
+[2025-10-24T14:21:27.016+0000] {processor.py:161} INFO - Started process (PID=7174) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:21:27.018+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:21:27.020+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:21:27.020+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:21:27.028+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:21:27.045+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:21:27.044+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:21:27.065+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:21:27.064+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:21:27.098+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.088 seconds
+[2025-10-24T14:22:21.455+0000] {processor.py:161} INFO - Started process (PID=7291) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:22:21.465+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:22:21.467+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:22:21.467+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:22:21.473+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:22:21.485+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:22:21.485+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:22:21.498+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:22:21.498+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:22:21.516+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.070 seconds
+[2025-10-24T14:23:34.212+0000] {processor.py:161} INFO - Started process (PID=7380) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:23:34.225+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:23:34.227+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:23:34.226+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:23:34.244+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:23:34.281+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:23:34.281+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:23:34.328+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:23:34.327+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:23:34.357+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.159 seconds
+[2025-10-24T14:24:56.333+0000] {processor.py:161} INFO - Started process (PID=7465) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:24:56.335+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:24:56.337+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:24:56.336+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:24:56.342+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:24:56.352+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:24:56.352+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:24:56.364+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:24:56.364+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:24:56.383+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.054 seconds
+[2025-10-24T14:25:53.226+0000] {processor.py:161} INFO - Started process (PID=7631) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:25:53.227+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:25:53.229+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:25:53.228+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:25:53.236+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:25:53.247+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:25:53.247+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:25:53.260+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:25:53.259+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:25:53.292+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.070 seconds
+[2025-10-24T14:26:49.098+0000] {processor.py:161} INFO - Started process (PID=7798) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:26:49.107+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:26:49.118+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:26:49.116+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:26:49.160+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:26:49.251+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:26:49.251+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:26:49.337+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:26:49.335+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:26:49.416+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.356 seconds
+[2025-10-24T14:27:46.419+0000] {processor.py:161} INFO - Started process (PID=7909) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:27:46.434+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:27:46.439+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:27:46.439+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:27:46.451+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:27:46.471+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:27:46.470+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:27:46.485+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:27:46.485+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:27:46.503+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.091 seconds
+[2025-10-24T14:28:46.161+0000] {processor.py:161} INFO - Started process (PID=8145) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:28:46.174+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:28:46.186+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:28:46.183+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:28:46.233+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:28:46.274+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:28:46.273+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:28:46.332+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:28:46.332+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:28:46.389+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.261 seconds
+[2025-10-24T14:29:49.615+0000] {processor.py:161} INFO - Started process (PID=8441) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:29:49.627+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:29:49.628+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:29:49.628+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:29:49.634+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:29:49.647+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:29:49.647+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:29:49.660+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:29:49.660+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:29:49.678+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.067 seconds
+[2025-10-24T14:30:46.589+0000] {processor.py:161} INFO - Started process (PID=8611) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:30:46.592+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:30:46.593+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:30:46.593+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:30:46.598+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:30:46.609+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:30:46.608+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:30:46.620+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:30:46.620+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:30:46.638+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.052 seconds
+[2025-10-24T14:31:47.019+0000] {processor.py:161} INFO - Started process (PID=8672) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:31:47.020+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:31:47.021+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:31:47.021+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:31:47.027+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:31:47.037+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:31:47.037+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:31:47.121+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:31:47.121+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:31:47.150+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.135 seconds
+[2025-10-24T14:32:55.226+0000] {processor.py:161} INFO - Started process (PID=8741) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:32:55.227+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:32:55.228+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:32:55.228+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:32:55.233+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:32:55.244+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:32:55.243+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:32:55.255+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:32:55.255+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:32:55.372+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.151 seconds
+[2025-10-24T14:34:11.776+0000] {processor.py:161} INFO - Started process (PID=8812) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:34:11.777+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:34:11.778+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:34:11.778+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:34:11.783+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:34:11.793+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:34:11.793+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:34:11.804+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:34:11.804+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:34:11.835+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.063 seconds
+[2025-10-24T14:35:14.745+0000] {processor.py:161} INFO - Started process (PID=8901) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:35:14.756+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:35:14.757+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:35:14.757+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:35:14.763+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:35:14.774+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:35:14.773+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:35:14.786+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:35:14.786+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:35:14.805+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.064 seconds
+[2025-10-24T14:36:12.675+0000] {processor.py:161} INFO - Started process (PID=8987) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:36:12.676+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:36:12.678+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:36:12.677+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:36:12.682+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:36:12.693+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:36:12.692+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:36:12.704+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:36:12.704+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:36:12.723+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.052 seconds
+[2025-10-24T14:37:12.851+0000] {processor.py:161} INFO - Started process (PID=9048) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:37:12.853+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:37:12.854+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:37:12.854+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:37:12.860+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:37:12.871+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:37:12.870+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:37:12.883+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:37:12.883+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:37:12.913+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.066 seconds
+[2025-10-24T14:38:17.787+0000] {processor.py:161} INFO - Started process (PID=9115) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:38:17.789+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:38:17.790+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:38:17.790+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:38:17.795+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:38:17.805+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:38:17.805+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:38:17.818+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:38:17.817+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:38:17.836+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.054 seconds
+[2025-10-24T14:39:36.146+0000] {processor.py:161} INFO - Started process (PID=9199) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:39:36.147+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:39:36.149+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:39:36.148+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:39:36.155+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:39:36.166+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:39:36.166+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:39:36.180+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:39:36.180+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:39:36.211+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.070 seconds
+[2025-10-24T14:40:33.823+0000] {processor.py:161} INFO - Started process (PID=9267) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:40:33.825+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:40:33.826+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:40:33.825+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:40:33.831+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:40:33.844+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:40:33.843+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:40:33.856+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:40:33.856+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:40:33.893+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.074 seconds
+[2025-10-24T14:41:53.888+0000] {processor.py:161} INFO - Started process (PID=9385) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:41:53.899+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:41:53.900+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:41:53.900+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:41:53.905+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:41:53.916+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:41:53.916+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:41:53.927+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:41:53.927+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:41:53.945+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.061 seconds
+[2025-10-24T14:43:05.087+0000] {processor.py:161} INFO - Started process (PID=9460) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:43:05.088+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:43:05.090+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:43:05.090+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:43:05.096+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:43:05.108+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:43:05.108+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:43:05.122+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:43:05.122+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:43:05.154+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.074 seconds
+[2025-10-24T14:44:03.632+0000] {processor.py:161} INFO - Started process (PID=9522) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:44:03.634+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:44:03.635+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:44:03.635+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:44:03.642+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:44:03.656+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:44:03.655+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:44:03.669+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:44:03.669+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:44:03.703+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.076 seconds
+[2025-10-24T14:45:00.357+0000] {processor.py:161} INFO - Started process (PID=9581) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:45:00.367+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:45:00.368+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:45:00.368+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:45:00.374+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:45:00.386+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:45:00.386+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:45:00.400+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:45:00.399+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:45:00.417+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.065 seconds
+[2025-10-24T14:46:03.830+0000] {processor.py:161} INFO - Started process (PID=9675) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:46:03.831+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:46:03.832+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:46:03.832+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:46:03.838+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:46:03.848+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:46:03.848+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:46:03.861+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:46:03.861+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:46:03.880+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.054 seconds
+[2025-10-24T14:47:07.674+0000] {processor.py:161} INFO - Started process (PID=9741) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:47:07.675+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:47:07.676+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:47:07.676+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:47:07.682+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:47:07.693+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:47:07.693+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:47:07.707+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:47:07.707+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:47:07.738+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.069 seconds
+[2025-10-24T14:48:15.829+0000] {processor.py:161} INFO - Started process (PID=9807) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:48:15.831+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:48:15.832+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:48:15.832+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:48:15.838+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:48:15.851+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:48:15.851+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:48:15.864+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:48:15.864+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:48:15.882+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.058 seconds
+[2025-10-24T14:49:21.679+0000] {processor.py:161} INFO - Started process (PID=9875) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:49:21.680+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:49:21.682+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:49:21.681+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:49:21.687+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:49:21.699+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:49:21.699+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:49:21.712+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:49:21.712+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:49:21.732+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.057 seconds
+[2025-10-24T14:50:25.322+0000] {processor.py:161} INFO - Started process (PID=9944) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:50:25.324+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:50:25.325+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:50:25.325+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:50:25.331+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:50:25.342+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:50:25.341+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:50:25.354+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:50:25.354+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:50:25.384+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.067 seconds
+[2025-10-24T14:51:45.638+0000] {processor.py:161} INFO - Started process (PID=10058) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:51:45.640+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:51:45.641+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:51:45.641+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:51:45.647+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:51:45.659+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:51:45.659+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:51:45.671+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:51:45.671+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:51:45.689+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.057 seconds
+[2025-10-24T14:52:42.429+0000] {processor.py:161} INFO - Started process (PID=10118) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:52:42.430+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:52:42.432+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:52:42.431+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:52:42.437+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:52:42.448+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:52:42.448+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:52:42.460+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:52:42.460+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:52:42.492+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.069 seconds
+[2025-10-24T14:54:01.316+0000] {processor.py:161} INFO - Started process (PID=10210) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:54:01.318+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:54:01.319+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:54:01.319+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:54:01.324+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:54:01.335+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:54:01.334+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:54:01.348+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:54:01.347+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:54:01.380+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.069 seconds
+[2025-10-24T14:55:28.790+0000] {processor.py:161} INFO - Started process (PID=10301) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:55:28.801+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:55:28.802+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:55:28.802+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:55:28.809+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:55:28.821+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:55:28.821+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:55:28.834+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:55:28.834+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:55:28.852+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.067 seconds
+[2025-10-24T14:56:24.545+0000] {processor.py:161} INFO - Started process (PID=10391) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:56:24.556+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:56:24.557+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:56:24.557+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:56:24.563+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:56:24.574+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:56:24.574+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:56:24.586+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:56:24.586+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:56:24.605+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.065 seconds
+[2025-10-24T14:57:19.265+0000] {processor.py:161} INFO - Started process (PID=10457) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:57:19.266+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:57:19.268+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:57:19.267+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:57:19.274+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:57:19.284+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:57:19.284+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:57:19.296+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:57:19.296+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:57:19.330+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.071 seconds
+[2025-10-24T14:58:42.419+0000] {processor.py:161} INFO - Started process (PID=10542) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:58:42.421+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:58:42.422+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:58:42.422+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:58:42.428+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:58:42.440+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:58:42.439+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:58:42.454+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:58:42.454+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:58:42.472+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.057 seconds
+[2025-10-24T14:59:41.426+0000] {processor.py:161} INFO - Started process (PID=10604) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:59:41.427+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T14:59:41.428+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:59:41.428+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:59:41.435+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T14:59:41.446+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:59:41.446+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:59:41.459+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:59:41.458+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T14:59:41.489+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.071 seconds
+[2025-10-24T15:00:54.448+0000] {processor.py:161} INFO - Started process (PID=10789) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:00:54.449+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:00:54.450+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:00:54.450+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:00:54.456+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:00:54.467+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:00:54.466+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:00:54.479+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:00:54.479+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:00:54.508+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.064 seconds
+[2025-10-24T15:01:57.980+0000] {processor.py:161} INFO - Started process (PID=10854) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:01:57.981+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:01:57.982+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:01:57.981+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:01:57.987+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:01:57.998+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:01:57.998+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:01:58.011+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:01:58.011+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:01:58.042+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.067 seconds
+[2025-10-24T15:03:07.073+0000] {processor.py:161} INFO - Started process (PID=10924) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:03:07.074+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:03:07.075+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:03:07.075+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:03:07.082+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:03:07.093+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:03:07.093+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:03:07.106+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:03:07.106+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:03:07.139+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.070 seconds
+[2025-10-24T15:04:07.750+0000] {processor.py:161} INFO - Started process (PID=10987) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:04:07.751+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:04:07.752+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:04:07.752+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:04:07.758+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:04:07.769+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:04:07.768+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:04:07.780+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:04:07.780+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:04:07.811+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.067 seconds
+[2025-10-24T15:05:03.451+0000] {processor.py:161} INFO - Started process (PID=11052) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:05:03.452+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:05:03.454+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:05:03.453+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:05:03.459+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:05:03.470+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:05:03.470+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:05:03.484+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:05:03.484+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:05:03.514+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.069 seconds
+[2025-10-24T15:06:05.219+0000] {processor.py:161} INFO - Started process (PID=11145) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:06:05.221+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:06:05.222+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:06:05.222+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:06:05.228+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:06:05.238+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:06:05.238+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:06:05.250+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:06:05.250+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:06:05.280+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.066 seconds
+[2025-10-24T15:07:01.626+0000] {processor.py:161} INFO - Started process (PID=11207) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:07:01.628+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:07:01.629+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:07:01.629+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:07:01.634+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:07:01.644+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:07:01.644+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:07:01.656+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:07:01.656+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:07:01.684+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.062 seconds
+[2025-10-24T15:08:22.573+0000] {processor.py:161} INFO - Started process (PID=11295) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:08:22.574+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:08:22.575+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:08:22.575+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:08:22.580+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:08:22.591+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:08:22.591+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:08:22.603+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:08:22.602+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:08:22.620+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.052 seconds
+[2025-10-24T15:09:44.088+0000] {processor.py:161} INFO - Started process (PID=11378) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:09:44.089+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:09:44.091+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:09:44.091+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:09:44.098+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:09:44.109+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:09:44.109+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:09:44.121+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:09:44.121+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:09:44.154+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.071 seconds
+[2025-10-24T15:10:44.240+0000] {processor.py:161} INFO - Started process (PID=11476) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:10:44.242+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:10:44.243+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:10:44.243+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:10:44.249+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:10:44.261+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:10:44.260+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:10:44.273+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:10:44.273+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:10:44.304+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.070 seconds
+[2025-10-24T15:11:53.312+0000] {processor.py:161} INFO - Started process (PID=11543) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:11:53.313+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:11:53.314+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:11:53.314+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:11:53.319+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:11:53.331+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:11:53.331+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:11:53.343+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:11:53.343+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:11:53.372+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.066 seconds
+[2025-10-24T15:12:53.633+0000] {processor.py:161} INFO - Started process (PID=11605) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:12:53.635+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:12:53.636+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:12:53.636+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:12:53.642+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:12:53.653+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:12:53.653+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:12:53.666+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:12:53.666+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:12:53.696+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.067 seconds
+[2025-10-24T15:13:57.763+0000] {processor.py:161} INFO - Started process (PID=11668) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:13:57.767+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:13:57.769+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:13:57.768+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:13:57.775+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:13:57.785+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:13:57.785+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:13:57.798+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:13:57.798+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:13:57.817+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.058 seconds
+[2025-10-24T15:15:00.353+0000] {processor.py:161} INFO - Started process (PID=11734) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:15:00.355+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:15:00.356+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:15:00.356+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:15:00.361+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:15:00.372+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:15:00.372+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:15:00.385+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:15:00.385+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:15:00.416+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.066 seconds
+[2025-10-24T15:16:08.262+0000] {processor.py:161} INFO - Started process (PID=11831) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:16:08.263+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:16:08.264+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:16:08.264+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:16:08.270+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:16:08.282+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:16:08.281+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:16:08.295+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:16:08.295+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:16:08.326+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.068 seconds
+[2025-10-24T15:17:16.619+0000] {processor.py:161} INFO - Started process (PID=11901) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:17:16.620+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:17:16.621+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:17:16.621+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:17:16.627+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:17:16.639+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:17:16.638+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:17:16.652+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:17:16.652+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:17:16.684+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.069 seconds
+[2025-10-24T15:18:11.366+0000] {processor.py:161} INFO - Started process (PID=11964) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:18:11.367+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:18:11.369+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:18:11.368+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:18:11.373+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:18:11.385+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:18:11.385+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:18:11.397+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:18:11.397+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:18:11.414+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.053 seconds
+[2025-10-24T15:19:32.000+0000] {processor.py:161} INFO - Started process (PID=12051) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:19:32.001+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:19:32.003+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:19:32.002+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:19:32.008+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:19:32.019+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:19:32.018+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:19:32.031+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:19:32.031+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:19:32.062+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.067 seconds
+[2025-10-24T15:20:51.870+0000] {processor.py:161} INFO - Started process (PID=12173) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:20:51.875+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:20:51.876+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:20:51.876+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:20:51.881+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:20:51.893+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:20:51.892+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:20:51.905+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:20:51.904+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:20:51.934+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.068 seconds
+[2025-10-24T15:22:03.197+0000] {processor.py:161} INFO - Started process (PID=12240) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:22:03.198+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:22:03.199+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:22:03.199+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:22:03.205+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:22:03.215+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:22:03.215+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:22:03.228+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:22:03.228+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:22:03.259+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.067 seconds
+[2025-10-24T15:23:05.088+0000] {processor.py:161} INFO - Started process (PID=12303) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:23:05.090+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:23:05.091+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:23:05.091+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:23:05.096+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:23:05.109+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:23:05.109+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:23:05.121+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:23:05.121+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:23:05.154+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.070 seconds
+[2025-10-24T15:24:12.393+0000] {processor.py:161} INFO - Started process (PID=12371) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:24:12.395+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:24:12.396+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:24:12.396+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:24:12.401+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:24:12.412+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:24:12.412+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:24:12.426+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:24:12.425+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:24:12.455+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.067 seconds
+[2025-10-24T15:25:36.125+0000] {processor.py:161} INFO - Started process (PID=12462) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:25:36.127+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:25:36.129+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:25:36.128+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:25:36.135+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:25:36.147+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:25:36.147+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:25:36.159+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:25:36.159+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:25:36.177+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.057 seconds
+[2025-10-24T15:26:47.589+0000] {processor.py:161} INFO - Started process (PID=12560) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:26:47.590+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:26:47.592+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:26:47.592+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:26:47.601+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:26:47.614+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:26:47.613+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:26:47.628+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:26:47.628+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:26:47.661+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.077 seconds
+[2025-10-24T15:28:03.262+0000] {processor.py:161} INFO - Started process (PID=12634) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:28:03.272+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:28:03.273+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:28:03.273+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:28:03.279+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:28:03.289+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:28:03.289+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:28:03.301+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:28:03.301+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:28:03.322+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.065 seconds
+[2025-10-24T15:29:05.108+0000] {processor.py:161} INFO - Started process (PID=12699) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:29:05.109+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:29:05.110+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:29:05.110+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:29:05.115+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:29:05.126+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:29:05.126+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:29:05.138+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:29:05.138+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:29:05.159+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.056 seconds
+[2025-10-24T15:30:05.183+0000] {processor.py:161} INFO - Started process (PID=12765) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:30:05.194+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:30:05.196+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:30:05.195+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:30:05.201+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:30:05.212+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:30:05.212+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:30:05.224+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:30:05.224+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:30:05.243+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.065 seconds
+[2025-10-24T15:31:27.526+0000] {processor.py:161} INFO - Started process (PID=12869) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:31:27.528+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:31:27.531+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:31:27.530+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:31:27.540+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:31:27.554+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:31:27.553+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:31:27.566+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:31:27.566+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:31:27.584+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.065 seconds
+[2025-10-24T15:32:29.469+0000] {processor.py:161} INFO - Started process (PID=12935) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:32:29.470+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:32:29.471+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:32:29.471+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:32:29.477+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:32:29.488+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:32:29.488+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:32:29.504+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:32:29.503+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:32:29.534+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.069 seconds
+[2025-10-24T15:33:27.160+0000] {processor.py:161} INFO - Started process (PID=12999) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:33:27.162+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:33:27.163+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:33:27.163+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:33:27.169+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:33:27.181+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:33:27.181+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:33:27.196+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:33:27.196+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:33:27.227+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.071 seconds
+[2025-10-24T15:34:26.874+0000] {processor.py:161} INFO - Started process (PID=13065) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:34:26.875+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:34:26.876+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:34:26.876+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:34:26.881+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:34:26.892+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:34:26.892+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:34:26.904+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:34:26.904+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:34:26.934+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.064 seconds
+[2025-10-24T15:36:08.229+0000] {processor.py:161} INFO - Started process (PID=13190) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:36:08.240+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:36:08.242+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:36:08.241+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:36:08.247+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:36:08.258+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:36:08.258+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:36:08.270+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:36:08.270+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:36:08.288+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.063 seconds
+[2025-10-24T15:37:08.848+0000] {processor.py:161} INFO - Started process (PID=13251) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:37:08.849+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:37:08.851+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:37:08.850+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:37:08.856+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:37:08.867+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:37:08.867+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:37:08.881+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:37:08.881+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:37:08.900+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.058 seconds
+[2025-10-24T15:38:08.943+0000] {processor.py:161} INFO - Started process (PID=13311) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:38:08.944+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:38:08.945+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:38:08.945+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:38:08.951+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:38:08.963+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:38:08.963+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:38:08.976+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:38:08.976+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:38:09.011+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.072 seconds
+[2025-10-24T15:39:13.537+0000] {processor.py:161} INFO - Started process (PID=13376) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:39:13.538+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:39:13.539+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:39:13.539+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:39:13.544+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:39:13.555+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:39:13.555+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:39:13.567+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:39:13.567+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:39:13.595+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.062 seconds
+[2025-10-24T15:40:15.982+0000] {processor.py:161} INFO - Started process (PID=13444) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:40:15.984+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:40:15.985+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:40:15.985+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:40:15.990+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:40:16.000+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:40:16.000+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:40:16.013+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:40:16.012+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:40:16.044+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.068 seconds
+[2025-10-24T15:41:19.823+0000] {processor.py:161} INFO - Started process (PID=13542) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:41:19.824+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:41:19.825+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:41:19.825+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:41:19.832+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:41:19.843+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:41:19.843+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:41:19.856+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:41:19.856+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:41:19.887+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.069 seconds
+[2025-10-24T15:42:27.039+0000] {processor.py:161} INFO - Started process (PID=13610) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:42:27.040+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:42:27.042+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:42:27.041+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:42:27.048+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:42:27.058+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:42:27.058+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:42:27.069+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:42:27.069+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:42:27.099+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.066 seconds
+[2025-10-24T15:43:34.648+0000] {processor.py:161} INFO - Started process (PID=13677) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:43:34.649+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-10-24T15:43:34.650+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:43:34.650+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:43:34.655+0000] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-10-24T15:43:34.666+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:43:34.666+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:43:34.678+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:43:34.678+0000] {dag.py:3947} INFO - Setting next_dagrun for example_branch_labels to 2025-10-23 00:00:00+00:00, run_after=2025-10-24 00:00:00+00:00
+[2025-10-24T15:43:34.709+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.065 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

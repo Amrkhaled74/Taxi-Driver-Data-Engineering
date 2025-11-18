@@ -1,0 +1,59 @@
+2025-10-26 14:36:16,638 INFO - Loaded executor: SequentialExecutor
+2025-10-26 14:36:16,682 INFO - Starting the scheduler
+2025-10-26 14:36:16,683 INFO - Processing each file at most -1 times
+2025-10-26 14:36:16,689 INFO - Launched DagFileProcessorManager with pid: 7262
+2025-10-26 14:36:16,691 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-26 14:36:16,692 INFO - Configured default timezone UTC
+2025-10-26 14:36:17,039 INFO - 1 tasks up for execution:
+	<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-24T00:00:00+00:00 [scheduled]>
+2025-10-26 14:36:17,039 INFO - DAG dbt_snowflake_pipeline has 0/16 running and queued tasks
+2025-10-26 14:36:17,039 INFO - Setting the following tasks to queued state:
+	<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-24T00:00:00+00:00 [scheduled]>
+2025-10-26 14:36:17,041 INFO - Trying to enqueue tasks: [<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-24T00:00:00+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-10-26 14:36:17,042 INFO - Sending TaskInstanceKey(dag_id='dbt_snowflake_pipeline', task_id='dbt_run', run_id='scheduled__2025-10-24T00:00:00+00:00', try_number=3, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2025-10-26 14:36:17,042 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'dbt_snowflake_pipeline', 'dbt_run', 'scheduled__2025-10-24T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dbt_snowflake_dag.py']
+2025-10-26 14:36:17,050 INFO - Executing command: ['airflow', 'tasks', 'run', 'dbt_snowflake_pipeline', 'dbt_run', 'scheduled__2025-10-24T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dbt_snowflake_dag.py']
+2025-10-26 14:36:19,105 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='dbt_snowflake_pipeline', task_id='dbt_run', run_id='scheduled__2025-10-24T00:00:00+00:00', try_number=3, map_index=-1)
+2025-10-26 14:36:19,109 INFO - TaskInstance Finished: dag_id=dbt_snowflake_pipeline, task_id=dbt_run, run_id=scheduled__2025-10-24T00:00:00+00:00, map_index=-1, run_start_date=2025-10-26 14:36:18.562696+00:00, run_end_date=2025-10-26 14:36:18.684767+00:00, run_duration=0.122071, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=3, max_tries=2, job_id=45, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2025-10-26 14:36:17.040459+00:00, queued_by_job_id=44, pid=7279
+2025-10-26 14:36:19,403 ERROR - Marking run <DagRun dbt_snowflake_pipeline @ 2025-10-24 00:00:00+00:00: scheduled__2025-10-24T00:00:00+00:00, state:running, queued_at: 2025-10-26 14:12:42.867018+00:00. externally triggered: False> failed
+2025-10-26 14:36:19,404 INFO - DagRun Finished: dag_id=dbt_snowflake_pipeline, execution_date=2025-10-24 00:00:00+00:00, run_id=scheduled__2025-10-24T00:00:00+00:00, run_start_date=2025-10-26 14:12:42.891543+00:00, run_end_date=2025-10-26 14:36:19.403954+00:00, run_duration=1416.512411, state=failed, external_trigger=False, run_type=scheduled, data_interval_start=2025-10-24 00:00:00+00:00, data_interval_end=2025-10-25 00:00:00+00:00, dag_hash=14bef7a35001e8f15b7eff94917e4bd8
+2025-10-26 14:36:19,407 INFO - Setting next_dagrun for dbt_snowflake_pipeline to 2025-10-25 00:00:00+00:00, run_after=2025-10-26 00:00:00+00:00
+2025-10-26 14:36:20,589 INFO - DAG dbt_snowflake_pipeline is at (or above) max_active_runs (1 of 1), not creating any more runs
+2025-10-26 14:36:20,625 INFO - 1 tasks up for execution:
+	<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-25T00:00:00+00:00 [scheduled]>
+2025-10-26 14:36:20,626 INFO - DAG dbt_snowflake_pipeline has 0/16 running and queued tasks
+2025-10-26 14:36:20,626 INFO - Setting the following tasks to queued state:
+	<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-25T00:00:00+00:00 [scheduled]>
+2025-10-26 14:36:20,627 INFO - Trying to enqueue tasks: [<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-25T00:00:00+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-10-26 14:36:20,628 INFO - Sending TaskInstanceKey(dag_id='dbt_snowflake_pipeline', task_id='dbt_run', run_id='scheduled__2025-10-25T00:00:00+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2025-10-26 14:36:20,628 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'dbt_snowflake_pipeline', 'dbt_run', 'scheduled__2025-10-25T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dbt_snowflake_dag.py']
+2025-10-26 14:36:20,635 INFO - Executing command: ['airflow', 'tasks', 'run', 'dbt_snowflake_pipeline', 'dbt_run', 'scheduled__2025-10-25T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dbt_snowflake_dag.py']
+2025-10-26 14:36:22,698 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='dbt_snowflake_pipeline', task_id='dbt_run', run_id='scheduled__2025-10-25T00:00:00+00:00', try_number=1, map_index=-1)
+2025-10-26 14:36:22,701 INFO - TaskInstance Finished: dag_id=dbt_snowflake_pipeline, task_id=dbt_run, run_id=scheduled__2025-10-25T00:00:00+00:00, map_index=-1, run_start_date=2025-10-26 14:36:22.127863+00:00, run_end_date=2025-10-26 14:36:22.292211+00:00, run_duration=0.164348, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=2, job_id=46, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2025-10-26 14:36:20.627089+00:00, queued_by_job_id=44, pid=7293
+2025-10-26 14:41:16,975 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-26 14:41:23,283 INFO - 1 tasks up for execution:
+	<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-25T00:00:00+00:00 [scheduled]>
+2025-10-26 14:41:23,284 INFO - DAG dbt_snowflake_pipeline has 0/16 running and queued tasks
+2025-10-26 14:41:23,284 INFO - Setting the following tasks to queued state:
+	<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-25T00:00:00+00:00 [scheduled]>
+2025-10-26 14:41:23,286 INFO - Trying to enqueue tasks: [<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-25T00:00:00+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-10-26 14:41:23,286 INFO - Sending TaskInstanceKey(dag_id='dbt_snowflake_pipeline', task_id='dbt_run', run_id='scheduled__2025-10-25T00:00:00+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2025-10-26 14:41:23,287 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'dbt_snowflake_pipeline', 'dbt_run', 'scheduled__2025-10-25T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dbt_snowflake_dag.py']
+2025-10-26 14:41:23,306 INFO - Executing command: ['airflow', 'tasks', 'run', 'dbt_snowflake_pipeline', 'dbt_run', 'scheduled__2025-10-25T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dbt_snowflake_dag.py']
+2025-10-26 14:41:25,494 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='dbt_snowflake_pipeline', task_id='dbt_run', run_id='scheduled__2025-10-25T00:00:00+00:00', try_number=2, map_index=-1)
+2025-10-26 14:41:25,497 INFO - TaskInstance Finished: dag_id=dbt_snowflake_pipeline, task_id=dbt_run, run_id=scheduled__2025-10-25T00:00:00+00:00, map_index=-1, run_start_date=2025-10-26 14:41:24.940626+00:00, run_end_date=2025-10-26 14:41:25.049041+00:00, run_duration=0.108415, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=2, job_id=47, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2025-10-26 14:41:23.285203+00:00, queued_by_job_id=44, pid=8534
+2025-10-26 14:46:17,262 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-26 14:46:25,567 INFO - 1 tasks up for execution:
+	<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-25T00:00:00+00:00 [scheduled]>
+2025-10-26 14:46:25,568 INFO - DAG dbt_snowflake_pipeline has 0/16 running and queued tasks
+2025-10-26 14:46:25,568 INFO - Setting the following tasks to queued state:
+	<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-25T00:00:00+00:00 [scheduled]>
+2025-10-26 14:46:25,576 INFO - Trying to enqueue tasks: [<TaskInstance: dbt_snowflake_pipeline.dbt_run scheduled__2025-10-25T00:00:00+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-10-26 14:46:25,576 INFO - Sending TaskInstanceKey(dag_id='dbt_snowflake_pipeline', task_id='dbt_run', run_id='scheduled__2025-10-25T00:00:00+00:00', try_number=3, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2025-10-26 14:46:25,577 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'dbt_snowflake_pipeline', 'dbt_run', 'scheduled__2025-10-25T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dbt_snowflake_dag.py']
+2025-10-26 14:46:25,599 INFO - Executing command: ['airflow', 'tasks', 'run', 'dbt_snowflake_pipeline', 'dbt_run', 'scheduled__2025-10-25T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dbt_snowflake_dag.py']
+2025-10-26 14:46:28,522 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='dbt_snowflake_pipeline', task_id='dbt_run', run_id='scheduled__2025-10-25T00:00:00+00:00', try_number=3, map_index=-1)
+2025-10-26 14:46:28,526 INFO - TaskInstance Finished: dag_id=dbt_snowflake_pipeline, task_id=dbt_run, run_id=scheduled__2025-10-25T00:00:00+00:00, map_index=-1, run_start_date=2025-10-26 14:46:27.798767+00:00, run_end_date=2025-10-26 14:46:27.979136+00:00, run_duration=0.180369, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=3, max_tries=2, job_id=49, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2025-10-26 14:46:25.572651+00:00, queued_by_job_id=44, pid=9386
+2025-10-26 14:51:17,880 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-26 14:56:18,054 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-26 15:01:18,089 INFO - Adopting or resetting orphaned tasks for active dag runs

@@ -1,0 +1,18 @@
+[0m11:54:05  Running with dbt=1.11.0-b3
+[0m11:54:06  Registered adapter: snowflake=1.10.2
+[0m11:54:06  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.taxi_driver_project.staging
+- models.taxi_driver_project.marts
+[0m11:54:07  Found 10 models, 24 data tests, 1 source, 493 macros
+[0m11:54:07  
+[0m11:54:07  Concurrency: 4 threads (target='dev')
+[0m11:54:07  
+[0m11:54:09  1 of 1 START sql table model TAXI.date_dim ..................................... [RUN]
+[0m11:54:15  1 of 1 OK created sql table model TAXI.date_dim ................................ [[32mSUCCESS 1[0m in 5.19s]
+[0m11:54:15  
+[0m11:54:15  Finished running 1 table model in 0 hours 0 minutes and 8.28 seconds (8.28s).
+[0m11:54:15  
+[0m11:54:15  [32mCompleted successfully[0m
+[0m11:54:15  
+[0m11:54:15  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1

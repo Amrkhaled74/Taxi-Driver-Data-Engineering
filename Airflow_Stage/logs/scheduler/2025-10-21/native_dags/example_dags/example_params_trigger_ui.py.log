@@ -1,0 +1,109 @@
+[2025-10-21T14:29:19.255+0000] {processor.py:161} INFO - Started process (PID=7552) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:29:19.256+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-10-21T14:29:19.257+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:19.257+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:29:19.264+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:29:19.517+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:19.516+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:example_params_trigger_ui
+[2025-10-21T14:29:19.531+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:19.531+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_params_trigger_ui
+[2025-10-21T14:29:19.555+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:19.554+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_params_trigger_ui
+[2025-10-21T14:29:19.555+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:19.555+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:29:19.566+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:19.566+0000] {dag.py:3111} INFO - Creating ORM DAG for example_params_trigger_ui
+[2025-10-21T14:29:19.568+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:19.567+0000] {dag.py:3947} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-10-21T14:29:19.610+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.364 seconds
+[2025-10-21T14:31:34.510+0000] {processor.py:161} INFO - Started process (PID=7781) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:31:34.522+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-10-21T14:31:34.527+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:31:34.526+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:31:34.542+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:31:34.584+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:31:34.584+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:31:34.595+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:31:34.595+0000] {dag.py:3947} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-10-21T14:31:34.626+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.127 seconds
+[2025-10-21T14:48:49.820+0000] {processor.py:161} INFO - Started process (PID=12369) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:48:49.822+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-10-21T14:48:49.823+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:49.823+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:48:49.830+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:48:49.855+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:49.855+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:48:49.863+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:49.863+0000] {dag.py:3947} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-10-21T14:48:49.881+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.066 seconds
+[2025-10-21T14:49:44.989+0000] {processor.py:161} INFO - Started process (PID=12626) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:49:44.990+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-10-21T14:49:44.991+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:49:44.991+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:49:44.998+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:49:45.022+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:49:45.022+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:49:45.030+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:49:45.030+0000] {dag.py:3947} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-10-21T14:49:45.051+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.066 seconds
+[2025-10-21T14:50:40.719+0000] {processor.py:161} INFO - Started process (PID=12957) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:50:40.720+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-10-21T14:50:40.721+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:50:40.721+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:50:40.729+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:50:40.755+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:50:40.754+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:50:40.763+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:50:40.763+0000] {dag.py:3947} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-10-21T14:50:40.795+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.086 seconds
+[2025-10-21T14:51:36.372+0000] {processor.py:161} INFO - Started process (PID=13251) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:51:36.375+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-10-21T14:51:36.378+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:51:36.377+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:51:36.387+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:51:36.430+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:51:36.430+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:51:36.442+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:51:36.442+0000] {dag.py:3947} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-10-21T14:51:36.517+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.150 seconds
+[2025-10-21T14:52:35.779+0000] {processor.py:161} INFO - Started process (PID=13488) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:52:35.783+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-10-21T14:52:35.785+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:52:35.785+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:52:35.794+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:52:35.851+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:52:35.845+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:52:35.866+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:52:35.865+0000] {dag.py:3947} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-10-21T14:52:35.903+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.129 seconds
+[2025-10-21T14:53:32.109+0000] {processor.py:161} INFO - Started process (PID=13984) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:53:32.110+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-10-21T14:53:32.112+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:53:32.112+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:53:32.120+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:53:32.150+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:53:32.150+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:53:32.165+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:53:32.164+0000] {dag.py:3947} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-10-21T14:53:32.205+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.101 seconds
+[2025-10-21T14:54:30.043+0000] {processor.py:161} INFO - Started process (PID=14207) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:54:30.044+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-10-21T14:54:30.045+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:54:30.045+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:54:30.053+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:54:30.074+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:54:30.074+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:54:30.081+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:54:30.081+0000] {dag.py:3947} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-10-21T14:54:30.115+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.076 seconds
+[2025-10-21T14:55:24.280+0000] {processor.py:161} INFO - Started process (PID=14436) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:55:24.282+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-10-21T14:55:24.283+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:24.283+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:55:24.291+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:55:24.322+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:24.321+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:55:24.335+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:24.335+0000] {dag.py:3947} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-10-21T14:55:24.371+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.097 seconds
+[2025-10-21T14:56:47.519+0000] {processor.py:161} INFO - Started process (PID=14685) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:56:47.520+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-10-21T14:56:47.522+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:56:47.521+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:56:47.529+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:56:47.563+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:56:47.562+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:56:47.583+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:56:47.583+0000] {dag.py:3947} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-10-21T14:56:47.621+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.107 seconds
+[2025-10-21T14:59:52.110+0000] {processor.py:161} INFO - Started process (PID=14820) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:59:52.111+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-10-21T14:59:52.112+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:59:52.112+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:59:52.121+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T14:59:52.147+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:59:52.146+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:59:52.154+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:59:52.154+0000] {dag.py:3947} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-10-21T14:59:52.174+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.069 seconds
+[2025-10-21T15:00:46.123+0000] {processor.py:161} INFO - Started process (PID=15021) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T15:00:46.135+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-10-21T15:00:46.154+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:00:46.154+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T15:00:46.199+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T15:00:46.230+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:00:46.230+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T15:00:46.241+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:00:46.240+0000] {dag.py:3947} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-10-21T15:00:46.267+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.178 seconds
+[2025-10-21T15:01:40.376+0000] {processor.py:161} INFO - Started process (PID=15240) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T15:01:40.377+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-10-21T15:01:40.378+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:01:40.378+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T15:01:40.387+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T15:01:40.409+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:01:40.409+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T15:01:40.416+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:01:40.416+0000] {dag.py:3947} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-10-21T15:01:40.448+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.079 seconds
+[2025-10-21T15:02:35.547+0000] {processor.py:161} INFO - Started process (PID=15379) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T15:02:35.558+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-10-21T15:02:35.562+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:02:35.561+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T15:02:35.583+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-10-21T15:02:35.633+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:02:35.632+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T15:02:35.644+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:02:35.644+0000] {dag.py:3947} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-10-21T15:02:35.674+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.137 seconds

@@ -1,0 +1,168 @@
+[2025-10-22T12:11:58.406+0000] {processor.py:161} INFO - Started process (PID=8141) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:11:58.406+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:11:58.413+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:11:58.412+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:11:58.436+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:11:58.449+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:11:58.449+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:11:58.521+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:11:58.521+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:08:00+00:00, run_after=2025-10-22 12:10:00+00:00
+[2025-10-22T12:11:58.609+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.221 seconds
+[2025-10-22T12:13:12.699+0000] {processor.py:161} INFO - Started process (PID=8904) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:13:12.717+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:13:12.725+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:13:12.724+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:13:12.738+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:13:12.846+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:13:12.846+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:13:12.869+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:13:12.869+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:10:00+00:00, run_after=2025-10-22 12:12:00+00:00
+[2025-10-22T12:13:12.912+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.231 seconds
+[2025-10-22T12:14:09.832+0000] {processor.py:161} INFO - Started process (PID=9304) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:14:09.856+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:14:09.876+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:14:09.870+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:14:09.916+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:14:10.038+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:14:10.037+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:14:10.086+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:14:10.085+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:12:00+00:00, run_after=2025-10-22 12:14:00+00:00
+[2025-10-22T12:14:10.156+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.331 seconds
+[2025-10-22T12:15:02.443+0000] {processor.py:161} INFO - Started process (PID=9478) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:15:02.445+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:15:02.447+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:15:02.446+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:15:02.454+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:15:02.469+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:15:02.469+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:15:02.513+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:15:02.512+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:12:00+00:00, run_after=2025-10-22 12:14:00+00:00
+[2025-10-22T12:15:02.557+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.119 seconds
+[2025-10-22T12:15:51.150+0000] {processor.py:161} INFO - Started process (PID=9627) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:15:51.151+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:15:51.153+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:15:51.152+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:15:51.159+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:15:51.174+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:15:51.174+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:15:51.192+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:15:51.192+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:12:00+00:00, run_after=2025-10-22 12:14:00+00:00
+[2025-10-22T12:15:51.221+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.075 seconds
+[2025-10-22T12:16:44.150+0000] {processor.py:161} INFO - Started process (PID=9782) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:16:44.151+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:16:44.153+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:16:44.153+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:16:44.164+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:16:44.187+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:16:44.187+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:16:44.203+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:16:44.203+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:14:00+00:00, run_after=2025-10-22 12:16:00+00:00
+[2025-10-22T12:16:44.238+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.093 seconds
+[2025-10-22T12:17:32.725+0000] {processor.py:161} INFO - Started process (PID=9858) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:17:32.727+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:17:32.729+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:17:32.728+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:17:32.736+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:17:32.750+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:17:32.750+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:17:32.768+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:17:32.768+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:14:00+00:00, run_after=2025-10-22 12:16:00+00:00
+[2025-10-22T12:17:32.789+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.069 seconds
+[2025-10-22T12:18:23.791+0000] {processor.py:161} INFO - Started process (PID=10255) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:18:23.793+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:18:23.794+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:18:23.794+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:18:23.800+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:18:23.811+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:18:23.811+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:18:23.827+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:18:23.826+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:16:00+00:00, run_after=2025-10-22 12:18:00+00:00
+[2025-10-22T12:18:23.845+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.060 seconds
+[2025-10-22T12:19:20.690+0000] {processor.py:161} INFO - Started process (PID=10357) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:19:20.692+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:19:20.693+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:19:20.693+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:19:20.701+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:19:20.713+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:19:20.713+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:19:20.725+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:19:20.725+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:16:00+00:00, run_after=2025-10-22 12:18:00+00:00
+[2025-10-22T12:19:20.774+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.088 seconds
+[2025-10-22T12:22:27.448+0000] {processor.py:161} INFO - Started process (PID=10640) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:22:27.459+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:22:27.461+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:22:27.461+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:22:27.469+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:22:27.481+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:22:27.481+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:22:27.502+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:22:27.502+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:20:00+00:00, run_after=2025-10-22 12:22:00+00:00
+[2025-10-22T12:22:27.523+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.080 seconds
+[2025-10-22T12:23:25.040+0000] {processor.py:161} INFO - Started process (PID=11121) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:23:25.051+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:23:25.053+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:23:25.052+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:23:25.059+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:23:25.072+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:23:25.072+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:23:25.087+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:23:25.087+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:20:00+00:00, run_after=2025-10-22 12:22:00+00:00
+[2025-10-22T12:23:25.107+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.071 seconds
+[2025-10-22T12:24:21.226+0000] {processor.py:161} INFO - Started process (PID=11255) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:24:21.228+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:24:21.229+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:24:21.229+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:24:21.235+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:24:21.247+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:24:21.247+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:24:21.260+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:24:21.260+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:22:00+00:00, run_after=2025-10-22 12:24:00+00:00
+[2025-10-22T12:24:21.293+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.072 seconds
+[2025-10-22T12:25:13.661+0000] {processor.py:161} INFO - Started process (PID=11394) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:25:13.663+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:25:13.664+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:25:13.664+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:25:13.674+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:25:13.691+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:25:13.691+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:25:13.709+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:25:13.709+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:22:00+00:00, run_after=2025-10-22 12:24:00+00:00
+[2025-10-22T12:25:13.767+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.110 seconds
+[2025-10-22T12:26:07.688+0000] {processor.py:161} INFO - Started process (PID=11487) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:26:07.690+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:26:07.693+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:26:07.693+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:26:07.699+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:26:07.711+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:26:07.710+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:26:07.724+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:26:07.724+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:24:00+00:00, run_after=2025-10-22 12:26:00+00:00
+[2025-10-22T12:26:07.748+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.066 seconds
+[2025-10-22T12:27:04.339+0000] {processor.py:161} INFO - Started process (PID=11767) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:27:04.340+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:27:04.341+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:27:04.341+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:27:04.351+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:27:04.367+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:27:04.367+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:27:04.391+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:27:04.391+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:24:00+00:00, run_after=2025-10-22 12:26:00+00:00
+[2025-10-22T12:27:04.419+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.091 seconds
+[2025-10-22T12:28:19.515+0000] {processor.py:161} INFO - Started process (PID=12115) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:28:19.516+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:28:19.518+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:28:19.517+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:28:19.531+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:28:19.553+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:28:19.552+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:28:19.579+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:28:19.578+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:26:00+00:00, run_after=2025-10-22 12:28:00+00:00
+[2025-10-22T12:28:19.621+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.114 seconds
+[2025-10-22T12:29:14.696+0000] {processor.py:161} INFO - Started process (PID=12409) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:29:14.706+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:29:14.708+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:29:14.707+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:29:14.714+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:29:14.726+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:29:14.726+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:29:14.745+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:29:14.745+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:26:00+00:00, run_after=2025-10-22 12:28:00+00:00
+[2025-10-22T12:29:14.763+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.073 seconds
+[2025-10-22T12:30:11.712+0000] {processor.py:161} INFO - Started process (PID=12513) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:30:11.723+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:30:11.725+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:30:11.724+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:30:11.733+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:30:11.747+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:30:11.747+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:30:11.762+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:30:11.762+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:28:00+00:00, run_after=2025-10-22 12:30:00+00:00
+[2025-10-22T12:30:11.783+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.078 seconds
+[2025-10-22T12:31:00.999+0000] {processor.py:161} INFO - Started process (PID=12572) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:31:01.001+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:31:01.002+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:31:01.002+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:31:01.010+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:31:01.021+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:31:01.020+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:31:01.039+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:31:01.039+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:28:00+00:00, run_after=2025-10-22 12:30:00+00:00
+[2025-10-22T12:31:01.060+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.067 seconds
+[2025-10-22T12:31:52.525+0000] {processor.py:161} INFO - Started process (PID=12652) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:31:52.526+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:31:52.528+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:31:52.528+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:31:52.536+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:31:52.553+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:31:52.552+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:31:52.573+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:31:52.573+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:28:00+00:00, run_after=2025-10-22 12:30:00+00:00
+[2025-10-22T12:31:52.617+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.099 seconds
+[2025-10-22T12:36:15.952+0000] {processor.py:161} INFO - Started process (PID=12925) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:36:15.956+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:36:15.958+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:36:15.957+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:36:15.969+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:36:15.995+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:36:15.994+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:36:16.021+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:36:16.021+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:34:00+00:00, run_after=2025-10-22 12:36:00+00:00
+[2025-10-22T12:36:16.056+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.113 seconds
+[2025-10-22T12:37:52.392+0000] {processor.py:161} INFO - Started process (PID=13208) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:37:52.394+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:37:52.395+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:37:52.395+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:37:52.401+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:37:52.415+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:37:52.414+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:37:52.530+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:37:52.530+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:34:00+00:00, run_after=2025-10-22 12:36:00+00:00
+[2025-10-22T12:37:52.553+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.167 seconds
+[2025-10-22T12:39:03.781+0000] {processor.py:161} INFO - Started process (PID=13271) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:39:03.793+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:39:03.796+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:39:03.795+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:39:03.804+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:39:03.816+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:39:03.816+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:39:03.830+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:39:03.830+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:36:00+00:00, run_after=2025-10-22 12:38:00+00:00
+[2025-10-22T12:39:03.959+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.183 seconds
+[2025-10-22T12:40:26.072+0000] {processor.py:161} INFO - Started process (PID=13352) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:40:26.076+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-10-22T12:40:26.078+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:40:26.078+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:40:26.085+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-10-22T12:40:26.101+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:40:26.101+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-22T12:40:26.117+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:40:26.117+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-10-22 12:38:00+00:00, run_after=2025-10-22 12:40:00+00:00
+[2025-10-22T12:40:26.144+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.089 seconds

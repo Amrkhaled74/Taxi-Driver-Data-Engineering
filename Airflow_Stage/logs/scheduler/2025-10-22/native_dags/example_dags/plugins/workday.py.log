@@ -1,0 +1,175 @@
+[2025-10-22T12:11:39.074+0000] {processor.py:161} INFO - Started process (PID=7930) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:11:39.075+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:11:39.077+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:11:39.077+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:11:39.079+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:11:39.079+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:11:39.079+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:11:39.096+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.026 seconds
+[2025-10-22T12:12:51.801+0000] {processor.py:161} INFO - Started process (PID=8673) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:12:51.817+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:12:51.820+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:12:51.819+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:12:51.823+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:12:51.823+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:12:51.823+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:12:51.834+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.040 seconds
+[2025-10-22T12:13:37.608+0000] {processor.py:161} INFO - Started process (PID=9137) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:13:37.609+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:13:37.611+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:13:37.611+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:13:37.613+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:13:37.613+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:13:37.614+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:13:37.624+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.022 seconds
+[2025-10-22T12:14:33.014+0000] {processor.py:161} INFO - Started process (PID=9329) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:14:33.027+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:14:33.034+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:14:33.031+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:14:33.041+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:14:33.041+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:14:33.041+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:14:33.069+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.065 seconds
+[2025-10-22T12:15:22.937+0000] {processor.py:161} INFO - Started process (PID=9505) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:15:22.942+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:15:22.948+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:15:22.947+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:15:22.951+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:15:22.951+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:15:22.951+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:15:22.970+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.040 seconds
+[2025-10-22T12:16:13.716+0000] {processor.py:161} INFO - Started process (PID=9653) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:16:13.717+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:16:13.718+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:16:13.718+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:16:13.720+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:16:13.720+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:16:13.720+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:16:13.728+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2025-10-22T12:17:04.734+0000] {processor.py:161} INFO - Started process (PID=9810) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:17:04.735+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:17:04.737+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:17:04.737+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:17:04.739+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:17:04.739+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:17:04.740+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:17:04.747+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2025-10-22T12:18:04.520+0000] {processor.py:161} INFO - Started process (PID=10220) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:18:04.521+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:18:04.523+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:18:04.522+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:18:04.525+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:18:04.524+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:18:04.525+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:18:04.532+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.021 seconds
+[2025-10-22T12:18:11.457+0000] {processor.py:161} INFO - Started process (PID=10233) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:18:11.459+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:18:11.461+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:18:11.461+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:18:11.464+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:18:11.464+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:18:11.464+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:18:11.479+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.031 seconds
+[2025-10-22T12:19:02.324+0000] {processor.py:161} INFO - Started process (PID=10327) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:19:02.325+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:19:02.327+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:19:02.326+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:19:02.329+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:19:02.329+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:19:02.329+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:19:02.337+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2025-10-22T12:22:07.882+0000] {processor.py:161} INFO - Started process (PID=10566) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:22:07.895+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:22:07.896+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:22:07.896+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:22:07.898+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:22:07.898+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:22:07.898+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:22:07.924+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.045 seconds
+[2025-10-22T12:23:06.611+0000] {processor.py:161} INFO - Started process (PID=10802) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:23:06.621+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:23:06.623+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:23:06.622+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:23:06.625+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:23:06.625+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:23:06.625+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:23:06.633+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.027 seconds
+[2025-10-22T12:24:02.793+0000] {processor.py:161} INFO - Started process (PID=11224) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:24:02.805+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:24:02.806+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:24:02.806+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:24:02.808+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:24:02.808+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:24:02.809+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:24:02.820+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.035 seconds
+[2025-10-22T12:24:54.927+0000] {processor.py:161} INFO - Started process (PID=11373) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:24:54.929+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:24:54.930+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:24:54.930+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:24:54.932+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:24:54.932+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:24:54.932+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:24:54.943+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.022 seconds
+[2025-10-22T12:25:50.598+0000] {processor.py:161} INFO - Started process (PID=11439) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:25:50.599+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:25:50.600+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:25:50.600+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:25:50.602+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:25:50.602+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:25:50.603+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:25:50.617+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.024 seconds
+[2025-10-22T12:26:45.947+0000] {processor.py:161} INFO - Started process (PID=11687) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:26:45.958+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:26:45.959+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:26:45.959+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:26:45.961+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:26:45.961+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:26:45.961+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:26:45.969+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.027 seconds
+[2025-10-22T12:27:25.676+0000] {processor.py:161} INFO - Started process (PID=11913) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:27:25.678+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:27:25.680+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:27:25.680+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:27:25.688+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:27:25.687+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:27:25.688+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:27:25.702+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.037 seconds
+[2025-10-22T12:28:01.657+0000] {processor.py:161} INFO - Started process (PID=12096) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:28:01.660+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:28:01.662+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:28:01.661+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:28:01.670+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:28:01.669+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:28:01.671+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:28:01.689+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.040 seconds
+[2025-10-22T12:28:58.046+0000] {processor.py:161} INFO - Started process (PID=12323) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:28:58.058+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:28:58.060+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:28:58.059+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:28:58.062+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:28:58.062+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:28:58.062+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:28:58.070+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.031 seconds
+[2025-10-22T12:29:54.440+0000] {processor.py:161} INFO - Started process (PID=12491) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:29:54.451+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:29:54.452+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:29:54.452+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:29:54.455+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:29:54.454+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:29:54.455+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:29:54.462+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.028 seconds
+[2025-10-22T12:30:43.548+0000] {processor.py:161} INFO - Started process (PID=12555) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:30:43.549+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:30:43.550+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:30:43.550+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:30:43.553+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:30:43.553+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:30:43.553+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:30:43.561+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.021 seconds
+[2025-10-22T12:31:36.307+0000] {processor.py:161} INFO - Started process (PID=12627) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:31:36.308+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:31:36.310+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:31:36.310+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:31:36.312+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:31:36.312+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:31:36.312+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:31:36.321+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.021 seconds
+[2025-10-22T12:32:22.873+0000] {processor.py:161} INFO - Started process (PID=12810) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:32:22.874+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:32:22.876+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:32:22.876+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:32:22.879+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:32:22.879+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:32:22.879+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:32:22.890+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.023 seconds
+[2025-10-22T12:34:57.222+0000] {processor.py:161} INFO - Started process (PID=12879) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:34:57.226+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:34:57.234+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:34:57.233+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:34:57.241+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:34:57.241+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:34:57.242+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:34:57.273+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.068 seconds
+[2025-10-22T12:37:31.055+0000] {processor.py:161} INFO - Started process (PID=13188) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:37:31.057+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:37:31.059+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:37:31.059+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:37:31.062+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:37:31.062+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:37:31.063+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:37:31.072+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.024 seconds
+[2025-10-22T12:38:16.578+0000] {processor.py:161} INFO - Started process (PID=13229) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:38:16.580+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:38:16.581+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:38:16.581+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:38:16.590+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:38:16.589+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:38:16.591+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:38:16.601+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.030 seconds
+[2025-10-22T12:38:52.774+0000] {processor.py:161} INFO - Started process (PID=13262) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:38:52.776+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:38:52.779+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:38:52.778+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:38:52.783+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:38:52.783+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:38:52.783+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:38:52.791+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.023 seconds
+[2025-10-22T12:39:28.843+0000] {processor.py:161} INFO - Started process (PID=13294) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:39:28.844+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:39:28.846+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:39:28.846+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:39:28.849+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:39:28.849+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:39:28.850+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:39:28.861+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.024 seconds
+[2025-10-22T12:40:10.350+0000] {processor.py:161} INFO - Started process (PID=13328) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:40:10.351+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-10-22T12:40:10.353+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:40:10.353+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:40:10.356+0000] {logging_mixin.py:188} INFO - [2025-10-22T12:40:10.355+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-22T12:40:10.356+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-10-22T12:40:10.365+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.022 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

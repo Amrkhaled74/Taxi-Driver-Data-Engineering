@@ -1,0 +1,9 @@
+version: 2
+sources:
+- name: SOURCE
+  database: taxi_driver_db
+  schema: taxi
+  tables:
+    - name: SOURCE_DATA
+ 
+        

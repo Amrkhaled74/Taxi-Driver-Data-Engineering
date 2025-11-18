@@ -1,0 +1,29 @@
+[2025-10-26T18:36:55.884+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-10-26T18:36:55.895+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_full_pipeline_dag.run_taxi_fact_model manual__2025-10-26T18:36:46.500470+00:00 [queued]>
+[2025-10-26T18:36:55.903+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_full_pipeline_dag.run_taxi_fact_model manual__2025-10-26T18:36:46.500470+00:00 [queued]>
+[2025-10-26T18:36:55.903+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-10-26T18:36:55.956+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): run_taxi_fact_model> on 2025-10-26 18:36:46.500470+00:00
+[2025-10-26T18:36:55.971+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_full_pipeline_dag', 'run_taxi_fact_model', 'manual__2025-10-26T18:36:46.500470+00:00', '--job-id', '55', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/tmp/tmp5r4c8k7g']
+[2025-10-26T18:36:55.974+0000] {standard_task_runner.py:105} INFO - Job 55: Subtask run_taxi_fact_model
+[2025-10-26T18:36:55.975+0000] {logging_mixin.py:190} WARNING - /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=5056) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-26T18:36:55.975+0000] {standard_task_runner.py:72} INFO - Started process 5079 to run task
+[2025-10-26T18:36:56.027+0000] {task_command.py:467} INFO - Running <TaskInstance: dbt_full_pipeline_dag.run_taxi_fact_model manual__2025-10-26T18:36:46.500470+00:00 [running]> on host ubun
+[2025-10-26T18:36:56.080+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='khaled' AIRFLOW_CTX_DAG_ID='dbt_full_pipeline_dag' AIRFLOW_CTX_TASK_ID='run_taxi_fact_model' AIRFLOW_CTX_EXECUTION_DATE='2025-10-26T18:36:46.500470+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-26T18:36:46.500470+00:00'
+[2025-10-26T18:36:56.082+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-10-26T18:36:56.082+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-10-26T18:36:56.082+0000] {logging_mixin.py:190} INFO - Current task name:run_taxi_fact_model state:running start_date:2025-10-26 18:36:55.895853+00:00
+[2025-10-26T18:36:56.082+0000] {logging_mixin.py:190} INFO - Dag name:dbt_full_pipeline_dag and current dag run status:running
+[2025-10-26T18:36:56.083+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-10-26T18:36:56.084+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-10-26T18:36:56.085+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n        set -e\n        source /home/khaled/dbt-env/bin/activate &&         cd /home/khaled/fat/taxi_driver_project &&         dbt run --select example.marts.taxi_fact >> /home/khaled/fat/logs/taxi_fact.log 2>&1\n        ']
+[2025-10-26T18:36:56.093+0000] {subprocess.py:86} INFO - Output:
+[2025-10-26T18:37:15.171+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-10-26T18:37:15.190+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-10-26T18:37:15.190+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=dbt_full_pipeline_dag, task_id=run_taxi_fact_model, run_id=manual__2025-10-26T18:36:46.500470+00:00, execution_date=20251026T183646, start_date=20251026T183655, end_date=20251026T183715
+[2025-10-26T18:37:15.202+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-10-26T18:37:15.202+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-10-26T18:37:15.202+0000] {logging_mixin.py:190} INFO - Dag name:dbt_full_pipeline_dag queued_at:2025-10-26 18:36:46.515754+00:00
+[2025-10-26T18:37:15.202+0000] {logging_mixin.py:190} INFO - Task hostname:ubun operator:BashOperator
+[2025-10-26T18:37:15.230+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-10-26T18:37:15.240+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-10-26T18:37:15.248+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,109 @@
+[2025-10-21T14:29:23.902+0000] {processor.py:161} INFO - Started process (PID=7586) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:29:23.904+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-10-21T14:29:23.906+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:23.906+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:29:23.921+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:29:24.206+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:24.205+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:example_nested_branch_dag
+[2025-10-21T14:29:24.232+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:24.232+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_nested_branch_dag
+[2025-10-21T14:29:24.250+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:24.250+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_nested_branch_dag
+[2025-10-21T14:29:24.251+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:24.251+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:29:24.261+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:24.261+0000] {dag.py:3111} INFO - Creating ORM DAG for example_nested_branch_dag
+[2025-10-21T14:29:24.267+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:29:24.267+0000] {dag.py:3947} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:29:24.326+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.455 seconds
+[2025-10-21T14:31:35.761+0000] {processor.py:161} INFO - Started process (PID=7782) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:31:35.769+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-10-21T14:31:35.770+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:31:35.770+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:31:35.784+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:31:35.858+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:31:35.858+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:31:36.019+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:31:36.019+0000] {dag.py:3947} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:31:36.060+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.312 seconds
+[2025-10-21T14:48:51.107+0000] {processor.py:161} INFO - Started process (PID=12370) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:48:51.109+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-10-21T14:48:51.110+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:51.110+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:48:51.117+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:48:51.132+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:51.132+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:48:51.145+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:51.145+0000] {dag.py:3947} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:48:51.165+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.064 seconds
+[2025-10-21T14:49:46.203+0000] {processor.py:161} INFO - Started process (PID=12627) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:49:46.205+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-10-21T14:49:46.208+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:49:46.207+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:49:46.240+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:49:46.283+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:49:46.282+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:49:46.318+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:49:46.317+0000] {dag.py:3947} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:49:46.384+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.202 seconds
+[2025-10-21T14:50:41.859+0000] {processor.py:161} INFO - Started process (PID=12958) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:50:41.860+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-10-21T14:50:41.861+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:50:41.861+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:50:41.869+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:50:41.884+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:50:41.884+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:50:41.904+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:50:41.903+0000] {dag.py:3947} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:50:41.930+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.075 seconds
+[2025-10-21T14:51:37.628+0000] {processor.py:161} INFO - Started process (PID=13253) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:51:37.630+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-10-21T14:51:37.631+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:51:37.631+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:51:37.638+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:51:37.649+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:51:37.649+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:51:37.661+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:51:37.661+0000] {dag.py:3947} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:51:37.691+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.069 seconds
+[2025-10-21T14:52:37.050+0000] {processor.py:161} INFO - Started process (PID=13489) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:52:37.052+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-10-21T14:52:37.054+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:52:37.054+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:52:37.065+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:52:37.085+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:52:37.085+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:52:37.104+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:52:37.104+0000] {dag.py:3947} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:52:37.130+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.093 seconds
+[2025-10-21T14:53:32.736+0000] {processor.py:161} INFO - Started process (PID=13985) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:53:32.743+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-10-21T14:53:32.752+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:53:32.751+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:53:32.773+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:53:32.826+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:53:32.826+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:53:32.847+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:53:32.847+0000] {dag.py:3947} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:53:32.882+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.157 seconds
+[2025-10-21T14:54:31.194+0000] {processor.py:161} INFO - Started process (PID=14218) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:54:31.195+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-10-21T14:54:31.196+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:54:31.196+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:54:31.203+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:54:31.214+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:54:31.214+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:54:31.227+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:54:31.227+0000] {dag.py:3947} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:54:31.258+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.068 seconds
+[2025-10-21T14:55:25.540+0000] {processor.py:161} INFO - Started process (PID=14456) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:55:25.542+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-10-21T14:55:25.544+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:25.543+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:55:25.554+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:55:25.569+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:25.568+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:55:25.583+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:25.583+0000] {dag.py:3947} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:55:25.603+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.070 seconds
+[2025-10-21T14:56:48.778+0000] {processor.py:161} INFO - Started process (PID=14686) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:56:48.780+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-10-21T14:56:48.781+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:56:48.781+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:56:48.790+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:56:48.809+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:56:48.809+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:56:48.823+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:56:48.823+0000] {dag.py:3947} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:56:48.844+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.070 seconds
+[2025-10-21T14:59:52.644+0000] {processor.py:161} INFO - Started process (PID=14821) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:59:52.645+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-10-21T14:59:52.646+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:59:52.646+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:59:52.654+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T14:59:52.666+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:59:52.666+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:59:52.678+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:59:52.678+0000] {dag.py:3947} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T14:59:52.711+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.072 seconds
+[2025-10-21T15:00:47.395+0000] {processor.py:161} INFO - Started process (PID=15022) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T15:00:47.396+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-10-21T15:00:47.398+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:00:47.398+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T15:00:47.405+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T15:00:47.416+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:00:47.416+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T15:00:47.430+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:00:47.430+0000] {dag.py:3947} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T15:00:47.467+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.076 seconds
+[2025-10-21T15:01:41.520+0000] {processor.py:161} INFO - Started process (PID=15251) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T15:01:41.521+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-10-21T15:01:41.526+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:01:41.525+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T15:01:41.539+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T15:01:41.551+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:01:41.551+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T15:01:41.565+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:01:41.565+0000] {dag.py:3947} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T15:01:41.599+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.084 seconds
+[2025-10-21T15:02:36.790+0000] {processor.py:161} INFO - Started process (PID=15387) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T15:02:36.792+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2025-10-21T15:02:36.794+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:02:36.793+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T15:02:36.814+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2025-10-21T15:02:36.836+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:02:36.836+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T15:02:36.853+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:02:36.852+0000] {dag.py:3947} INFO - Setting next_dagrun for example_nested_branch_dag to 2025-10-20 00:00:00+00:00, run_after=2025-10-21 00:00:00+00:00
+[2025-10-21T15:02:36.873+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.096 seconds

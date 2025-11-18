@@ -1,0 +1,151 @@
+[2025-10-21T14:48:12.787+0000] {processor.py:161} INFO - Started process (PID=11971) to work on /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:48:12.788+0000] {processor.py:830} INFO - Processing file /home/khaled/airflow/dags/dbt_passenger_dag.py for tasks to queue
+[2025-10-21T14:48:12.789+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:12.789+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:48:12.798+0000] {processor.py:840} INFO - DAG(s) 'dbt_passenger_count_dag' retrieved from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:48:12.901+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:12.900+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:dbt_passenger_count_dag
+[2025-10-21T14:48:12.913+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:12.912+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:dbt_passenger_count_dag
+[2025-10-21T14:48:12.923+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:12.923+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:dbt_passenger_count_dag
+[2025-10-21T14:48:12.923+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:12.923+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:48:12.930+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:12.930+0000] {dag.py:3111} INFO - Creating ORM DAG for dbt_passenger_count_dag
+[2025-10-21T14:48:12.930+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:12.930+0000] {dag.py:3947} INFO - Setting next_dagrun for dbt_passenger_count_dag to None, run_after=None
+[2025-10-21T14:48:12.949+0000] {processor.py:183} INFO - Processing /home/khaled/airflow/dags/dbt_passenger_dag.py took 0.168 seconds
+[2025-10-21T14:48:26.717+0000] {processor.py:161} INFO - Started process (PID=12085) to work on /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:48:26.718+0000] {processor.py:830} INFO - Processing file /home/khaled/airflow/dags/dbt_passenger_dag.py for tasks to queue
+[2025-10-21T14:48:26.719+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:26.719+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:48:26.730+0000] {processor.py:840} INFO - DAG(s) 'dbt_passenger_count_dag' retrieved from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:48:26.737+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:26.736+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:48:26.748+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:48:26.748+0000] {dag.py:3947} INFO - Setting next_dagrun for dbt_passenger_count_dag to None, run_after=None
+[2025-10-21T14:48:26.767+0000] {processor.py:183} INFO - Processing /home/khaled/airflow/dags/dbt_passenger_dag.py took 0.056 seconds
+[2025-10-21T14:49:12.669+0000] {processor.py:161} INFO - Started process (PID=12402) to work on /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:49:12.670+0000] {processor.py:830} INFO - Processing file /home/khaled/airflow/dags/dbt_passenger_dag.py for tasks to queue
+[2025-10-21T14:49:12.672+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:49:12.672+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:49:12.677+0000] {processor.py:840} INFO - DAG(s) 'dbt_passenger_count_dag' retrieved from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:49:12.690+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:49:12.690+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:49:12.699+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:49:12.699+0000] {dag.py:3947} INFO - Setting next_dagrun for dbt_passenger_count_dag to None, run_after=None
+[2025-10-21T14:49:12.732+0000] {processor.py:183} INFO - Processing /home/khaled/airflow/dags/dbt_passenger_dag.py took 0.067 seconds
+[2025-10-21T14:50:05.337+0000] {processor.py:161} INFO - Started process (PID=12735) to work on /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:50:05.338+0000] {processor.py:830} INFO - Processing file /home/khaled/airflow/dags/dbt_passenger_dag.py for tasks to queue
+[2025-10-21T14:50:05.340+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:50:05.340+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:50:05.344+0000] {processor.py:840} INFO - DAG(s) 'dbt_passenger_count_dag' retrieved from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:50:05.356+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:50:05.356+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:50:05.366+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:50:05.366+0000] {dag.py:3947} INFO - Setting next_dagrun for dbt_passenger_count_dag to None, run_after=None
+[2025-10-21T14:50:05.387+0000] {processor.py:183} INFO - Processing /home/khaled/airflow/dags/dbt_passenger_dag.py took 0.056 seconds
+[2025-10-21T14:50:56.161+0000] {processor.py:161} INFO - Started process (PID=12982) to work on /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:50:56.163+0000] {processor.py:830} INFO - Processing file /home/khaled/airflow/dags/dbt_passenger_dag.py for tasks to queue
+[2025-10-21T14:50:56.164+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:50:56.164+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:50:56.170+0000] {processor.py:840} INFO - DAG(s) 'dbt_passenger_count_dag' retrieved from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:50:56.181+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:50:56.181+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:50:56.189+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:50:56.189+0000] {dag.py:3947} INFO - Setting next_dagrun for dbt_passenger_count_dag to None, run_after=None
+[2025-10-21T14:50:56.222+0000] {processor.py:183} INFO - Processing /home/khaled/airflow/dags/dbt_passenger_dag.py took 0.065 seconds
+[2025-10-21T14:51:26.197+0000] {processor.py:161} INFO - Started process (PID=13234) to work on /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:51:26.198+0000] {processor.py:830} INFO - Processing file /home/khaled/airflow/dags/dbt_passenger_dag.py for tasks to queue
+[2025-10-21T14:51:26.199+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:51:26.199+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:51:26.204+0000] {processor.py:840} INFO - DAG(s) 'dbt_passenger_count_dag' retrieved from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:51:26.215+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:51:26.215+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:51:26.223+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:51:26.223+0000] {dag.py:3947} INFO - Setting next_dagrun for dbt_passenger_count_dag to None, run_after=None
+[2025-10-21T14:51:26.259+0000] {processor.py:183} INFO - Processing /home/khaled/airflow/dags/dbt_passenger_dag.py took 0.065 seconds
+[2025-10-21T14:52:02.034+0000] {processor.py:161} INFO - Started process (PID=13303) to work on /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:52:02.036+0000] {processor.py:830} INFO - Processing file /home/khaled/airflow/dags/dbt_passenger_dag.py for tasks to queue
+[2025-10-21T14:52:02.037+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:52:02.037+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:52:02.045+0000] {processor.py:840} INFO - DAG(s) 'dbt_passenger_count_dag' retrieved from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:52:02.062+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:52:02.062+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:52:02.070+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:52:02.070+0000] {dag.py:3947} INFO - Setting next_dagrun for dbt_passenger_count_dag to None, run_after=None
+[2025-10-21T14:52:02.087+0000] {processor.py:183} INFO - Processing /home/khaled/airflow/dags/dbt_passenger_dag.py took 0.058 seconds
+[2025-10-21T14:52:24.263+0000] {processor.py:161} INFO - Started process (PID=13474) to work on /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:52:24.264+0000] {processor.py:830} INFO - Processing file /home/khaled/airflow/dags/dbt_passenger_dag.py for tasks to queue
+[2025-10-21T14:52:24.266+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:52:24.265+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:52:24.270+0000] {processor.py:840} INFO - DAG(s) 'dbt_passenger_count_dag' retrieved from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:52:24.282+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:52:24.282+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:52:24.290+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:52:24.290+0000] {dag.py:3947} INFO - Setting next_dagrun for dbt_passenger_count_dag to None, run_after=None
+[2025-10-21T14:52:24.310+0000] {processor.py:183} INFO - Processing /home/khaled/airflow/dags/dbt_passenger_dag.py took 0.052 seconds
+[2025-10-21T14:53:20.837+0000] {processor.py:161} INFO - Started process (PID=13862) to work on /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:53:20.838+0000] {processor.py:830} INFO - Processing file /home/khaled/airflow/dags/dbt_passenger_dag.py for tasks to queue
+[2025-10-21T14:53:20.840+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:53:20.839+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:53:20.844+0000] {processor.py:840} INFO - DAG(s) 'dbt_passenger_count_dag' retrieved from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:53:20.855+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:53:20.855+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:53:20.866+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:53:20.866+0000] {dag.py:3947} INFO - Setting next_dagrun for dbt_passenger_count_dag to None, run_after=None
+[2025-10-21T14:53:20.906+0000] {processor.py:183} INFO - Processing /home/khaled/airflow/dags/dbt_passenger_dag.py took 0.073 seconds
+[2025-10-21T14:53:48.120+0000] {processor.py:161} INFO - Started process (PID=14044) to work on /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:53:48.121+0000] {processor.py:830} INFO - Processing file /home/khaled/airflow/dags/dbt_passenger_dag.py for tasks to queue
+[2025-10-21T14:53:48.122+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:53:48.122+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:53:48.127+0000] {processor.py:840} INFO - DAG(s) 'dbt_passenger_count_dag' retrieved from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:53:48.138+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:53:48.138+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:53:48.148+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:53:48.148+0000] {dag.py:3947} INFO - Setting next_dagrun for dbt_passenger_count_dag to None, run_after=None
+[2025-10-21T14:53:48.180+0000] {processor.py:183} INFO - Processing /home/khaled/airflow/dags/dbt_passenger_dag.py took 0.065 seconds
+[2025-10-21T14:54:18.475+0000] {processor.py:161} INFO - Started process (PID=14157) to work on /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:54:18.477+0000] {processor.py:830} INFO - Processing file /home/khaled/airflow/dags/dbt_passenger_dag.py for tasks to queue
+[2025-10-21T14:54:18.478+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:54:18.478+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:54:18.482+0000] {processor.py:840} INFO - DAG(s) 'dbt_passenger_count_dag' retrieved from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:54:18.494+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:54:18.494+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:54:18.503+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:54:18.503+0000] {dag.py:3947} INFO - Setting next_dagrun for dbt_passenger_count_dag to None, run_after=None
+[2025-10-21T14:54:18.535+0000] {processor.py:183} INFO - Processing /home/khaled/airflow/dags/dbt_passenger_dag.py took 0.066 seconds
+[2025-10-21T14:55:13.263+0000] {processor.py:161} INFO - Started process (PID=14369) to work on /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:55:13.272+0000] {processor.py:830} INFO - Processing file /home/khaled/airflow/dags/dbt_passenger_dag.py for tasks to queue
+[2025-10-21T14:55:13.274+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:13.273+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:55:13.278+0000] {processor.py:840} INFO - DAG(s) 'dbt_passenger_count_dag' retrieved from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:55:13.289+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:13.289+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:55:13.299+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:13.299+0000] {dag.py:3947} INFO - Setting next_dagrun for dbt_passenger_count_dag to None, run_after=None
+[2025-10-21T14:55:13.319+0000] {processor.py:183} INFO - Processing /home/khaled/airflow/dags/dbt_passenger_dag.py took 0.064 seconds
+[2025-10-21T14:55:17.345+0000] {processor.py:161} INFO - Started process (PID=14382) to work on /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:55:17.346+0000] {processor.py:830} INFO - Processing file /home/khaled/airflow/dags/dbt_passenger_dag.py for tasks to queue
+[2025-10-21T14:55:17.348+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:17.347+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:55:17.360+0000] {processor.py:840} INFO - DAG(s) 'dbt_passenger_count_dag' retrieved from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:55:17.377+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:17.377+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:55:17.385+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:17.385+0000] {dag.py:3947} INFO - Setting next_dagrun for dbt_passenger_count_dag to None, run_after=None
+[2025-10-21T14:55:17.411+0000] {processor.py:183} INFO - Processing /home/khaled/airflow/dags/dbt_passenger_dag.py took 0.070 seconds
+[2025-10-21T14:55:53.972+0000] {processor.py:161} INFO - Started process (PID=14526) to work on /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:55:53.973+0000] {processor.py:830} INFO - Processing file /home/khaled/airflow/dags/dbt_passenger_dag.py for tasks to queue
+[2025-10-21T14:55:53.975+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:53.974+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:55:53.982+0000] {processor.py:840} INFO - DAG(s) 'dbt_passenger_count_dag' retrieved from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:55:54.000+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:54.000+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:55:54.012+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:55:54.012+0000] {dag.py:3947} INFO - Setting next_dagrun for dbt_passenger_count_dag to None, run_after=None
+[2025-10-21T14:55:54.043+0000] {processor.py:183} INFO - Processing /home/khaled/airflow/dags/dbt_passenger_dag.py took 0.076 seconds
+[2025-10-21T14:56:13.829+0000] {processor.py:161} INFO - Started process (PID=14592) to work on /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:56:13.830+0000] {processor.py:830} INFO - Processing file /home/khaled/airflow/dags/dbt_passenger_dag.py for tasks to queue
+[2025-10-21T14:56:13.831+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:56:13.831+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:56:13.838+0000] {processor.py:840} INFO - DAG(s) 'dbt_passenger_count_dag' retrieved from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:56:13.854+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:56:13.854+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:56:13.863+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:56:13.863+0000] {dag.py:3947} INFO - Setting next_dagrun for dbt_passenger_count_dag to None, run_after=None
+[2025-10-21T14:56:13.888+0000] {processor.py:183} INFO - Processing /home/khaled/airflow/dags/dbt_passenger_dag.py took 0.063 seconds
+[2025-10-21T14:57:14.170+0000] {processor.py:161} INFO - Started process (PID=14725) to work on /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:57:14.175+0000] {processor.py:830} INFO - Processing file /home/khaled/airflow/dags/dbt_passenger_dag.py for tasks to queue
+[2025-10-21T14:57:14.180+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:57:14.179+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:57:14.200+0000] {processor.py:840} INFO - DAG(s) 'dbt_passenger_count_dag' retrieved from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:57:14.218+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:57:14.218+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:57:14.228+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:57:14.228+0000] {dag.py:3947} INFO - Setting next_dagrun for dbt_passenger_count_dag to None, run_after=None
+[2025-10-21T14:57:14.264+0000] {processor.py:183} INFO - Processing /home/khaled/airflow/dags/dbt_passenger_dag.py took 0.102 seconds
+[2025-10-21T14:59:11.314+0000] {processor.py:161} INFO - Started process (PID=14790) to work on /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:59:11.316+0000] {processor.py:830} INFO - Processing file /home/khaled/airflow/dags/dbt_passenger_dag.py for tasks to queue
+[2025-10-21T14:59:11.320+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:59:11.318+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:59:11.326+0000] {processor.py:840} INFO - DAG(s) 'dbt_passenger_count_dag' retrieved from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T14:59:11.344+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:59:11.344+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T14:59:11.356+0000] {logging_mixin.py:188} INFO - [2025-10-21T14:59:11.356+0000] {dag.py:3947} INFO - Setting next_dagrun for dbt_passenger_count_dag to None, run_after=None
+[2025-10-21T14:59:11.378+0000] {processor.py:183} INFO - Processing /home/khaled/airflow/dags/dbt_passenger_dag.py took 0.069 seconds
+[2025-10-21T15:00:12.824+0000] {processor.py:161} INFO - Started process (PID=14850) to work on /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T15:00:12.826+0000] {processor.py:830} INFO - Processing file /home/khaled/airflow/dags/dbt_passenger_dag.py for tasks to queue
+[2025-10-21T15:00:12.827+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:00:12.827+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T15:00:12.831+0000] {processor.py:840} INFO - DAG(s) 'dbt_passenger_count_dag' retrieved from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T15:00:12.841+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:00:12.841+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T15:00:12.849+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:00:12.849+0000] {dag.py:3947} INFO - Setting next_dagrun for dbt_passenger_count_dag to None, run_after=None
+[2025-10-21T15:00:12.871+0000] {processor.py:183} INFO - Processing /home/khaled/airflow/dags/dbt_passenger_dag.py took 0.051 seconds
+[2025-10-21T15:01:00.612+0000] {processor.py:161} INFO - Started process (PID=15076) to work on /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T15:01:00.613+0000] {processor.py:830} INFO - Processing file /home/khaled/airflow/dags/dbt_passenger_dag.py for tasks to queue
+[2025-10-21T15:01:00.615+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:01:00.614+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T15:01:00.620+0000] {processor.py:840} INFO - DAG(s) 'dbt_passenger_count_dag' retrieved from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T15:01:00.632+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:01:00.632+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T15:01:00.643+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:01:00.643+0000] {dag.py:3947} INFO - Setting next_dagrun for dbt_passenger_count_dag to None, run_after=None
+[2025-10-21T15:01:00.680+0000] {processor.py:183} INFO - Processing /home/khaled/airflow/dags/dbt_passenger_dag.py took 0.073 seconds
+[2025-10-21T15:01:50.522+0000] {processor.py:161} INFO - Started process (PID=15293) to work on /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T15:01:50.524+0000] {processor.py:830} INFO - Processing file /home/khaled/airflow/dags/dbt_passenger_dag.py for tasks to queue
+[2025-10-21T15:01:50.525+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:01:50.525+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T15:01:50.531+0000] {processor.py:840} INFO - DAG(s) 'dbt_passenger_count_dag' retrieved from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T15:01:50.546+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:01:50.545+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T15:01:50.555+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:01:50.555+0000] {dag.py:3947} INFO - Setting next_dagrun for dbt_passenger_count_dag to None, run_after=None
+[2025-10-21T15:01:50.593+0000] {processor.py:183} INFO - Processing /home/khaled/airflow/dags/dbt_passenger_dag.py took 0.078 seconds
+[2025-10-21T15:02:21.135+0000] {processor.py:161} INFO - Started process (PID=15334) to work on /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T15:02:21.136+0000] {processor.py:830} INFO - Processing file /home/khaled/airflow/dags/dbt_passenger_dag.py for tasks to queue
+[2025-10-21T15:02:21.142+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:02:21.140+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T15:02:21.148+0000] {processor.py:840} INFO - DAG(s) 'dbt_passenger_count_dag' retrieved from /home/khaled/airflow/dags/dbt_passenger_dag.py
+[2025-10-21T15:02:21.173+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:02:21.173+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-21T15:02:21.188+0000] {logging_mixin.py:188} INFO - [2025-10-21T15:02:21.187+0000] {dag.py:3947} INFO - Setting next_dagrun for dbt_passenger_count_dag to None, run_after=None
+[2025-10-21T15:02:21.253+0000] {processor.py:183} INFO - Processing /home/khaled/airflow/dags/dbt_passenger_dag.py took 0.125 seconds

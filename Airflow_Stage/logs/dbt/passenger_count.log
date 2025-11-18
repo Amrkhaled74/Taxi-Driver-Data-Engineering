@@ -1,0 +1,788 @@
+[0m12:17:39  Running with dbt=1.11.0-b3
+[0m12:17:39  Registered adapter: snowflake=1.10.2
+[0m12:17:40  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.taxi_driver_project.marts
+- models.taxi_driver_project.staging
+[0m12:17:40  Found 10 models, 24 data tests, 1 source, 493 macros
+[0m12:17:40  
+[0m12:17:40  Concurrency: 4 threads (target='dev')
+[0m12:17:40  
+[0m12:17:42  
+[0m12:17:42  Finished running  in 0 hours 0 minutes and 1.97 seconds (1.97s).
+[0m12:17:42  Encountered an error:
+Runtime Error
+  Database error while listing schemas in database "TAXI_DRIVER_DB"
+  Database Error
+    250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+Traceback (most recent call last):
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/network.py", line 1083, in _request_exec
+    raw_ret = session.request(
+              ^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/vendored/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/vendored/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/vendored/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/vendored/urllib3/connection.py", line 799, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/vendored/urllib3/connection.py", line 978, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/ssl_wrap_socket.py", line 163, in ssl_wrap_socket_with_ocsp
+    params["ssl_context"] = _build_context_with_partial_chain(cafile_for_ctx)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/ssl_wrap_socket.py", line 81, in _build_context_with_partial_chain
+    ctx = PyOpenSSLContext(ssl_.PROTOCOL_TLS_CLIENT)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/vendored/urllib3/contrib/pyopenssl.py", line 422, in __init__
+    self._ctx = OpenSSL.SSL.Context(self.protocol)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/OpenSSL/SSL.py", line 920, in __init__
+    | _lib.SSL_MODE_ACCEPT_MOVING_WRITE_BUFFER
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'lib' has no attribute 'SSL_MODE_ACCEPT_MOVING_WRITE_BUFFER'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1736, in _authenticate
+    auth.authenticate(
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/auth/_auth.py", line 238, in authenticate
+    ret = self._rest._post_request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/network.py", line 728, in _post_request
+    ret = self.fetch(
+          ^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/network.py", line 847, in fetch
+    ret = self._request_exec_wrapper(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/network.py", line 988, in _request_exec_wrapper
+    raise e
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/network.py", line 898, in _request_exec_wrapper
+    return_object = self._request_exec(
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/network.py", line 1181, in _request_exec
+    raise OperationalError(
+snowflake.connector.errors.OperationalError: 251011: ConnectionTimeout occurred during login. Will be handled by authenticator
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/base/connections.py", line 237, in retry_connection
+    connection.handle = connect()
+                        ^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/snowflake/connections.py", line 386, in connect
+    handle = snowflake.connector.connect(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/__init__.py", line 54, in Connect
+    return SnowflakeConnection(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/connection.py", line 588, in __init__
+    self.connect(**kwargs)
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/connection.py", line 972, in connect
+    self.__open_connection()
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1371, in __open_connection
+    self.authenticate_with_retry(self.auth_class)
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1704, in authenticate_with_retry
+    self._authenticate(auth_instance)
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1782, in _authenticate
+    raise auth_op from e
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1757, in _authenticate
+    auth_instance.handle_timeout(
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/auth/by_plugin.py", line 212, in handle_timeout
+    raise error
+snowflake.connector.errors.OperationalError: 250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/snowflake/impl.py", line 167, in list_schemas
+    results = self.execute_macro(LIST_SCHEMAS_MACRO_NAME, kwargs={"database": database})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/base/impl.py", line 1310, in execute_macro
+    result = macro_function(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/clients/jinja.py", line 427, in __call__
+    return self.call_macro(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/clients/jinja.py", line 395, in call_macro
+    return macro(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 768, in __call__
+    return self._invoke(arguments, autoescape)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 782, in _invoke
+    rv = self._func(*arguments)
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "<template>", line 20, in macro
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/sandbox.py", line 394, in call
+    return __context.call(__obj, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 303, in call
+    return __obj(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/clients/jinja.py", line 82, in __call__
+    return self.call_macro(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/clients/jinja.py", line 395, in call_macro
+    return macro(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 768, in __call__
+    return self._invoke(arguments, autoescape)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 782, in _invoke
+    rv = self._func(*arguments)
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "<template>", line 47, in macro
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/sandbox.py", line 394, in call
+    return __context.call(__obj, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 303, in call
+    return __obj(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/clients/jinja.py", line 82, in __call__
+    return self.call_macro(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/clients/jinja.py", line 395, in call_macro
+    return macro(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 768, in __call__
+    return self._invoke(arguments, autoescape)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 782, in _invoke
+    rv = self._func(*arguments)
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "<template>", line 33, in macro
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/sandbox.py", line 394, in call
+    return __context.call(__obj, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 303, in call
+    return __obj(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/clients/jinja.py", line 82, in __call__
+    return self.call_macro(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/clients/jinja.py", line 395, in call_macro
+    return macro(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 768, in __call__
+    return self._invoke(arguments, autoescape)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 782, in _invoke
+    rv = self._func(*arguments)
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "<template>", line 52, in macro
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/sandbox.py", line 394, in call
+    return __context.call(__obj, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 303, in call
+    return __obj(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/record.py", line 512, in record_replay_wrapper
+    return func_to_record(*call_args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/base/impl.py", line 461, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch, limit=limit)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/snowflake/connections.py", line 520, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/snowflake/connections.py", line 557, in add_query
+    connection, cursor = self._add_standard_queries(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/snowflake/connections.py", line 616, in _add_standard_queries
+    connection, cursor = self.add_standard_query(query, **kwargs)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/snowflake/connections.py", line 531, in add_standard_query
+    return super().add_query(self._add_query_comment(sql), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/sql/connections.py", line 147, in add_query
+    cursor = connection.handle.cursor()
+             ^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/contracts/connection.py", line 96, in handle
+    self._handle.resolve(self)
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/contracts/connection.py", line 120, in resolve
+    return self.opener(connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/snowflake/connections.py", line 426, in open
+    return cls.retry_connection(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/base/connections.py", line 267, in retry_connection
+    raise FailedToConnectError(str(e))
+dbt.adapters.exceptions.connection.FailedToConnectError: Database Error
+  250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/requires.py", line 178, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/requires.py", line 272, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/requires.py", line 303, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/requires.py", line 373, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/requires.py", line 350, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/requires.py", line 390, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/main.py", line 587, in run
+    results = task.run()
+              ^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/task/runnable.py", line 604, in run
+    result = self.execute_with_hooks(selected_uids)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/task/runnable.py", line 537, in execute_with_hooks
+    before_run_status = self.before_run(adapter, selected_uids)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/task/run.py", line 1074, in before_run
+    self.create_schemas(adapter, required_schemas)
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/task/runnable.py", line 712, in create_schemas
+    existing_schemas_lowered.update(ls_future.result())
+                                    ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/utils/executor.py", line 16, in connected
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/task/runnable.py", line 687, in list_schemas
+    for s in adapter.list_schemas(database_quoted)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/snowflake/impl.py", line 170, in list_schemas
+    raise DbtRuntimeError(msg)
+dbt_common.exceptions.base.DbtRuntimeError: Runtime Error
+  Database error while listing schemas in database "TAXI_DRIVER_DB"
+  Database Error
+    250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/requires.py", line 184, in wrapper
+    raise ExceptionExit(e)
+dbt.cli.exceptions.ExceptionExit: <exception str() failed>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/khaled/dbt-env/bin/dbt", line 7, in <module>
+    sys.exit(cli())
+             ^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/main.py", line 149, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/requires.py", line 207, in wrapper
+    fire_event(
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/events/functions.py", line 142, in fire_event
+    get_event_manager().fire_event(
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/events/event_manager.py", line 56, in fire_event
+    msg = msg_from_base_event(e, level=level)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/events/base_types.py", line 140, in msg_from_base_event
+    "msg": event.message(),
+           ^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/events/types.py", line 2489, in message
+    return f"Resource report: {self.to_json()}"
+                               ^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/events/base_types.py", line 98, in to_json
+    return MessageToJson(
+           ^^^^^^^^^^^^^^
+TypeError: MessageToJson() got an unexpected keyword argument 'always_print_fields_with_no_presence'
+[0m12:21:56  Running with dbt=1.11.0-b3
+[0m12:21:57  Registered adapter: snowflake=1.10.2
+[0m12:21:57  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.taxi_driver_project.staging
+- models.taxi_driver_project.marts
+[0m12:21:57  Found 10 models, 24 data tests, 1 source, 493 macros
+[0m12:21:57  
+[0m12:21:57  Concurrency: 4 threads (target='dev')
+[0m12:21:57  
+[0m12:22:04  
+[0m12:22:04  Finished running  in 0 hours 0 minutes and 7.17 seconds (7.17s).
+[0m12:22:04  Encountered an error:
+Runtime Error
+  Database error while listing schemas in database "TAXI_DRIVER_DB"
+  Database Error
+    250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+Traceback (most recent call last):
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/network.py", line 1083, in _request_exec
+    raw_ret = session.request(
+              ^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/vendored/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/vendored/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/vendored/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/vendored/urllib3/connection.py", line 799, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/vendored/urllib3/connection.py", line 978, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/ssl_wrap_socket.py", line 163, in ssl_wrap_socket_with_ocsp
+    params["ssl_context"] = _build_context_with_partial_chain(cafile_for_ctx)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/ssl_wrap_socket.py", line 81, in _build_context_with_partial_chain
+    ctx = PyOpenSSLContext(ssl_.PROTOCOL_TLS_CLIENT)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/vendored/urllib3/contrib/pyopenssl.py", line 422, in __init__
+    self._ctx = OpenSSL.SSL.Context(self.protocol)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/OpenSSL/SSL.py", line 920, in __init__
+    | _lib.SSL_MODE_ACCEPT_MOVING_WRITE_BUFFER
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'lib' has no attribute 'SSL_MODE_ACCEPT_MOVING_WRITE_BUFFER'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1736, in _authenticate
+    auth.authenticate(
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/auth/_auth.py", line 238, in authenticate
+    ret = self._rest._post_request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/network.py", line 728, in _post_request
+    ret = self.fetch(
+          ^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/network.py", line 847, in fetch
+    ret = self._request_exec_wrapper(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/network.py", line 988, in _request_exec_wrapper
+    raise e
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/network.py", line 898, in _request_exec_wrapper
+    return_object = self._request_exec(
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/network.py", line 1181, in _request_exec
+    raise OperationalError(
+snowflake.connector.errors.OperationalError: 251011: ConnectionTimeout occurred during login. Will be handled by authenticator
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/base/connections.py", line 237, in retry_connection
+    connection.handle = connect()
+                        ^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/snowflake/connections.py", line 386, in connect
+    handle = snowflake.connector.connect(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/__init__.py", line 54, in Connect
+    return SnowflakeConnection(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/connection.py", line 588, in __init__
+    self.connect(**kwargs)
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/connection.py", line 972, in connect
+    self.__open_connection()
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1371, in __open_connection
+    self.authenticate_with_retry(self.auth_class)
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1704, in authenticate_with_retry
+    self._authenticate(auth_instance)
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1782, in _authenticate
+    raise auth_op from e
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1757, in _authenticate
+    auth_instance.handle_timeout(
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/snowflake/connector/auth/by_plugin.py", line 212, in handle_timeout
+    raise error
+snowflake.connector.errors.OperationalError: 250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/snowflake/impl.py", line 167, in list_schemas
+    results = self.execute_macro(LIST_SCHEMAS_MACRO_NAME, kwargs={"database": database})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/base/impl.py", line 1310, in execute_macro
+    result = macro_function(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/clients/jinja.py", line 427, in __call__
+    return self.call_macro(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/clients/jinja.py", line 395, in call_macro
+    return macro(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 768, in __call__
+    return self._invoke(arguments, autoescape)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 782, in _invoke
+    rv = self._func(*arguments)
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "<template>", line 20, in macro
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/sandbox.py", line 394, in call
+    return __context.call(__obj, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 303, in call
+    return __obj(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/clients/jinja.py", line 82, in __call__
+    return self.call_macro(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/clients/jinja.py", line 395, in call_macro
+    return macro(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 768, in __call__
+    return self._invoke(arguments, autoescape)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 782, in _invoke
+    rv = self._func(*arguments)
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "<template>", line 47, in macro
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/sandbox.py", line 394, in call
+    return __context.call(__obj, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 303, in call
+    return __obj(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/clients/jinja.py", line 82, in __call__
+    return self.call_macro(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/clients/jinja.py", line 395, in call_macro
+    return macro(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 768, in __call__
+    return self._invoke(arguments, autoescape)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 782, in _invoke
+    rv = self._func(*arguments)
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "<template>", line 33, in macro
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/sandbox.py", line 394, in call
+    return __context.call(__obj, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 303, in call
+    return __obj(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/clients/jinja.py", line 82, in __call__
+    return self.call_macro(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/clients/jinja.py", line 395, in call_macro
+    return macro(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 768, in __call__
+    return self._invoke(arguments, autoescape)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 782, in _invoke
+    rv = self._func(*arguments)
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "<template>", line 52, in macro
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/sandbox.py", line 394, in call
+    return __context.call(__obj, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/jinja2/runtime.py", line 303, in call
+    return __obj(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/record.py", line 512, in record_replay_wrapper
+    return func_to_record(*call_args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/base/impl.py", line 461, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch, limit=limit)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/snowflake/connections.py", line 520, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/snowflake/connections.py", line 557, in add_query
+    connection, cursor = self._add_standard_queries(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/snowflake/connections.py", line 616, in _add_standard_queries
+    connection, cursor = self.add_standard_query(query, **kwargs)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/snowflake/connections.py", line 531, in add_standard_query
+    return super().add_query(self._add_query_comment(sql), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/sql/connections.py", line 147, in add_query
+    cursor = connection.handle.cursor()
+             ^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/contracts/connection.py", line 96, in handle
+    self._handle.resolve(self)
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/contracts/connection.py", line 120, in resolve
+    return self.opener(connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/snowflake/connections.py", line 426, in open
+    return cls.retry_connection(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/base/connections.py", line 267, in retry_connection
+    raise FailedToConnectError(str(e))
+dbt.adapters.exceptions.connection.FailedToConnectError: Database Error
+  250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/requires.py", line 178, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/requires.py", line 272, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/requires.py", line 303, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/requires.py", line 373, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/requires.py", line 350, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/requires.py", line 390, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/main.py", line 587, in run
+    results = task.run()
+              ^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/task/runnable.py", line 604, in run
+    result = self.execute_with_hooks(selected_uids)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/task/runnable.py", line 537, in execute_with_hooks
+    before_run_status = self.before_run(adapter, selected_uids)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/task/run.py", line 1074, in before_run
+    self.create_schemas(adapter, required_schemas)
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/task/runnable.py", line 712, in create_schemas
+    existing_schemas_lowered.update(ls_future.result())
+                                    ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/utils/executor.py", line 16, in connected
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/task/runnable.py", line 687, in list_schemas
+    for s in adapter.list_schemas(database_quoted)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/adapters/snowflake/impl.py", line 170, in list_schemas
+    raise DbtRuntimeError(msg)
+dbt_common.exceptions.base.DbtRuntimeError: Runtime Error
+  Database error while listing schemas in database "TAXI_DRIVER_DB"
+  Database Error
+    250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/requires.py", line 184, in wrapper
+    raise ExceptionExit(e)
+dbt.cli.exceptions.ExceptionExit: <exception str() failed>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/khaled/dbt-env/bin/dbt", line 7, in <module>
+    sys.exit(cli())
+             ^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/main.py", line 149, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/requires.py", line 207, in wrapper
+    fire_event(
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/events/functions.py", line 142, in fire_event
+    get_event_manager().fire_event(
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/events/event_manager.py", line 56, in fire_event
+    msg = msg_from_base_event(e, level=level)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/events/base_types.py", line 140, in msg_from_base_event
+    "msg": event.message(),
+           ^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/events/types.py", line 2489, in message
+    return f"Resource report: {self.to_json()}"
+                               ^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/events/base_types.py", line 98, in to_json
+    return MessageToJson(
+           ^^^^^^^^^^^^^^
+TypeError: MessageToJson() got an unexpected keyword argument 'always_print_fields_with_no_presence'
+[0m12:27:10  Running with dbt=1.11.0-b3
+[0m12:27:11  Registered adapter: snowflake=1.10.2
+[0m12:27:11  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.taxi_driver_project.marts
+- models.taxi_driver_project.staging
+[0m12:27:12  Found 10 models, 24 data tests, 1 source, 493 macros
+[0m12:27:12  
+[0m12:27:12  Concurrency: 4 threads (target='dev')
+[0m12:27:12  
+[0m12:27:13  1 of 1 START sql table model TAXI.Passenger_Count_Dim .......................... [RUN]
+[0m12:27:16  1 of 1 OK created sql table model TAXI.Passenger_Count_Dim ..................... [[32mSUCCESS 1[0m in 2.25s]
+[0m12:27:16  
+[0m12:27:16  Finished running 1 table model in 0 hours 0 minutes and 4.49 seconds (4.49s).
+[0m12:27:16  
+[0m12:27:16  [32mCompleted successfully[0m
+[0m12:27:16  
+[0m12:27:16  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+Traceback (most recent call last):
+  File "/home/khaled/dbt-env/bin/dbt", line 7, in <module>
+    sys.exit(cli())
+             ^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/main.py", line 149, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/cli/requires.py", line 207, in wrapper
+    fire_event(
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/events/functions.py", line 142, in fire_event
+    get_event_manager().fire_event(
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/events/event_manager.py", line 56, in fire_event
+    msg = msg_from_base_event(e, level=level)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/events/base_types.py", line 140, in msg_from_base_event
+    "msg": event.message(),
+           ^^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt/events/types.py", line 2489, in message
+    return f"Resource report: {self.to_json()}"
+                               ^^^^^^^^^^^^^^
+  File "/home/khaled/dbt-env/lib/python3.12/site-packages/dbt_common/events/base_types.py", line 98, in to_json
+    return MessageToJson(
+           ^^^^^^^^^^^^^^
+TypeError: MessageToJson() got an unexpected keyword argument 'always_print_fields_with_no_presence'
+[0m12:32:00  Running with dbt=1.11.0-b3
+[0m12:32:00  Registered adapter: snowflake=1.10.2
+[0m12:32:00  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.taxi_driver_project.staging
+- models.taxi_driver_project.marts
+[0m12:32:00  Found 10 models, 24 data tests, 1 source, 493 macros
+[0m12:32:00  
+[0m12:32:00  Concurrency: 4 threads (target='dev')
+[0m12:32:00  
+[0m12:32:07  1 of 1 START sql table model TAXI.Passenger_Count_Dim .......................... [RUN]
+[0m12:32:10  1 of 1 OK created sql table model TAXI.Passenger_Count_Dim ..................... [[32mSUCCESS 1[0m in 2.43s]
+[0m12:32:10  
+[0m12:32:10  Finished running 1 table model in 0 hours 0 minutes and 9.78 seconds (9.78s).
+[0m12:32:10  
+[0m12:32:10  [32mCompleted successfully[0m
+[0m12:32:10  
+[0m12:32:10  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m12:36:31  Running with dbt=1.11.0-b3
+[0m12:36:32  Registered adapter: snowflake=1.10.2
+[0m12:36:32  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.taxi_driver_project.staging
+- models.taxi_driver_project.marts
+[0m12:36:32  Found 10 models, 24 data tests, 1 source, 493 macros
+[0m12:36:32  
+[0m12:36:32  Concurrency: 4 threads (target='dev')
+[0m12:36:32  
+[0m12:36:34  1 of 1 START sql table model TAXI.Passenger_Count_Dim .......................... [RUN]
+[0m12:36:35  1 of 1 OK created sql table model TAXI.Passenger_Count_Dim ..................... [[32mSUCCESS 1[0m in 1.36s]
+[0m12:36:36  
+[0m12:36:36  Finished running 1 table model in 0 hours 0 minutes and 3.55 seconds (3.55s).
+[0m12:36:36  
+[0m12:36:36  [32mCompleted successfully[0m
+[0m12:36:36  
+[0m12:36:36  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m11:54:21  Running with dbt=1.11.0-b3
+[0m11:54:22  Registered adapter: snowflake=1.10.2
+[0m11:54:22  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.taxi_driver_project.staging
+- models.taxi_driver_project.marts
+[0m11:54:22  Found 10 models, 24 data tests, 1 source, 493 macros
+[0m11:54:22  
+[0m11:54:22  Concurrency: 4 threads (target='dev')
+[0m11:54:22  
+[0m11:54:25  1 of 1 START sql table model TAXI.Passenger_Count_Dim .......................... [RUN]
+[0m11:54:25  1 of 1 OK created sql table model TAXI.Passenger_Count_Dim ..................... [[32mSUCCESS 1[0m in 0.84s]
+[0m11:54:26  
+[0m11:54:26  Finished running 1 table model in 0 hours 0 minutes and 3.54 seconds (3.54s).
+[0m11:54:26  
+[0m11:54:26  [32mCompleted successfully[0m
+[0m11:54:26  
+[0m11:54:26  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1

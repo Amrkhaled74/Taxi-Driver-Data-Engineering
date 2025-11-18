@@ -1,0 +1,15 @@
+taxi_driver_project:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: GMKKBVZ-VN24262    # e.g. ab12345.eu-central-1 azure_uaenorth
+      user: AMR                         # e.g. AMR
+      password: 264720Akm%$2647        # your Snowflake password
+      role: ACCOUNTADMIN                       # or another valid roles
+      warehouse: TAXI_DRIVER_WH                    # your Snowflake warehouse
+      database: TAXI_DRIVER_DB                 # your Snowflake database name
+      schema: TAXI                           # or your custom schema
+      threads: 4
+      client_session_keep_alive: False
+  

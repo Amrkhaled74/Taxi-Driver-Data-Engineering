@@ -1,0 +1,136 @@
+[2025-10-23T11:39:16.470+0000] {processor.py:161} INFO - Started process (PID=5940) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T11:39:16.471+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-10-23T11:39:16.474+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:39:16.473+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T11:39:16.487+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:39:16.487+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-23T11:39:16.488+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T11:39:16.506+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:39:16.506+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T11:39:16.518+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:39:16.518+0000] {dag.py:3947} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-10-23T11:39:16.545+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.081 seconds
+[2025-10-23T11:54:54.215+0000] {processor.py:161} INFO - Started process (PID=9546) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T11:54:54.227+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-10-23T11:54:54.228+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:54:54.228+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T11:54:54.235+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:54:54.234+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-23T11:54:54.235+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T11:54:54.249+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:54:54.248+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T11:54:54.258+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:54:54.258+0000] {dag.py:3947} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-10-23T11:54:54.278+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.067 seconds
+[2025-10-23T11:55:53.281+0000] {processor.py:161} INFO - Started process (PID=9787) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T11:55:53.293+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-10-23T11:55:53.298+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:55:53.295+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T11:55:53.306+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:55:53.306+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-23T11:55:53.306+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T11:55:53.319+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:55:53.319+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T11:55:53.331+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:55:53.331+0000] {dag.py:3947} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-10-23T11:55:53.353+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.078 seconds
+[2025-10-23T11:57:24.293+0000] {processor.py:161} INFO - Started process (PID=9992) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T11:57:24.309+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-10-23T11:57:24.316+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:57:24.315+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T11:57:24.333+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:57:24.333+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-23T11:57:24.338+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T11:57:24.370+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:57:24.370+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T11:57:24.381+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:57:24.381+0000] {dag.py:3947} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-10-23T11:57:24.427+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.156 seconds
+[2025-10-23T11:58:18.557+0000] {processor.py:161} INFO - Started process (PID=10055) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T11:58:18.558+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-10-23T11:58:18.561+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:58:18.560+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T11:58:18.571+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:58:18.570+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-23T11:58:18.571+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T11:58:18.588+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:58:18.588+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T11:58:18.604+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:58:18.604+0000] {dag.py:3947} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-10-23T11:58:18.669+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.121 seconds
+[2025-10-23T11:59:24.012+0000] {processor.py:161} INFO - Started process (PID=10179) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T11:59:24.024+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-10-23T11:59:24.041+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:59:24.038+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T11:59:24.105+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:59:24.104+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-23T11:59:24.110+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T11:59:24.239+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:59:24.237+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T11:59:24.850+0000] {logging_mixin.py:188} INFO - [2025-10-23T11:59:24.826+0000] {dag.py:3947} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-10-23T11:59:25.814+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 1.864 seconds
+[2025-10-23T12:00:50.989+0000] {processor.py:161} INFO - Started process (PID=10256) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:00:51.002+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-10-23T12:00:51.008+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:00:51.007+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:00:51.014+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:00:51.014+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-23T12:00:51.015+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:00:51.027+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:00:51.027+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:00:51.035+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:00:51.035+0000] {dag.py:3947} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-10-23T12:00:51.056+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.072 seconds
+[2025-10-23T12:02:02.933+0000] {processor.py:161} INFO - Started process (PID=10604) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:02:02.951+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-10-23T12:02:02.963+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:02:02.962+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:02:03.032+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:02:03.031+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-23T12:02:03.039+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:02:03.087+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:02:03.082+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:02:03.147+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:02:03.146+0000] {dag.py:3947} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-10-23T12:02:03.305+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.382 seconds
+[2025-10-23T12:03:38.101+0000] {processor.py:161} INFO - Started process (PID=10704) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:03:38.103+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-10-23T12:03:38.106+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:03:38.105+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:03:38.113+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:03:38.113+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-23T12:03:38.114+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:03:38.127+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:03:38.126+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:03:38.136+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:03:38.136+0000] {dag.py:3947} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-10-23T12:03:38.157+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.060 seconds
+[2025-10-23T12:04:44.095+0000] {processor.py:161} INFO - Started process (PID=10839) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:04:44.106+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-10-23T12:04:44.107+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:04:44.107+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:04:44.114+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:04:44.114+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-23T12:04:44.115+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:04:44.126+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:04:44.126+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:04:44.135+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:04:44.135+0000] {dag.py:3947} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-10-23T12:04:44.248+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.156 seconds
+[2025-10-23T12:05:35.827+0000] {processor.py:161} INFO - Started process (PID=11213) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:05:35.837+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-10-23T12:05:35.839+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:05:35.838+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:05:35.846+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:05:35.846+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-23T12:05:35.847+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:05:35.861+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:05:35.861+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:05:35.873+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:05:35.873+0000] {dag.py:3947} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-10-23T12:05:35.897+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.077 seconds
+[2025-10-23T12:06:35.360+0000] {processor.py:161} INFO - Started process (PID=11294) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:06:35.361+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-10-23T12:06:35.363+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:06:35.362+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:06:35.369+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:06:35.369+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-23T12:06:35.370+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:06:35.383+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:06:35.382+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:06:35.391+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:06:35.391+0000] {dag.py:3947} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-10-23T12:06:35.422+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.068 seconds
+[2025-10-23T12:07:19.284+0000] {processor.py:161} INFO - Started process (PID=11351) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:07:19.285+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-10-23T12:07:19.287+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:07:19.286+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:07:19.294+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:07:19.294+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-23T12:07:19.295+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:07:19.307+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:07:19.307+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:07:19.326+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:07:19.326+0000] {dag.py:3947} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-10-23T12:07:19.479+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.202 seconds
+[2025-10-23T12:08:06.494+0000] {processor.py:161} INFO - Started process (PID=11412) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:08:06.496+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-10-23T12:08:06.498+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:08:06.498+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:08:06.508+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:08:06.507+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-23T12:08:06.508+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:08:06.522+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:08:06.522+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:08:06.535+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:08:06.535+0000] {dag.py:3947} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-10-23T12:08:06.572+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.083 seconds
+[2025-10-23T12:08:56.122+0000] {processor.py:161} INFO - Started process (PID=11523) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:08:56.123+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-10-23T12:08:56.125+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:08:56.125+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:08:56.132+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:08:56.132+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-23T12:08:56.132+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:08:56.235+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:08:56.235+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:08:56.241+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:08:56.241+0000] {dag.py:3947} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-10-23T12:08:56.259+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.141 seconds
+[2025-10-23T12:09:44.884+0000] {processor.py:161} INFO - Started process (PID=11631) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:09:44.885+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-10-23T12:09:44.887+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:09:44.887+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:09:44.894+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:09:44.894+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-23T12:09:44.894+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:09:44.907+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:09:44.906+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:09:44.915+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:09:44.915+0000] {dag.py:3947} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-10-23T12:09:44.950+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.071 seconds
+[2025-10-23T12:10:30.479+0000] {processor.py:161} INFO - Started process (PID=11686) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:10:30.490+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-10-23T12:10:30.492+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:10:30.492+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:10:30.500+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:10:30.500+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-10-23T12:10:30.501+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-10-23T12:10:30.515+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:10:30.514+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-23T12:10:30.524+0000] {logging_mixin.py:188} INFO - [2025-10-23T12:10:30.524+0000] {dag.py:3947} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-10-23T12:10:30.545+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.071 seconds

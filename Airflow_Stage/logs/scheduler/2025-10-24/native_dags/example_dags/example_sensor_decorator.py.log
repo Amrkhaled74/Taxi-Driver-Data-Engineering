@@ -1,0 +1,575 @@
+[2025-10-24T14:21:03.313+0000] {processor.py:161} INFO - Started process (PID=7151) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:21:03.313+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:21:03.314+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:21:03.314+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:21:03.318+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:21:03.333+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:21:03.333+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:21:03.345+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:21:03.345+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:21:03.375+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.068 seconds
+[2025-10-24T14:21:59.487+0000] {processor.py:161} INFO - Started process (PID=7242) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:21:59.498+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:21:59.499+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:21:59.499+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:21:59.504+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:21:59.515+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:21:59.515+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:21:59.526+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:21:59.525+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:21:59.548+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.066 seconds
+[2025-10-24T14:22:52.932+0000] {processor.py:161} INFO - Started process (PID=7328) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:22:52.933+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:22:52.935+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:22:52.934+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:22:52.940+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:22:52.951+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:22:52.951+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:22:52.958+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:22:52.958+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:22:52.995+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.067 seconds
+[2025-10-24T14:23:43.043+0000] {processor.py:161} INFO - Started process (PID=7390) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:23:43.045+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:23:43.046+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:23:43.046+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:23:43.051+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:23:43.065+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:23:43.065+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:23:43.076+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:23:43.075+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:23:43.117+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.078 seconds
+[2025-10-24T14:24:35.971+0000] {processor.py:161} INFO - Started process (PID=7447) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:24:35.972+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:24:35.974+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:24:35.974+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:24:35.978+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:24:35.988+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:24:35.988+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:24:35.995+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:24:35.995+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:24:36.014+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.046 seconds
+[2025-10-24T14:25:35.951+0000] {processor.py:161} INFO - Started process (PID=7545) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:25:35.953+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:25:35.954+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:25:35.954+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:25:35.963+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:25:35.975+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:25:35.974+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:25:35.986+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:25:35.985+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:25:36.009+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.064 seconds
+[2025-10-24T14:26:31.592+0000] {processor.py:161} INFO - Started process (PID=7685) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:26:31.594+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:26:31.595+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:26:31.595+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:26:31.600+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:26:31.611+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:26:31.610+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:26:31.619+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:26:31.618+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:26:31.649+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.061 seconds
+[2025-10-24T14:27:28.342+0000] {processor.py:161} INFO - Started process (PID=7848) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:27:28.344+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:27:28.345+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:27:28.345+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:27:28.350+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:27:28.363+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:27:28.363+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:27:28.373+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:27:28.372+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:27:28.397+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.060 seconds
+[2025-10-24T14:28:28.534+0000] {processor.py:161} INFO - Started process (PID=8087) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:28:28.548+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:28:28.550+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:28:28.550+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:28:28.563+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:28:28.586+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:28:28.585+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:28:28.598+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:28:28.598+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:28:28.710+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.185 seconds
+[2025-10-24T14:29:32.201+0000] {processor.py:161} INFO - Started process (PID=8419) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:29:32.212+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:29:32.213+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:29:32.213+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:29:32.217+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:29:32.227+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:29:32.227+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:29:32.234+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:29:32.234+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:29:32.253+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.056 seconds
+[2025-10-24T14:30:29.123+0000] {processor.py:161} INFO - Started process (PID=8505) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:30:29.125+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:30:29.127+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:30:29.126+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:30:29.131+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:30:29.142+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:30:29.141+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:30:29.149+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:30:29.149+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:30:29.253+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.135 seconds
+[2025-10-24T14:31:27.997+0000] {processor.py:161} INFO - Started process (PID=8654) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:31:27.999+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:31:28.000+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:31:28.000+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:31:28.006+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:31:28.016+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:31:28.016+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:31:28.025+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:31:28.024+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:31:28.058+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.066 seconds
+[2025-10-24T14:32:33.878+0000] {processor.py:161} INFO - Started process (PID=8722) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:32:33.880+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:32:33.881+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:32:33.881+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:32:33.886+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:32:33.897+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:32:33.897+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:32:33.904+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:32:33.904+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:32:33.936+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.063 seconds
+[2025-10-24T14:33:52.848+0000] {processor.py:161} INFO - Started process (PID=8793) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:33:52.849+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:33:52.850+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:33:52.850+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:33:52.854+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:33:52.864+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:33:52.864+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:33:52.872+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:33:52.872+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:33:52.902+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.059 seconds
+[2025-10-24T14:34:59.132+0000] {processor.py:161} INFO - Started process (PID=8876) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:34:59.133+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:34:59.134+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:34:59.134+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:34:59.139+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:34:59.150+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:34:59.150+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:34:59.236+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:34:59.236+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:34:59.258+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.130 seconds
+[2025-10-24T14:35:58.027+0000] {processor.py:161} INFO - Started process (PID=8970) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:35:58.029+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:35:58.031+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:35:58.030+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:35:58.036+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:35:58.047+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:35:58.047+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:35:58.057+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:35:58.057+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:35:58.087+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.066 seconds
+[2025-10-24T14:36:52.885+0000] {processor.py:161} INFO - Started process (PID=9030) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:36:52.886+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:36:52.888+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:36:52.887+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:36:52.893+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:36:52.903+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:36:52.903+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:36:52.910+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:36:52.910+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:36:52.941+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.062 seconds
+[2025-10-24T14:38:01.414+0000] {processor.py:161} INFO - Started process (PID=9095) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:38:01.416+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:38:01.417+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:38:01.417+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:38:01.421+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:38:01.433+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:38:01.433+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:38:01.441+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:38:01.441+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:38:01.471+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.061 seconds
+[2025-10-24T14:38:54.428+0000] {processor.py:161} INFO - Started process (PID=9156) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:38:54.429+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:38:54.430+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:38:54.430+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:38:54.435+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:38:54.445+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:38:54.445+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:38:54.453+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:38:54.452+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:38:54.484+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.061 seconds
+[2025-10-24T14:39:48.386+0000] {processor.py:161} INFO - Started process (PID=9212) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:39:48.387+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:39:48.389+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:39:48.388+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:39:48.393+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:39:48.403+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:39:48.403+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:39:48.410+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:39:48.410+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:39:48.439+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.057 seconds
+[2025-10-24T14:40:45.911+0000] {processor.py:161} INFO - Started process (PID=9310) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:40:45.912+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:40:45.913+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:40:45.913+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:40:45.917+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:40:45.927+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:40:45.927+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:40:45.934+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:40:45.934+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:40:45.952+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.045 seconds
+[2025-10-24T14:41:39.442+0000] {processor.py:161} INFO - Started process (PID=9370) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:41:39.443+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:41:39.444+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:41:39.444+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:41:39.449+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:41:39.459+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:41:39.459+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:41:39.467+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:41:39.466+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:41:39.497+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.059 seconds
+[2025-10-24T14:42:51.280+0000] {processor.py:161} INFO - Started process (PID=9445) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:42:51.281+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:42:51.282+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:42:51.282+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:42:51.287+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:42:51.298+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:42:51.298+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:42:51.305+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:42:51.305+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:42:51.337+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.062 seconds
+[2025-10-24T14:43:49.310+0000] {processor.py:161} INFO - Started process (PID=9506) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:43:49.312+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:43:49.313+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:43:49.313+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:43:49.317+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:43:49.327+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:43:49.326+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:43:49.334+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:43:49.334+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:43:49.364+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.060 seconds
+[2025-10-24T14:44:43.443+0000] {processor.py:161} INFO - Started process (PID=9564) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:44:43.445+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:44:43.446+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:44:43.446+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:44:43.450+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:44:43.460+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:44:43.460+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:44:43.468+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:44:43.468+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:44:43.499+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.060 seconds
+[2025-10-24T14:45:47.461+0000] {processor.py:161} INFO - Started process (PID=9658) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:45:47.463+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:45:47.464+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:45:47.464+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:45:47.469+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:45:47.479+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:45:47.479+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:45:47.487+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:45:47.486+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:45:47.518+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.061 seconds
+[2025-10-24T14:46:54.475+0000] {processor.py:161} INFO - Started process (PID=9726) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:46:54.476+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:46:54.477+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:46:54.477+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:46:54.483+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:46:54.494+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:46:54.494+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:46:54.502+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:46:54.502+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:46:54.533+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.064 seconds
+[2025-10-24T14:48:01.720+0000] {processor.py:161} INFO - Started process (PID=9792) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:48:01.721+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:48:01.723+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:48:01.722+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:48:01.727+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:48:01.738+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:48:01.738+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:48:01.745+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:48:01.745+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:48:01.777+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.062 seconds
+[2025-10-24T14:49:07.507+0000] {processor.py:161} INFO - Started process (PID=9862) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:49:07.508+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:49:07.510+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:49:07.509+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:49:07.514+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:49:07.525+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:49:07.525+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:49:07.533+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:49:07.532+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:49:07.564+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.062 seconds
+[2025-10-24T14:50:12.888+0000] {processor.py:161} INFO - Started process (PID=9929) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:50:12.889+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:50:12.890+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:50:12.890+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:50:12.896+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:50:12.908+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:50:12.908+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:50:12.918+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:50:12.917+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:50:12.946+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.062 seconds
+[2025-10-24T14:51:05.963+0000] {processor.py:161} INFO - Started process (PID=10018) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:51:05.964+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:51:05.966+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:51:05.965+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:51:05.970+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:51:05.980+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:51:05.980+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:51:05.988+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:51:05.987+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:51:06.018+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.059 seconds
+[2025-10-24T14:52:02.338+0000] {processor.py:161} INFO - Started process (PID=10078) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:52:02.339+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:52:02.341+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:52:02.340+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:52:02.345+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:52:02.356+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:52:02.355+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:52:02.363+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:52:02.363+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:52:02.393+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.061 seconds
+[2025-10-24T14:52:55.865+0000] {processor.py:161} INFO - Started process (PID=10135) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:52:55.866+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:52:55.868+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:52:55.867+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:52:55.873+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:52:55.885+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:52:55.885+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:52:55.894+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:52:55.893+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:52:55.914+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.054 seconds
+[2025-10-24T14:53:47.003+0000] {processor.py:161} INFO - Started process (PID=10191) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:53:47.004+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:53:47.006+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:53:47.005+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:53:47.010+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:53:47.021+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:53:47.021+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:53:47.028+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:53:47.028+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:53:47.059+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.062 seconds
+[2025-10-24T14:54:40.888+0000] {processor.py:161} INFO - Started process (PID=10250) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:54:40.889+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:54:40.891+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:54:40.890+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:54:40.895+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:54:40.906+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:54:40.906+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:54:40.913+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:54:40.913+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:54:40.933+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.050 seconds
+[2025-10-24T14:55:48.283+0000] {processor.py:161} INFO - Started process (PID=10350) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:55:48.284+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:55:48.285+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:55:48.285+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:55:48.291+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:55:48.301+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:55:48.301+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:55:48.309+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:55:48.309+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:55:48.340+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.062 seconds
+[2025-10-24T14:56:44.150+0000] {processor.py:161} INFO - Started process (PID=10412) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:56:44.151+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:56:44.152+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:56:44.152+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:56:44.156+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:56:44.167+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:56:44.167+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:56:44.174+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:56:44.174+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:56:44.205+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.059 seconds
+[2025-10-24T14:57:38.534+0000] {processor.py:161} INFO - Started process (PID=10476) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:57:38.545+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:57:38.546+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:57:38.546+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:57:38.551+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:57:38.562+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:57:38.562+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:57:38.570+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:57:38.570+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:57:38.588+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.060 seconds
+[2025-10-24T14:58:33.921+0000] {processor.py:161} INFO - Started process (PID=10534) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:58:33.922+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:58:33.923+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:58:33.923+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:58:33.927+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:58:33.937+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:58:33.937+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:58:33.944+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:58:33.944+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:58:33.963+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.047 seconds
+[2025-10-24T14:59:31.637+0000] {processor.py:161} INFO - Started process (PID=10595) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:59:31.638+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T14:59:31.640+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:59:31.639+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:59:31.644+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T14:59:31.654+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:59:31.654+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:59:31.662+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:59:31.662+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T14:59:31.694+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.061 seconds
+[2025-10-24T15:00:44.070+0000] {processor.py:161} INFO - Started process (PID=10778) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:00:44.071+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:00:44.073+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:00:44.072+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:00:44.077+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:00:44.087+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:00:44.087+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:00:44.094+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:00:44.094+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:00:44.125+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.059 seconds
+[2025-10-24T15:01:48.786+0000] {processor.py:161} INFO - Started process (PID=10844) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:01:48.787+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:01:48.788+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:01:48.788+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:01:48.793+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:01:48.805+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:01:48.805+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:01:48.812+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:01:48.812+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:01:48.844+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.064 seconds
+[2025-10-24T15:02:55.414+0000] {processor.py:161} INFO - Started process (PID=10912) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:02:55.416+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:02:55.417+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:02:55.417+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:02:55.422+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:02:55.434+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:02:55.433+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:02:55.442+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:02:55.442+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:02:55.475+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.065 seconds
+[2025-10-24T15:03:57.259+0000] {processor.py:161} INFO - Started process (PID=10975) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:03:57.260+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:03:57.261+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:03:57.261+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:03:57.266+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:03:57.276+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:03:57.276+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:03:57.284+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:03:57.284+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:03:57.317+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.063 seconds
+[2025-10-24T15:04:53.709+0000] {processor.py:161} INFO - Started process (PID=11036) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:04:53.711+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:04:53.712+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:04:53.712+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:04:53.717+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:04:53.727+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:04:53.727+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:04:53.734+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:04:53.734+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:04:53.764+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.059 seconds
+[2025-10-24T15:05:57.022+0000] {processor.py:161} INFO - Started process (PID=11133) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:05:57.023+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:05:57.024+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:05:57.024+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:05:57.030+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:05:57.041+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:05:57.041+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:05:57.048+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:05:57.048+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:05:57.082+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.064 seconds
+[2025-10-24T15:06:51.136+0000] {processor.py:161} INFO - Started process (PID=11194) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:06:51.137+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:06:51.139+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:06:51.138+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:06:51.144+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:06:51.155+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:06:51.155+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:06:51.163+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:06:51.163+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:06:51.194+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.062 seconds
+[2025-10-24T15:07:43.720+0000] {processor.py:161} INFO - Started process (PID=11252) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:07:43.721+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:07:43.722+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:07:43.722+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:07:43.726+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:07:43.737+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:07:43.737+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:07:43.745+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:07:43.745+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:07:43.776+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.061 seconds
+[2025-10-24T15:08:39.455+0000] {processor.py:161} INFO - Started process (PID=11313) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:08:39.456+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:08:39.457+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:08:39.457+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:08:39.462+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:08:39.472+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:08:39.472+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:08:39.479+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:08:39.479+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:08:39.512+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.063 seconds
+[2025-10-24T15:09:32.660+0000] {processor.py:161} INFO - Started process (PID=11367) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:09:32.661+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:09:32.662+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:09:32.662+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:09:32.667+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:09:32.677+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:09:32.677+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:09:32.684+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:09:32.684+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:09:32.720+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.064 seconds
+[2025-10-24T15:10:33.593+0000] {processor.py:161} INFO - Started process (PID=11438) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:10:33.594+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:10:33.596+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:10:33.595+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:10:33.600+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:10:33.613+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:10:33.612+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:10:33.622+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:10:33.622+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:10:33.658+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.070 seconds
+[2025-10-24T15:11:40.588+0000] {processor.py:161} INFO - Started process (PID=11531) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:11:40.590+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:11:40.591+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:11:40.590+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:11:40.595+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:11:40.605+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:11:40.605+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:11:40.612+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:11:40.612+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:11:40.643+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.058 seconds
+[2025-10-24T15:12:41.920+0000] {processor.py:161} INFO - Started process (PID=11592) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:12:41.922+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:12:41.926+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:12:41.925+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:12:41.931+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:12:41.946+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:12:41.946+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:12:41.956+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:12:41.955+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:12:41.988+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.073 seconds
+[2025-10-24T15:13:46.107+0000] {processor.py:161} INFO - Started process (PID=11657) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:13:46.108+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:13:46.110+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:13:46.110+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:13:46.115+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:13:46.125+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:13:46.125+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:13:46.133+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:13:46.133+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:13:46.164+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.062 seconds
+[2025-10-24T15:14:49.894+0000] {processor.py:161} INFO - Started process (PID=11723) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:14:49.895+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:14:49.896+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:14:49.896+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:14:49.901+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:14:49.911+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:14:49.911+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:14:49.918+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:14:49.918+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:14:49.938+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.049 seconds
+[2025-10-24T15:15:54.275+0000] {processor.py:161} INFO - Started process (PID=11818) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:15:54.277+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:15:54.278+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:15:54.278+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:15:54.282+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:15:54.293+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:15:54.292+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:15:54.300+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:15:54.300+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:15:54.329+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.060 seconds
+[2025-10-24T15:17:04.096+0000] {processor.py:161} INFO - Started process (PID=11888) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:17:04.097+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:17:04.099+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:17:04.098+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:17:04.105+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:17:04.115+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:17:04.115+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:17:04.122+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:17:04.122+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:17:04.153+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.062 seconds
+[2025-10-24T15:17:59.742+0000] {processor.py:161} INFO - Started process (PID=11949) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:17:59.744+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:17:59.745+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:17:59.745+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:17:59.749+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:17:59.762+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:17:59.762+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:17:59.769+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:17:59.769+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:17:59.803+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.067 seconds
+[2025-10-24T15:18:49.361+0000] {processor.py:161} INFO - Started process (PID=12006) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:18:49.362+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:18:49.364+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:18:49.363+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:18:49.368+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:18:49.378+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:18:49.378+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:18:49.385+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:18:49.385+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:18:49.403+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.047 seconds
+[2025-10-24T15:19:46.109+0000] {processor.py:161} INFO - Started process (PID=12066) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:19:46.110+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:19:46.112+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:19:46.111+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:19:46.116+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:19:46.127+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:19:46.126+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:19:46.136+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:19:46.136+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:19:46.168+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.065 seconds
+[2025-10-24T15:20:39.962+0000] {processor.py:161} INFO - Started process (PID=12157) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:20:39.964+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:20:39.965+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:20:39.965+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:20:39.972+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:20:39.983+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:20:39.983+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:20:39.991+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:20:39.991+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:20:40.011+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.055 seconds
+[2025-10-24T15:21:49.103+0000] {processor.py:161} INFO - Started process (PID=12226) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:21:49.104+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:21:49.105+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:21:49.105+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:21:49.109+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:21:49.120+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:21:49.120+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:21:49.127+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:21:49.127+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:21:49.158+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.061 seconds
+[2025-10-24T15:22:46.791+0000] {processor.py:161} INFO - Started process (PID=12288) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:22:46.792+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:22:46.793+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:22:46.793+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:22:46.798+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:22:46.808+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:22:46.808+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:22:46.816+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:22:46.816+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:22:46.834+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.047 seconds
+[2025-10-24T15:23:59.820+0000] {processor.py:161} INFO - Started process (PID=12356) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:23:59.821+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:23:59.823+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:23:59.822+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:23:59.827+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:23:59.838+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:23:59.838+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:23:59.846+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:23:59.846+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:23:59.875+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.064 seconds
+[2025-10-24T15:24:56.094+0000] {processor.py:161} INFO - Started process (PID=12416) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:24:56.096+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:24:56.097+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:24:56.097+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:24:56.101+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:24:56.112+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:24:56.112+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:24:56.120+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:24:56.120+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:24:56.152+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.061 seconds
+[2025-10-24T15:26:01.805+0000] {processor.py:161} INFO - Started process (PID=12517) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:26:01.806+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:26:01.808+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:26:01.807+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:26:01.812+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:26:01.823+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:26:01.823+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:26:01.832+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:26:01.831+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:26:01.862+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.062 seconds
+[2025-10-24T15:27:14.491+0000] {processor.py:161} INFO - Started process (PID=12587) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:27:14.492+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:27:14.493+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:27:14.493+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:27:14.498+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:27:14.510+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:27:14.509+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:27:14.518+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:27:14.518+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:27:14.547+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.061 seconds
+[2025-10-24T15:28:27.706+0000] {processor.py:161} INFO - Started process (PID=12662) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:28:27.707+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:28:27.709+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:28:27.708+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:28:27.713+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:28:27.725+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:28:27.724+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:28:27.732+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:28:27.732+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:28:27.763+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.062 seconds
+[2025-10-24T15:29:27.549+0000] {processor.py:161} INFO - Started process (PID=12724) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:29:27.550+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:29:27.551+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:29:27.551+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:29:27.556+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:29:27.566+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:29:27.566+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:29:27.573+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:29:27.573+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:29:27.605+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.062 seconds
+[2025-10-24T15:30:38.469+0000] {processor.py:161} INFO - Started process (PID=12809) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:30:38.480+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:30:38.481+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:30:38.481+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:30:38.487+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:30:38.498+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:30:38.497+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:30:38.505+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:30:38.505+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:30:38.523+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.059 seconds
+[2025-10-24T15:31:54.132+0000] {processor.py:161} INFO - Started process (PID=12895) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:31:54.133+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:31:54.135+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:31:54.135+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:31:54.139+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:31:54.149+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:31:54.149+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:31:54.156+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:31:54.156+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:31:54.188+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.062 seconds
+[2025-10-24T15:32:48.929+0000] {processor.py:161} INFO - Started process (PID=12955) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:32:48.931+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:32:48.932+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:32:48.932+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:32:48.939+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:32:48.949+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:32:48.949+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:32:48.956+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:32:48.956+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:32:48.986+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.062 seconds
+[2025-10-24T15:33:45.022+0000] {processor.py:161} INFO - Started process (PID=13016) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:33:45.025+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:33:45.026+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:33:45.026+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:33:45.031+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:33:45.043+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:33:45.043+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:33:45.051+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:33:45.051+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:33:45.070+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.052 seconds
+[2025-10-24T15:34:44.386+0000] {processor.py:161} INFO - Started process (PID=13082) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:34:44.388+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:34:44.389+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:34:44.389+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:34:44.394+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:34:44.404+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:34:44.404+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:34:44.412+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:34:44.411+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:34:44.442+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.060 seconds
+[2025-10-24T15:35:55.789+0000] {processor.py:161} INFO - Started process (PID=13178) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:35:55.791+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:35:55.793+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:35:55.792+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:35:55.799+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:35:55.809+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:35:55.809+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:35:55.816+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:35:55.816+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:35:55.835+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.050 seconds
+[2025-10-24T15:36:56.967+0000] {processor.py:161} INFO - Started process (PID=13239) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:36:56.968+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:36:56.970+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:36:56.970+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:36:56.975+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:36:56.985+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:36:56.985+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:36:56.993+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:36:56.993+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:36:57.025+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.064 seconds
+[2025-10-24T15:37:52.217+0000] {processor.py:161} INFO - Started process (PID=13296) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:37:52.218+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:37:52.219+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:37:52.219+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:37:52.223+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:37:52.233+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:37:52.233+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:37:52.241+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:37:52.240+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:37:52.271+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.059 seconds
+[2025-10-24T15:39:01.153+0000] {processor.py:161} INFO - Started process (PID=13363) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:39:01.155+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:39:01.156+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:39:01.156+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:39:01.160+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:39:01.171+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:39:01.170+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:39:01.178+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:39:01.178+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:39:01.208+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.059 seconds
+[2025-10-24T15:40:00.735+0000] {processor.py:161} INFO - Started process (PID=13425) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:40:00.736+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:40:00.737+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:40:00.737+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:40:00.742+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:40:00.752+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:40:00.751+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:40:00.759+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:40:00.759+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:40:00.788+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.058 seconds
+[2025-10-24T15:41:05.345+0000] {processor.py:161} INFO - Started process (PID=13528) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:41:05.346+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:41:05.347+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:41:05.347+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:41:05.353+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:41:05.363+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:41:05.363+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:41:05.371+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:41:05.371+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:41:05.401+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.060 seconds
+[2025-10-24T15:42:11.589+0000] {processor.py:161} INFO - Started process (PID=13594) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:42:11.590+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:42:11.591+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:42:11.591+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:42:11.596+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:42:11.606+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:42:11.605+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:42:11.613+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:42:11.613+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:42:11.643+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.058 seconds
+[2025-10-24T15:43:21.977+0000] {processor.py:161} INFO - Started process (PID=13663) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:43:21.978+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-10-24T15:43:21.979+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:43:21.979+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:43:21.983+0000] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-10-24T15:43:21.993+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:43:21.993+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:43:22.001+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:43:22.001+0000] {dag.py:3947} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-10-24T15:43:22.110+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.137 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

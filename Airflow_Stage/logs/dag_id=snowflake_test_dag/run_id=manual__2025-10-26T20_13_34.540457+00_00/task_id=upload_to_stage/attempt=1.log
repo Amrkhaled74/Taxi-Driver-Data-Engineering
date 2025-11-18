@@ -1,0 +1,33 @@
+[2025-10-26T20:13:45.534+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-10-26T20:13:45.544+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: snowflake_test_dag.upload_to_stage manual__2025-10-26T20:13:34.540457+00:00 [queued]>
+[2025-10-26T20:13:45.548+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: snowflake_test_dag.upload_to_stage manual__2025-10-26T20:13:34.540457+00:00 [queued]>
+[2025-10-26T20:13:45.549+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-10-26T20:13:45.562+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): upload_to_stage> on 2025-10-26 20:13:34.540457+00:00
+[2025-10-26T20:13:45.570+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'snowflake_test_dag', 'upload_to_stage', 'manual__2025-10-26T20:13:34.540457+00:00', '--job-id', '78', '--raw', '--subdir', 'DAGS_FOLDER/test_dag2.py', '--cfg-path', '/tmp/tmpvzoorcl7']
+[2025-10-26T20:13:45.571+0000] {standard_task_runner.py:105} INFO - Job 78: Subtask upload_to_stage
+[2025-10-26T20:13:45.572+0000] {logging_mixin.py:190} WARNING - /home/khaled/airflow_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=11580) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-26T20:13:45.572+0000] {standard_task_runner.py:72} INFO - Started process 11604 to run task
+[2025-10-26T20:13:45.599+0000] {task_command.py:467} INFO - Running <TaskInstance: snowflake_test_dag.upload_to_stage manual__2025-10-26T20:13:34.540457+00:00 [running]> on host ubun
+[2025-10-26T20:13:45.649+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='snowflake_test_dag' AIRFLOW_CTX_TASK_ID='upload_to_stage' AIRFLOW_CTX_EXECUTION_DATE='2025-10-26T20:13:34.540457+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-26T20:13:34.540457+00:00'
+[2025-10-26T20:13:45.651+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-10-26T20:13:45.651+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-10-26T20:13:45.651+0000] {logging_mixin.py:190} INFO - Current task name:upload_to_stage state:running start_date:2025-10-26 20:13:45.545103+00:00
+[2025-10-26T20:13:45.651+0000] {logging_mixin.py:190} INFO - Dag name:snowflake_test_dag and current dag run status:running
+[2025-10-26T20:13:45.651+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-10-26T20:13:45.658+0000] {base.py:84} INFO - Retrieving connection 'snowflake'
+[2025-10-26T20:13:45.659+0000] {connection.py:521} INFO - Snowflake Connector for Python Version: 3.18.0, Python Version: 3.12.3, Platform: Linux-6.14.0-33-generic-x86_64-with-glibc2.39
+[2025-10-26T20:13:45.660+0000] {connection.py:1464} INFO - Connecting to GLOBAL Snowflake domain
+[2025-10-26T20:13:46.757+0000] {sql.py:509} INFO - Running statement: PUT file:///home/khaled/taxi_data/taxi_data.csv @taxi_stage OVERWRITE = TRUE, parameters: None
+[2025-10-26T20:13:55.592+0000] {sql.py:518} INFO - Rows affected: 1
+[2025-10-26T20:13:55.592+0000] {snowflake.py:422} INFO - Rows affected: 1
+[2025-10-26T20:13:55.592+0000] {snowflake.py:423} INFO - Snowflake query id: 01bff99d-0000-a24b-0000-d7fd0002ef96
+[2025-10-26T20:13:56.226+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-10-26T20:13:56.231+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-10-26T20:13:56.231+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=snowflake_test_dag, task_id=upload_to_stage, run_id=manual__2025-10-26T20:13:34.540457+00:00, execution_date=20251026T201334, start_date=20251026T201345, end_date=20251026T201356
+[2025-10-26T20:13:56.254+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-10-26T20:13:56.254+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-10-26T20:13:56.255+0000] {logging_mixin.py:190} INFO - Dag name:snowflake_test_dag queued_at:2025-10-26 20:13:34.549520+00:00
+[2025-10-26T20:13:56.255+0000] {logging_mixin.py:190} INFO - Task hostname:ubun operator:PythonOperator
+[2025-10-26T20:13:56.266+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-10-26T20:13:56.275+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-10-26T20:13:56.275+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

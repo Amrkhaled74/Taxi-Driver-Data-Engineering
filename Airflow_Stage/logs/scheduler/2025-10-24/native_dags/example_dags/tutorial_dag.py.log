@@ -1,0 +1,589 @@
+[2025-10-24T14:20:45.036+0000] {processor.py:161} INFO - Started process (PID=7077) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:20:45.036+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:20:45.038+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:20:45.037+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:20:45.043+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:20:45.056+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:20:45.056+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:20:45.063+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:20:45.063+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:20:45.093+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2025-10-24T14:21:41.643+0000] {processor.py:161} INFO - Started process (PID=7223) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:21:41.646+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:21:41.648+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:21:41.648+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:21:41.664+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:21:41.714+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:21:41.714+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:21:41.727+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:21:41.727+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:21:41.796+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.170 seconds
+[2025-10-24T14:22:32.676+0000] {processor.py:161} INFO - Started process (PID=7304) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:22:32.677+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:22:32.678+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:22:32.678+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:22:32.682+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:22:32.693+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:22:32.693+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:22:32.704+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:22:32.704+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:22:32.724+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.052 seconds
+[2025-10-24T14:23:20.930+0000] {processor.py:161} INFO - Started process (PID=7366) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:23:20.931+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:23:20.932+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:23:20.932+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:23:20.936+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:23:20.946+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:23:20.946+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:23:20.953+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:23:20.953+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:23:20.982+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.055 seconds
+[2025-10-24T14:24:14.757+0000] {processor.py:161} INFO - Started process (PID=7422) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:24:14.758+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:24:14.760+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:24:14.759+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:24:14.764+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:24:14.774+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:24:14.774+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:24:14.782+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:24:14.782+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:24:14.817+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.065 seconds
+[2025-10-24T14:25:10.628+0000] {processor.py:161} INFO - Started process (PID=7483) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:25:10.630+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:25:10.632+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:25:10.631+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:25:10.635+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:25:10.645+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:25:10.645+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:25:10.652+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:25:10.652+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:25:10.670+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.046 seconds
+[2025-10-24T14:26:08.189+0000] {processor.py:161} INFO - Started process (PID=7660) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:26:08.190+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:26:08.192+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:26:08.191+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:26:08.196+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:26:08.206+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:26:08.206+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:26:08.214+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:26:08.214+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:26:08.244+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.059 seconds
+[2025-10-24T14:27:04.355+0000] {processor.py:161} INFO - Started process (PID=7819) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:27:04.366+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:27:04.367+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:27:04.367+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:27:04.371+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:27:04.382+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:27:04.382+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:27:04.390+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:27:04.389+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:27:04.408+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-10-24T14:28:00.609+0000] {processor.py:161} INFO - Started process (PID=7930) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:28:00.619+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:28:00.621+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:28:00.620+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:28:00.624+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:28:00.634+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:28:00.634+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:28:00.641+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:28:00.641+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:28:00.658+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.053 seconds
+[2025-10-24T14:29:03.284+0000] {processor.py:161} INFO - Started process (PID=8260) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:29:03.296+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:29:03.299+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:29:03.299+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:29:03.311+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:29:03.336+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:29:03.335+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:29:03.351+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:29:03.351+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:29:03.383+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.104 seconds
+[2025-10-24T14:30:01.644+0000] {processor.py:161} INFO - Started process (PID=8460) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:30:01.645+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:30:01.647+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:30:01.646+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:30:01.651+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:30:01.662+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:30:01.662+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:30:01.677+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:30:01.677+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:30:01.711+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.071 seconds
+[2025-10-24T14:30:57.523+0000] {processor.py:161} INFO - Started process (PID=8625) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:30:57.524+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:30:57.525+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:30:57.525+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:30:57.529+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:30:57.538+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:30:57.538+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:30:57.545+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:30:57.545+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:30:57.564+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.046 seconds
+[2025-10-24T14:32:02.983+0000] {processor.py:161} INFO - Started process (PID=8688) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:32:02.985+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:32:02.986+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:32:02.986+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:32:02.990+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:32:02.999+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:32:02.999+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:32:03.006+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:32:03.006+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:32:03.037+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-10-24T14:33:13.066+0000] {processor.py:161} INFO - Started process (PID=8755) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:33:13.067+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:33:13.068+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:33:13.068+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:33:13.072+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:33:13.082+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:33:13.082+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:33:13.089+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:33:13.089+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:33:13.192+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.130 seconds
+[2025-10-24T14:34:29.077+0000] {processor.py:161} INFO - Started process (PID=8828) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:34:29.087+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:34:29.088+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:34:29.088+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:34:29.093+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:34:29.104+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:34:29.104+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:34:29.112+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:34:29.112+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:34:29.132+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.060 seconds
+[2025-10-24T14:35:27.261+0000] {processor.py:161} INFO - Started process (PID=8911) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:35:27.262+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:35:27.264+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:35:27.263+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:35:27.268+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:35:27.278+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:35:27.278+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:35:27.285+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:35:27.285+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:35:27.316+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.059 seconds
+[2025-10-24T14:36:24.079+0000] {processor.py:161} INFO - Started process (PID=9000) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:36:24.080+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:36:24.081+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:36:24.081+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:36:24.086+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:36:24.097+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:36:24.096+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:36:24.105+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:36:24.105+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:36:24.136+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2025-10-24T14:37:25.234+0000] {processor.py:161} INFO - Started process (PID=9060) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:37:25.235+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:37:25.236+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:37:25.236+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:37:25.241+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:37:25.252+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:37:25.251+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:37:25.259+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:37:25.259+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:37:25.291+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.062 seconds
+[2025-10-24T14:38:24.997+0000] {processor.py:161} INFO - Started process (PID=9122) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:38:24.998+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:38:24.999+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:38:24.999+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:38:25.004+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:38:25.014+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:38:25.014+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:38:25.022+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:38:25.022+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:38:25.053+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.062 seconds
+[2025-10-24T14:39:16.171+0000] {processor.py:161} INFO - Started process (PID=9179) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:39:16.172+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:39:16.173+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:39:16.173+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:39:16.178+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:39:16.188+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:39:16.188+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:39:16.195+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:39:16.195+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:39:16.214+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.050 seconds
+[2025-10-24T14:40:11.889+0000] {processor.py:161} INFO - Started process (PID=9241) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:40:11.890+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:40:11.891+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:40:11.891+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:40:11.896+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:40:11.907+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:40:11.906+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:40:11.914+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:40:11.914+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:40:11.934+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.049 seconds
+[2025-10-24T14:41:07.933+0000] {processor.py:161} INFO - Started process (PID=9335) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:41:07.934+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:41:07.936+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:41:07.935+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:41:07.940+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:41:07.950+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:41:07.950+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:41:07.957+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:41:07.957+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:41:07.988+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.059 seconds
+[2025-10-24T14:42:04.175+0000] {processor.py:161} INFO - Started process (PID=9395) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:42:04.177+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:42:04.179+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:42:04.179+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:42:04.183+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:42:04.194+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:42:04.194+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:42:04.202+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:42:04.202+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:42:04.234+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.063 seconds
+[2025-10-24T14:43:14.409+0000] {processor.py:161} INFO - Started process (PID=9469) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:43:14.411+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:43:14.412+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:43:14.412+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:43:14.416+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:43:14.426+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:43:14.426+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:43:14.434+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:43:14.434+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:43:14.464+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.059 seconds
+[2025-10-24T14:44:12.615+0000] {processor.py:161} INFO - Started process (PID=9531) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:44:12.616+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:44:12.617+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:44:12.617+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:44:12.621+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:44:12.632+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:44:12.632+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:44:12.640+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:44:12.639+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:44:12.672+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.062 seconds
+[2025-10-24T14:45:12.609+0000] {processor.py:161} INFO - Started process (PID=9598) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:45:12.610+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:45:12.612+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:45:12.611+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:45:12.616+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:45:12.626+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:45:12.626+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:45:12.633+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:45:12.633+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:45:12.653+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.048 seconds
+[2025-10-24T14:46:18.175+0000] {processor.py:161} INFO - Started process (PID=9690) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:46:18.176+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:46:18.177+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:46:18.177+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:46:18.181+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:46:18.192+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:46:18.192+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:46:18.200+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:46:18.200+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:46:18.234+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.063 seconds
+[2025-10-24T14:47:17.938+0000] {processor.py:161} INFO - Started process (PID=9752) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:47:17.950+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:47:17.951+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:47:17.951+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:47:17.955+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:47:17.965+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:47:17.965+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:47:17.972+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:47:17.972+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:47:17.991+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.059 seconds
+[2025-10-24T14:48:30.691+0000] {processor.py:161} INFO - Started process (PID=9821) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:48:30.692+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:48:30.694+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:48:30.693+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:48:30.698+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:48:30.709+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:48:30.708+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:48:30.716+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:48:30.716+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:48:30.747+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2025-10-24T14:49:33.054+0000] {processor.py:161} INFO - Started process (PID=9886) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:49:33.055+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:49:33.056+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:49:33.056+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:49:33.061+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:49:33.072+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:49:33.071+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:49:33.079+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:49:33.079+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:49:33.118+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.068 seconds
+[2025-10-24T14:50:33.175+0000] {processor.py:161} INFO - Started process (PID=9953) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:50:33.177+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:50:33.179+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:50:33.178+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:50:33.184+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:50:33.194+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:50:33.194+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:50:33.201+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:50:33.201+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:50:33.220+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.049 seconds
+[2025-10-24T14:51:25.548+0000] {processor.py:161} INFO - Started process (PID=10036) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:51:25.549+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:51:25.550+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:51:25.550+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:51:25.554+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:51:25.564+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:51:25.564+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:51:25.571+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:51:25.571+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:51:25.592+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.047 seconds
+[2025-10-24T14:52:20.859+0000] {processor.py:161} INFO - Started process (PID=10097) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:52:20.860+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:52:20.861+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:52:20.861+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:52:20.866+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:52:20.879+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:52:20.879+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:52:20.888+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:52:20.888+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:52:20.917+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.064 seconds
+[2025-10-24T14:53:13.927+0000] {processor.py:161} INFO - Started process (PID=10155) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:53:13.929+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:53:13.930+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:53:13.930+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:53:13.935+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:53:13.946+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:53:13.946+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:53:13.954+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:53:13.954+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:53:13.984+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.064 seconds
+[2025-10-24T14:54:06.735+0000] {processor.py:161} INFO - Started process (PID=10216) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:54:06.736+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:54:06.737+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:54:06.737+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:54:06.741+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:54:06.752+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:54:06.751+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:54:06.759+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:54:06.758+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:54:06.793+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.064 seconds
+[2025-10-24T14:55:03.765+0000] {processor.py:161} INFO - Started process (PID=10276) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:55:03.767+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:55:03.768+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:55:03.768+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:55:03.772+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:55:03.782+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:55:03.782+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:55:03.789+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:55:03.789+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:55:03.819+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.060 seconds
+[2025-10-24T14:56:03.016+0000] {processor.py:161} INFO - Started process (PID=10368) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:56:03.019+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:56:03.020+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:56:03.020+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:56:03.024+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:56:03.035+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:56:03.035+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:56:03.043+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:56:03.043+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:56:03.073+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.062 seconds
+[2025-10-24T14:56:55.600+0000] {processor.py:161} INFO - Started process (PID=10424) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:56:55.601+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:56:55.603+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:56:55.602+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:56:55.607+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:56:55.618+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:56:55.618+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:56:55.625+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:56:55.625+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:56:55.644+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.048 seconds
+[2025-10-24T14:57:48.777+0000] {processor.py:161} INFO - Started process (PID=10487) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:57:48.787+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:57:48.788+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:57:48.788+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:57:48.792+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:57:48.803+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:57:48.803+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:57:48.811+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:57:48.811+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:57:48.829+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.056 seconds
+[2025-10-24T14:58:29.547+0000] {processor.py:161} INFO - Started process (PID=10529) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:58:29.548+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:58:29.550+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:58:29.549+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:58:29.555+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:58:29.567+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:58:29.567+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:58:29.574+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:58:29.574+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:58:29.594+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.053 seconds
+[2025-10-24T14:59:26.383+0000] {processor.py:161} INFO - Started process (PID=10590) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:59:26.385+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T14:59:26.386+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:59:26.385+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:59:26.389+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T14:59:26.400+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:59:26.400+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T14:59:26.407+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:59:26.407+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T14:59:26.438+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-10-24T15:00:33.529+0000] {processor.py:161} INFO - Started process (PID=10739) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:00:33.530+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:00:33.531+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:00:33.531+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:00:33.536+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:00:33.551+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:00:33.550+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:00:33.560+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:00:33.560+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:00:33.581+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-10-24T15:01:38.194+0000] {processor.py:161} INFO - Started process (PID=10834) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:01:38.195+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:01:38.197+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:01:38.196+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:01:38.200+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:01:38.210+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:01:38.210+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:01:38.217+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:01:38.217+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:01:38.236+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.046 seconds
+[2025-10-24T15:02:43.580+0000] {processor.py:161} INFO - Started process (PID=10899) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:02:43.581+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:02:43.583+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:02:43.582+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:02:43.588+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:02:43.599+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:02:43.598+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:02:43.606+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:02:43.606+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:02:43.636+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.063 seconds
+[2025-10-24T15:03:45.361+0000] {processor.py:161} INFO - Started process (PID=10963) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:03:45.371+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:03:45.373+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:03:45.372+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:03:45.377+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:03:45.387+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:03:45.387+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:03:45.394+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:03:45.394+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:03:45.413+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.056 seconds
+[2025-10-24T15:04:42.945+0000] {processor.py:161} INFO - Started process (PID=11024) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:04:42.946+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:04:42.947+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:04:42.947+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:04:42.952+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:04:42.963+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:04:42.963+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:04:42.970+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:04:42.970+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:04:43.000+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2025-10-24T15:05:43.160+0000] {processor.py:161} INFO - Started process (PID=11121) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:05:43.161+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:05:43.162+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:05:43.162+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:05:43.166+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:05:43.178+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:05:43.177+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:05:43.185+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:05:43.185+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:05:43.216+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2025-10-24T15:06:40.889+0000] {processor.py:161} INFO - Started process (PID=11183) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:06:40.890+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:06:40.892+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:06:40.891+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:06:40.896+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:06:40.906+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:06:40.906+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:06:40.913+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:06:40.913+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:06:40.945+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2025-10-24T15:07:33.333+0000] {processor.py:161} INFO - Started process (PID=11241) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:07:33.334+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:07:33.336+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:07:33.335+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:07:33.340+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:07:33.351+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:07:33.351+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:07:33.360+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:07:33.359+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:07:33.391+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.062 seconds
+[2025-10-24T15:08:29.324+0000] {processor.py:161} INFO - Started process (PID=11302) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:08:29.325+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:08:29.326+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:08:29.326+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:08:29.330+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:08:29.341+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:08:29.341+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:08:29.349+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:08:29.348+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:08:29.378+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-10-24T15:09:19.840+0000] {processor.py:161} INFO - Started process (PID=11355) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:09:19.841+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:09:19.843+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:09:19.842+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:09:19.848+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:09:19.861+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:09:19.861+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:09:19.869+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:09:19.869+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:09:19.903+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.069 seconds
+[2025-10-24T15:10:20.591+0000] {processor.py:161} INFO - Started process (PID=11422) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:10:20.592+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:10:20.593+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:10:20.593+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:10:20.597+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:10:20.607+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:10:20.607+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:10:20.614+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:10:20.614+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:10:20.644+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.059 seconds
+[2025-10-24T15:11:27.257+0000] {processor.py:161} INFO - Started process (PID=11518) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:11:27.258+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:11:27.260+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:11:27.259+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:11:27.263+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:11:27.273+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:11:27.273+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:11:27.281+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:11:27.281+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:11:27.318+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.065 seconds
+[2025-10-24T15:12:10.060+0000] {processor.py:161} INFO - Started process (PID=11560) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:12:10.061+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:12:10.064+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:12:10.063+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:12:10.068+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:12:10.079+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:12:10.079+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:12:10.086+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:12:10.086+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:12:10.121+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.065 seconds
+[2025-10-24T15:13:08.576+0000] {processor.py:161} INFO - Started process (PID=11622) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:13:08.587+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:13:08.588+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:13:08.588+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:13:08.592+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:13:08.603+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:13:08.603+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:13:08.610+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:13:08.610+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:13:08.632+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2025-10-24T15:14:16.806+0000] {processor.py:161} INFO - Started process (PID=11686) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:14:16.807+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:14:16.809+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:14:16.808+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:14:16.813+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:14:16.824+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:14:16.824+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:14:16.833+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:14:16.832+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:14:16.852+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.050 seconds
+[2025-10-24T15:15:14.248+0000] {processor.py:161} INFO - Started process (PID=11754) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:15:14.249+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:15:14.251+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:15:14.251+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:15:14.255+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:15:14.266+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:15:14.265+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:15:14.273+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:15:14.273+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:15:14.304+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2025-10-24T15:16:27.254+0000] {processor.py:161} INFO - Started process (PID=11849) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:16:27.256+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:16:27.258+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:16:27.257+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:16:27.264+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:16:27.275+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:16:27.275+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:16:27.282+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:16:27.282+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:16:27.313+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.066 seconds
+[2025-10-24T15:17:29.515+0000] {processor.py:161} INFO - Started process (PID=11915) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:17:29.516+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:17:29.518+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:17:29.517+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:17:29.522+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:17:29.532+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:17:29.532+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:17:29.540+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:17:29.539+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:17:29.571+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.060 seconds
+[2025-10-24T15:18:20.356+0000] {processor.py:161} INFO - Started process (PID=11973) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:18:20.357+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:18:20.358+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:18:20.358+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:18:20.362+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:18:20.372+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:18:20.372+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:18:20.380+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:18:20.380+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:18:20.411+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.060 seconds
+[2025-10-24T15:19:11.283+0000] {processor.py:161} INFO - Started process (PID=12032) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:19:11.284+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:19:11.285+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:19:11.285+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:19:11.289+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:19:11.299+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:19:11.299+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:19:11.306+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:19:11.306+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:19:11.336+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-10-24T15:20:06.132+0000] {processor.py:161} INFO - Started process (PID=12094) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:20:06.134+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:20:06.135+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:20:06.135+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:20:06.139+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:20:06.151+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:20:06.151+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:20:06.159+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:20:06.159+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:20:06.190+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.063 seconds
+[2025-10-24T15:21:03.749+0000] {processor.py:161} INFO - Started process (PID=12182) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:21:03.751+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:21:03.752+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:21:03.752+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:21:03.757+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:21:03.767+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:21:03.766+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:21:03.774+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:21:03.774+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:21:03.804+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2025-10-24T15:22:13.596+0000] {processor.py:161} INFO - Started process (PID=12252) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:22:13.606+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:22:13.608+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:22:13.607+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:22:13.612+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:22:13.624+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:22:13.623+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:22:13.632+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:22:13.631+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:22:13.651+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-10-24T15:23:11.700+0000] {processor.py:161} INFO - Started process (PID=12313) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:23:11.701+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:23:11.702+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:23:11.702+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:23:11.706+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:23:11.716+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:23:11.716+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:23:11.723+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:23:11.723+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:23:11.741+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-10-24T15:23:52.922+0000] {processor.py:161} INFO - Started process (PID=12348) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:23:52.924+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:23:52.925+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:23:52.925+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:23:52.929+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:23:52.939+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:23:52.939+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:23:52.946+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:23:52.946+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:23:52.975+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-10-24T15:24:49.246+0000] {processor.py:161} INFO - Started process (PID=12409) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:24:49.247+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:24:49.249+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:24:49.248+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:24:49.252+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:24:49.263+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:24:49.263+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:24:49.270+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:24:49.270+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:24:49.304+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2025-10-24T15:25:52.526+0000] {processor.py:161} INFO - Started process (PID=12509) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:25:52.527+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:25:52.528+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:25:52.528+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:25:52.532+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:25:52.544+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:25:52.543+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:25:52.551+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:25:52.551+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:25:52.582+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2025-10-24T15:27:06.969+0000] {processor.py:161} INFO - Started process (PID=12578) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:27:06.970+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:27:06.971+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:27:06.971+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:27:06.976+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:27:06.988+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:27:06.988+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:27:06.996+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:27:06.996+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:27:07.028+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.064 seconds
+[2025-10-24T15:28:19.574+0000] {processor.py:161} INFO - Started process (PID=12653) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:28:19.586+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:28:19.587+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:28:19.587+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:28:19.592+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:28:19.603+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:28:19.603+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:28:19.611+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:28:19.610+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:28:19.629+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.060 seconds
+[2025-10-24T15:29:18.919+0000] {processor.py:161} INFO - Started process (PID=12715) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:29:18.920+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:29:18.922+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:29:18.921+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:29:18.926+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:29:18.938+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:29:18.937+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:29:18.944+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:29:18.944+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:29:18.973+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.059 seconds
+[2025-10-24T15:30:30.001+0000] {processor.py:161} INFO - Started process (PID=12787) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:30:30.011+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:30:30.012+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:30:30.012+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:30:30.017+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:30:30.027+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:30:30.027+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:30:30.035+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:30:30.035+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:30:30.055+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-10-24T15:31:44.995+0000] {processor.py:161} INFO - Started process (PID=12885) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:31:44.997+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:31:44.998+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:31:44.998+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:31:45.004+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:31:45.014+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:31:45.013+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:31:45.021+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:31:45.021+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:31:45.052+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.064 seconds
+[2025-10-24T15:32:42.327+0000] {processor.py:161} INFO - Started process (PID=12947) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:32:42.328+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:32:42.329+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:32:42.329+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:32:42.333+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:32:42.343+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:32:42.343+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:32:42.351+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:32:42.351+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:32:42.382+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.059 seconds
+[2025-10-24T15:33:36.997+0000] {processor.py:161} INFO - Started process (PID=13008) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:33:36.998+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:33:37.000+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:33:36.999+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:33:37.004+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:33:37.014+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:33:37.014+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:33:37.022+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:33:37.022+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:33:37.053+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.062 seconds
+[2025-10-24T15:34:35.778+0000] {processor.py:161} INFO - Started process (PID=13074) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:34:35.779+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:34:35.780+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:34:35.780+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:34:35.785+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:34:35.796+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:34:35.796+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:34:35.804+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:34:35.804+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:34:35.837+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.065 seconds
+[2025-10-24T15:35:44.773+0000] {processor.py:161} INFO - Started process (PID=13169) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:35:44.774+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:35:44.776+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:35:44.776+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:35:44.780+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:35:44.789+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:35:44.789+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:35:44.797+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:35:44.796+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:35:44.828+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2025-10-24T15:36:47.415+0000] {processor.py:161} INFO - Started process (PID=13229) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:36:47.417+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:36:47.418+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:36:47.417+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:36:47.422+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:36:47.433+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:36:47.433+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:36:47.440+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:36:47.440+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:36:47.469+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.060 seconds
+[2025-10-24T15:37:41.421+0000] {processor.py:161} INFO - Started process (PID=13287) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:37:41.422+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:37:41.423+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:37:41.423+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:37:41.427+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:37:41.438+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:37:41.438+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:37:41.446+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:37:41.446+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:37:41.466+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.051 seconds
+[2025-10-24T15:38:51.036+0000] {processor.py:161} INFO - Started process (PID=13352) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:38:51.037+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:38:51.039+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:38:51.038+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:38:51.042+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:38:51.053+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:38:51.052+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:38:51.060+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:38:51.060+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:38:51.091+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.060 seconds
+[2025-10-24T15:39:51.361+0000] {processor.py:161} INFO - Started process (PID=13414) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:39:51.362+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:39:51.363+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:39:51.363+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:39:51.367+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:39:51.377+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:39:51.377+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:39:51.385+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:39:51.385+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:39:51.411+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.054 seconds
+[2025-10-24T15:40:55.486+0000] {processor.py:161} INFO - Started process (PID=13516) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:40:55.487+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:40:55.488+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:40:55.488+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:40:55.492+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:40:55.503+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:40:55.502+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:40:55.510+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:40:55.510+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:40:55.552+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.071 seconds
+[2025-10-24T15:42:02.106+0000] {processor.py:161} INFO - Started process (PID=13585) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:42:02.107+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:42:02.109+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:42:02.108+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:42:02.113+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:42:02.124+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:42:02.124+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:42:02.132+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:42:02.132+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:42:02.150+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.050 seconds
+[2025-10-24T15:43:08.562+0000] {processor.py:161} INFO - Started process (PID=13652) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:43:08.563+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-10-24T15:43:08.564+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:43:08.564+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:43:08.568+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-10-24T15:43:08.579+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:43:08.579+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-10-24T15:43:08.587+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:43:08.587+0000] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-10-24T15:43:08.692+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.137 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

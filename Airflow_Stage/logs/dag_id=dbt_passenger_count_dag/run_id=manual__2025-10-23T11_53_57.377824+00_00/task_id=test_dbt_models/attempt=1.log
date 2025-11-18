@@ -1,0 +1,20 @@
+[2025-10-23T11:54:29.989+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-10-23T11:54:30.002+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_passenger_count_dag.test_dbt_models manual__2025-10-23T11:53:57.377824+00:00 [queued]>
+[2025-10-23T11:54:30.006+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_passenger_count_dag.test_dbt_models manual__2025-10-23T11:53:57.377824+00:00 [queued]>
+[2025-10-23T11:54:30.006+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-10-23T11:54:30.021+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): test_dbt_models> on 2025-10-23 11:53:57.377824+00:00
+[2025-10-23T11:54:30.024+0000] {standard_task_runner.py:64} INFO - Started process 9373 to run task
+[2025-10-23T11:54:30.026+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_passenger_count_dag', 'test_dbt_models', 'manual__2025-10-23T11:53:57.377824+00:00', '--job-id', '35', '--raw', '--subdir', 'DAGS_FOLDER/dbt_passenger_dag.py', '--cfg-path', '/tmp/tmpjyk6_74a']
+[2025-10-23T11:54:30.026+0000] {standard_task_runner.py:91} INFO - Job 35: Subtask test_dbt_models
+[2025-10-23T11:54:30.059+0000] {task_command.py:426} INFO - Running <TaskInstance: dbt_passenger_count_dag.test_dbt_models manual__2025-10-23T11:53:57.377824+00:00 [running]> on host ubun
+[2025-10-23T11:54:30.113+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='khaled' AIRFLOW_CTX_DAG_ID='dbt_passenger_count_dag' AIRFLOW_CTX_TASK_ID='test_dbt_models' AIRFLOW_CTX_EXECUTION_DATE='2025-10-23T11:53:57.377824+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-23T11:53:57.377824+00:00'
+[2025-10-23T11:54:30.114+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-10-23T11:54:30.115+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-10-23T11:54:30.115+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n        set -e\n        source /home/khaled/dbt-env/bin/activate &&         cd /home/khaled/fat/taxi_driver_project &&         dbt test >> /home/khaled/airflow/logs/dbt/dbt_test.log 2>&1\n        ']
+[2025-10-23T11:54:30.124+0000] {subprocess.py:86} INFO - Output:
+[2025-10-23T11:54:45.314+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-10-23T11:54:45.315+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-10-23T11:54:45.331+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=dbt_passenger_count_dag, task_id=test_dbt_models, run_id=manual__2025-10-23T11:53:57.377824+00:00, execution_date=20251023T115357, start_date=20251023T115430, end_date=20251023T115445
+[2025-10-23T11:54:45.363+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-10-23T11:54:45.369+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-10-23T11:54:45.370+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

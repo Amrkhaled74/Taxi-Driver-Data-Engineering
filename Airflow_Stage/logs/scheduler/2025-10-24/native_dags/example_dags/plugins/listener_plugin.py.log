@@ -1,0 +1,475 @@
+[2025-10-24T14:20:38.841+0000] {processor.py:161} INFO - Started process (PID=7008) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:20:38.842+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:20:38.843+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:20:38.843+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:20:38.846+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:20:38.854+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T14:21:35.039+0000] {processor.py:161} INFO - Started process (PID=7185) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:21:35.043+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:21:35.045+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:21:35.045+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:21:35.048+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:21:35.058+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.031 seconds
+[2025-10-24T14:22:27.281+0000] {processor.py:161} INFO - Started process (PID=7298) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:22:27.283+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:22:27.284+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:22:27.284+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:22:27.286+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:22:27.292+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.015 seconds
+[2025-10-24T14:23:14.940+0000] {processor.py:161} INFO - Started process (PID=7360) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:23:14.941+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:23:14.943+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:23:14.942+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:23:14.946+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:23:14.953+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.018 seconds
+[2025-10-24T14:24:07.275+0000] {processor.py:161} INFO - Started process (PID=7414) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:24:07.277+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:24:07.278+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:24:07.278+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:24:07.280+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:24:07.289+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.019 seconds
+[2025-10-24T14:25:04.236+0000] {processor.py:161} INFO - Started process (PID=7477) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:25:04.246+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:25:04.247+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:25:04.247+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:25:04.249+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:25:04.260+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.028 seconds
+[2025-10-24T14:26:01.850+0000] {processor.py:161} INFO - Started process (PID=7654) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:26:01.851+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:26:01.853+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:26:01.852+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:26:01.855+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:26:01.863+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.017 seconds
+[2025-10-24T14:26:58.170+0000] {processor.py:161} INFO - Started process (PID=7811) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:26:58.172+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:26:58.173+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:26:58.173+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:26:58.175+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:26:58.184+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.019 seconds
+[2025-10-24T14:27:55.125+0000] {processor.py:161} INFO - Started process (PID=7923) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:27:55.138+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:27:55.144+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:27:55.143+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:27:55.147+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:27:55.161+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.042 seconds
+[2025-10-24T14:28:56.991+0000] {processor.py:161} INFO - Started process (PID=8247) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:28:56.993+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:28:56.994+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:28:56.994+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:28:56.996+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:28:57.005+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.018 seconds
+[2025-10-24T14:29:56.167+0000] {processor.py:161} INFO - Started process (PID=8450) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:29:56.168+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:29:56.169+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:29:56.169+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:29:56.172+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:29:56.179+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T14:30:51.521+0000] {processor.py:161} INFO - Started process (PID=8618) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:30:51.523+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:30:51.524+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:30:51.524+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:30:51.526+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:30:51.534+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.017 seconds
+[2025-10-24T14:31:56.075+0000] {processor.py:161} INFO - Started process (PID=8682) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:31:56.077+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:31:56.078+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:31:56.078+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:31:56.080+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:31:56.086+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.017 seconds
+[2025-10-24T14:33:03.391+0000] {processor.py:161} INFO - Started process (PID=8749) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:33:03.392+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:33:03.394+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:33:03.393+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:33:03.395+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:33:03.402+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.015 seconds
+[2025-10-24T14:33:43.746+0000] {processor.py:161} INFO - Started process (PID=8782) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:33:43.747+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:33:43.749+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:33:43.748+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:33:43.750+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:33:43.757+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.017 seconds
+[2025-10-24T14:34:21.387+0000] {processor.py:161} INFO - Started process (PID=8822) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:34:21.389+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:34:21.390+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:34:21.390+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:34:21.392+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:34:21.399+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.018 seconds
+[2025-10-24T14:35:19.800+0000] {processor.py:161} INFO - Started process (PID=8905) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:35:19.802+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:35:19.803+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:35:19.803+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:35:19.805+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:35:19.811+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.015 seconds
+[2025-10-24T14:36:17.560+0000] {processor.py:161} INFO - Started process (PID=8994) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:36:17.561+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:36:17.562+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:36:17.562+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:36:17.564+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:36:17.571+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.015 seconds
+[2025-10-24T14:37:17.796+0000] {processor.py:161} INFO - Started process (PID=9054) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:37:17.797+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:37:17.798+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:37:17.798+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:37:17.800+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:37:17.808+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.019 seconds
+[2025-10-24T14:37:54.941+0000] {processor.py:161} INFO - Started process (PID=9089) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:37:54.943+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:37:54.944+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:37:54.944+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:37:54.946+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:37:54.954+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.020 seconds
+[2025-10-24T14:38:46.879+0000] {processor.py:161} INFO - Started process (PID=9147) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:38:46.880+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:38:46.881+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:38:46.881+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:38:46.883+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:38:46.891+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.017 seconds
+[2025-10-24T14:39:41.513+0000] {processor.py:161} INFO - Started process (PID=9206) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:39:41.514+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:39:41.515+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:39:41.515+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:39:41.517+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:39:41.524+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.015 seconds
+[2025-10-24T14:40:38.135+0000] {processor.py:161} INFO - Started process (PID=9303) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:40:38.136+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:40:38.138+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:40:38.137+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:40:38.140+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:40:38.148+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.019 seconds
+[2025-10-24T14:41:33.747+0000] {processor.py:161} INFO - Started process (PID=9363) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:41:33.749+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:41:33.750+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:41:33.750+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:41:33.752+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:41:33.759+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T14:42:38.620+0000] {processor.py:161} INFO - Started process (PID=9432) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:42:38.621+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:42:38.622+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:42:38.622+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:42:38.624+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:42:38.631+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.015 seconds
+[2025-10-24T14:43:13.147+0000] {processor.py:161} INFO - Started process (PID=9468) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:43:13.148+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:43:13.149+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:43:13.149+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:43:13.151+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:43:13.158+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T14:44:11.443+0000] {processor.py:161} INFO - Started process (PID=9530) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:44:11.444+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:44:11.446+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:44:11.445+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:44:11.448+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:44:11.455+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T14:45:10.329+0000] {processor.py:161} INFO - Started process (PID=9596) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:45:10.332+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:45:10.334+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:45:10.333+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:45:10.335+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:45:10.343+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.020 seconds
+[2025-10-24T14:46:14.042+0000] {processor.py:161} INFO - Started process (PID=9685) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:46:14.043+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:46:14.045+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:46:14.044+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:46:14.046+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:46:14.053+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T14:47:12.902+0000] {processor.py:161} INFO - Started process (PID=9747) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:47:12.913+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:47:12.915+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:47:12.914+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:47:12.917+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:47:12.925+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.028 seconds
+[2025-10-24T14:47:52.851+0000] {processor.py:161} INFO - Started process (PID=9781) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:47:52.853+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:47:52.854+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:47:52.854+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:47:52.856+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:47:52.864+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.019 seconds
+[2025-10-24T14:48:28.889+0000] {processor.py:161} INFO - Started process (PID=9818) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:48:28.891+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:48:28.893+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:48:28.893+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:48:28.897+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:48:28.905+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.023 seconds
+[2025-10-24T14:49:31.351+0000] {processor.py:161} INFO - Started process (PID=9884) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:49:31.352+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:49:31.353+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:49:31.353+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:49:31.355+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:49:31.362+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.017 seconds
+[2025-10-24T14:50:32.400+0000] {processor.py:161} INFO - Started process (PID=9951) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:50:32.411+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:50:32.412+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:50:32.411+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:50:32.413+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:50:32.421+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.025 seconds
+[2025-10-24T14:51:23.937+0000] {processor.py:161} INFO - Started process (PID=10034) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:51:23.938+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:51:23.939+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:51:23.939+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:51:23.941+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:51:23.949+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T14:52:18.553+0000] {processor.py:161} INFO - Started process (PID=10095) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:52:18.554+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:52:18.557+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:52:18.556+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:52:18.560+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:52:18.567+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.019 seconds
+[2025-10-24T14:53:11.620+0000] {processor.py:161} INFO - Started process (PID=10153) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:53:11.622+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:53:11.623+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:53:11.623+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:53:11.625+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:53:11.632+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.018 seconds
+[2025-10-24T14:54:04.151+0000] {processor.py:161} INFO - Started process (PID=10213) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:54:04.152+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:54:04.153+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:54:04.153+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:54:04.155+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:54:04.162+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T14:55:01.115+0000] {processor.py:161} INFO - Started process (PID=10270) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:55:01.127+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:55:01.128+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:55:01.128+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:55:01.130+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:55:01.138+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.026 seconds
+[2025-10-24T14:55:37.874+0000] {processor.py:161} INFO - Started process (PID=10339) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:55:37.875+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:55:37.876+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:55:37.876+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:55:37.878+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:55:37.886+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T14:56:32.361+0000] {processor.py:161} INFO - Started process (PID=10400) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:56:32.362+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:56:32.364+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:56:32.363+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:56:32.366+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:56:32.372+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.015 seconds
+[2025-10-24T14:57:25.888+0000] {processor.py:161} INFO - Started process (PID=10464) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:57:25.889+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:57:25.890+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:57:25.890+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:57:25.892+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:57:25.900+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.017 seconds
+[2025-10-24T14:58:23.524+0000] {processor.py:161} INFO - Started process (PID=10523) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:58:23.526+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:58:23.527+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:58:23.527+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:58:23.529+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:58:23.536+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.018 seconds
+[2025-10-24T14:59:18.466+0000] {processor.py:161} INFO - Started process (PID=10583) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:59:18.467+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T14:59:18.469+0000] {logging_mixin.py:188} INFO - [2025-10-24T14:59:18.468+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:59:18.471+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T14:59:18.478+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.015 seconds
+[2025-10-24T15:00:25.706+0000] {processor.py:161} INFO - Started process (PID=10732) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:00:25.707+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:00:25.708+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:00:25.708+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:00:25.710+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:00:25.717+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.017 seconds
+[2025-10-24T15:01:00.031+0000] {processor.py:161} INFO - Started process (PID=10796) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:01:00.032+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:01:00.033+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:01:00.033+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:01:00.035+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:01:00.042+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.017 seconds
+[2025-10-24T15:02:03.168+0000] {processor.py:161} INFO - Started process (PID=10862) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:02:03.169+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:02:03.171+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:02:03.171+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:02:03.173+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:02:03.180+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.017 seconds
+[2025-10-24T15:02:38.634+0000] {processor.py:161} INFO - Started process (PID=10893) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:02:38.636+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:02:38.637+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:02:38.637+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:02:38.639+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:02:38.646+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.017 seconds
+[2025-10-24T15:03:15.873+0000] {processor.py:161} INFO - Started process (PID=10930) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:03:15.875+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:03:15.876+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:03:15.875+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:03:15.877+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:03:15.884+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.015 seconds
+[2025-10-24T15:04:14.457+0000] {processor.py:161} INFO - Started process (PID=10992) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:04:14.458+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:04:14.460+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:04:14.459+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:04:14.462+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:04:14.471+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.021 seconds
+[2025-10-24T15:05:11.033+0000] {processor.py:161} INFO - Started process (PID=11061) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:05:11.035+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:05:11.036+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:05:11.035+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:05:11.038+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:05:11.046+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.017 seconds
+[2025-10-24T15:06:14.977+0000] {processor.py:161} INFO - Started process (PID=11154) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:06:14.978+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:06:14.979+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:06:14.979+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:06:14.981+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:06:14.989+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.017 seconds
+[2025-10-24T15:07:07.774+0000] {processor.py:161} INFO - Started process (PID=11216) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:07:07.776+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:07:07.777+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:07:07.777+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:07:07.779+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:07:07.785+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.015 seconds
+[2025-10-24T15:08:04.159+0000] {processor.py:161} INFO - Started process (PID=11273) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:08:04.161+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:08:04.162+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:08:04.162+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:08:04.164+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:08:04.171+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.017 seconds
+[2025-10-24T15:08:54.639+0000] {processor.py:161} INFO - Started process (PID=11329) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:08:54.640+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:08:54.642+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:08:54.642+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:08:54.644+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:08:54.652+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T15:09:53.685+0000] {processor.py:161} INFO - Started process (PID=11388) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:09:53.687+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:09:53.688+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:09:53.688+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:09:53.690+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:09:53.697+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.017 seconds
+[2025-10-24T15:10:55.577+0000] {processor.py:161} INFO - Started process (PID=11486) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:10:55.578+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:10:55.579+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:10:55.579+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:10:55.581+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:10:55.588+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T15:12:03.708+0000] {processor.py:161} INFO - Started process (PID=11553) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:12:03.710+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:12:03.712+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:12:03.712+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:12:03.716+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:12:03.723+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.019 seconds
+[2025-10-24T15:13:01.631+0000] {processor.py:161} INFO - Started process (PID=11613) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:13:01.632+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:13:01.634+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:13:01.634+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:13:01.636+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:13:01.642+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.015 seconds
+[2025-10-24T15:14:09.231+0000] {processor.py:161} INFO - Started process (PID=11680) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:14:09.232+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:14:09.233+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:14:09.233+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:14:09.235+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:14:09.241+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.015 seconds
+[2025-10-24T15:15:07.655+0000] {processor.py:161} INFO - Started process (PID=11748) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:15:07.657+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:15:07.658+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:15:07.657+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:15:07.660+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:15:07.668+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.017 seconds
+[2025-10-24T15:15:43.284+0000] {processor.py:161} INFO - Started process (PID=11806) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:15:43.285+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:15:43.287+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:15:43.286+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:15:43.289+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:15:43.297+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.018 seconds
+[2025-10-24T15:16:19.630+0000] {processor.py:161} INFO - Started process (PID=11841) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:16:19.631+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:16:19.633+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:16:19.632+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:16:19.635+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:16:19.642+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T15:16:55.495+0000] {processor.py:161} INFO - Started process (PID=11877) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:16:55.496+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:16:55.497+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:16:55.497+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:16:55.499+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:16:55.507+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.017 seconds
+[2025-10-24T15:17:51.034+0000] {processor.py:161} INFO - Started process (PID=11940) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:17:51.036+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:17:51.037+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:17:51.037+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:17:51.039+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:17:51.046+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T15:18:40.707+0000] {processor.py:161} INFO - Started process (PID=11998) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:18:40.708+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:18:40.709+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:18:40.709+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:18:40.711+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:18:40.718+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T15:19:38.623+0000] {processor.py:161} INFO - Started process (PID=12058) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:19:38.624+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:19:38.626+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:19:38.625+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:19:38.628+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:19:38.636+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.017 seconds
+[2025-10-24T15:20:32.479+0000] {processor.py:161} INFO - Started process (PID=12120) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:20:32.480+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:20:32.481+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:20:32.481+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:20:32.483+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:20:32.491+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.018 seconds
+[2025-10-24T15:21:36.254+0000] {processor.py:161} INFO - Started process (PID=12213) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:21:36.255+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:21:36.256+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:21:36.256+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:21:36.258+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:21:36.264+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.015 seconds
+[2025-10-24T15:22:11.062+0000] {processor.py:161} INFO - Started process (PID=12249) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:22:11.063+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:22:11.064+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:22:11.064+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:22:11.066+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:22:11.074+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.017 seconds
+[2025-10-24T15:23:09.895+0000] {processor.py:161} INFO - Started process (PID=12311) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:23:09.896+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:23:09.897+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:23:09.897+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:23:09.899+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:23:09.907+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.019 seconds
+[2025-10-24T15:23:46.833+0000] {processor.py:161} INFO - Started process (PID=12341) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:23:46.834+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:23:46.836+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:23:46.835+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:23:46.838+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:23:46.845+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T15:24:41.936+0000] {processor.py:161} INFO - Started process (PID=12403) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:24:41.938+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:24:41.939+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:24:41.939+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:24:41.941+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:24:41.948+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.015 seconds
+[2025-10-24T15:25:46.196+0000] {processor.py:161} INFO - Started process (PID=12502) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:25:46.197+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:25:46.199+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:25:46.198+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:25:46.201+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:25:46.208+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.020 seconds
+[2025-10-24T15:26:24.304+0000] {processor.py:161} INFO - Started process (PID=12538) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:26:24.305+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:26:24.307+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:26:24.306+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:26:24.309+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:26:24.316+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.018 seconds
+[2025-10-24T15:27:01.182+0000] {processor.py:161} INFO - Started process (PID=12573) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:27:01.184+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:27:01.185+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:27:01.185+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:27:01.187+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:27:01.194+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.018 seconds
+[2025-10-24T15:27:36.342+0000] {processor.py:161} INFO - Started process (PID=12608) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:27:36.343+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:27:36.344+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:27:36.344+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:27:36.346+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:27:36.354+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.019 seconds
+[2025-10-24T15:28:13.498+0000] {processor.py:161} INFO - Started process (PID=12646) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:28:13.499+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:28:13.500+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:28:13.500+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:28:13.502+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:28:13.509+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T15:29:12.265+0000] {processor.py:161} INFO - Started process (PID=12708) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:29:12.266+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:29:12.267+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:29:12.267+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:29:12.269+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:29:12.277+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T15:30:20.144+0000] {processor.py:161} INFO - Started process (PID=12779) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:30:20.145+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:30:20.147+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:30:20.146+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:30:20.148+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:30:20.156+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T15:31:00.382+0000] {processor.py:161} INFO - Started process (PID=12843) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:31:00.384+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:31:00.385+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:31:00.385+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:31:00.387+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:31:00.394+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.017 seconds
+[2025-10-24T15:31:39.564+0000] {processor.py:161} INFO - Started process (PID=12879) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:31:39.565+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:31:39.566+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:31:39.566+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:31:39.568+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:31:39.575+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T15:32:36.899+0000] {processor.py:161} INFO - Started process (PID=12942) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:32:36.900+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:32:36.901+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:32:36.901+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:32:36.903+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:32:36.910+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T15:33:31.900+0000] {processor.py:161} INFO - Started process (PID=13003) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:33:31.901+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:33:31.902+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:33:31.902+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:33:31.904+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:33:31.911+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T15:34:30.859+0000] {processor.py:161} INFO - Started process (PID=13069) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:34:30.860+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:34:30.862+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:34:30.861+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:34:30.864+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:34:30.872+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.018 seconds
+[2025-10-24T15:35:37.193+0000] {processor.py:161} INFO - Started process (PID=13136) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:35:37.194+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:35:37.196+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:35:37.195+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:35:37.198+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:35:37.204+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.015 seconds
+[2025-10-24T15:36:19.347+0000] {processor.py:161} INFO - Started process (PID=13201) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:36:19.348+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:36:19.349+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:36:19.349+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:36:19.351+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:36:19.358+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T15:37:16.129+0000] {processor.py:161} INFO - Started process (PID=13261) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:37:16.130+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:37:16.131+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:37:16.131+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:37:16.133+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:37:16.142+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.018 seconds
+[2025-10-24T15:38:15.795+0000] {processor.py:161} INFO - Started process (PID=13319) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:38:15.797+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:38:15.798+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:38:15.798+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:38:15.800+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:38:15.807+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.017 seconds
+[2025-10-24T15:39:14.961+0000] {processor.py:161} INFO - Started process (PID=13379) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:39:14.963+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:39:14.964+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:39:14.963+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:39:14.965+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:39:14.972+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T15:39:50.220+0000] {processor.py:161} INFO - Started process (PID=13413) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:39:50.221+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:39:50.222+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:39:50.222+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:39:50.224+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:39:50.231+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.015 seconds
+[2025-10-24T15:40:54.597+0000] {processor.py:161} INFO - Started process (PID=13515) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:40:54.598+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:40:54.600+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:40:54.599+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:40:54.601+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:40:54.608+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.016 seconds
+[2025-10-24T15:42:00.213+0000] {processor.py:161} INFO - Started process (PID=13583) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:42:00.214+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:42:00.215+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:42:00.215+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:42:00.217+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:42:00.223+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.015 seconds
+[2025-10-24T15:43:05.992+0000] {processor.py:161} INFO - Started process (PID=13650) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:43:05.994+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:43:05.995+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:43:05.995+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:43:05.997+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:43:06.004+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.017 seconds
+[2025-10-24T15:43:41.041+0000] {processor.py:161} INFO - Started process (PID=13683) to work on /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:43:41.042+0000] {processor.py:830} INFO - Processing file /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-10-24T15:43:41.044+0000] {logging_mixin.py:188} INFO - [2025-10-24T15:43:41.043+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:43:41.045+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-10-24T15:43:41.052+0000] {processor.py:183} INFO - Processing /home/khaled/dbt-env/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.015 seconds
