@@ -5,15 +5,14 @@ A fully automated ELT (Extract -> Load -> Transform) data pipeline built using A
 ----------------------------------------------------------------------------------
 
 Table of Contents
-
-1. [Project Description](#project-description)
-2. [Use Cases](#use-cases)
-3. [Technologies Used](#technologies-used)
-4. [Pipeline Workflow](#pipeline-workflow)
-5. [Setup & Installation](#setup--installation)
-6. [Usage](#usage)
-7. [Data Schema](#data-schema)
-8. [Monitoring & Logging](#monitoring--logging)
+1. Project Description
+2. Use Cases
+3. Technologies Used
+4. Pipeline Workflow
+5. Setup & Installation
+6. Usage
+7. Data Schema
+8. Monitoring & Logging
 
 ----------------------------------------------------------------------------------
 
@@ -262,3 +261,4 @@ Example logs:
 * 'dbt_test.log'
 
 These help debug transformation issues.
+
