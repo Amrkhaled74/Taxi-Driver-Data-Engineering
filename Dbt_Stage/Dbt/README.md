@@ -1,7 +1,12 @@
 # 🚕 NYC Taxi dbt Transformation Layer
 
 This dbt Layer handles the **Transformation step** of the ELT pipeline for NYC Taxi data. It transforms raw CSV data loaded into Snowflake into an **analytics-ready Star Schema** for Power BI.
+---
 
+**Table of Contents**
+1. [Project Structure](#-project-structure)
+2. [Data Model (Star Schema)](#-data-model-star-schema)
+3. [Setup & Configuration](#%EF%B8%8F-setup--configuration)
 ---
 
 ## 📂 Project Structure
