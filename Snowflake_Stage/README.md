@@ -9,7 +9,7 @@ This directory contains the scripts required to initialize the Snowflake environ
 3. [How to Apply](#-how-to-apply)
 4. [Data Loading Strategy](#-data-loading-strategy)
 ---
-🏗️ Infrastructure Overview
+## 🏗️ Infrastructure Overview
 
 The pipeline follows a Raw → Stage → Mart architecture:
 
@@ -21,7 +21,7 @@ Schema (TAXI): Holds raw ingestion tables and stages.
 
 Internal Stage (@taxi_stage): Temporary location for raw CSV uploads from Airflow.
 
-📜 Purpose of SQL Scripts
+## 📜 Purpose of SQL Scripts
 
 Environment Setup Script
 
@@ -35,7 +35,7 @@ Defines the structure for raw data landing tables.
 
 Ensures proper data types and storage layout for ingestion.
 
-🚀 How to Apply
+## 🚀 How to Apply
 
 Option 1: Snowflake Web UI
 
@@ -47,7 +47,7 @@ Option 2: SnowSQL CLI
 
 Use SnowSQL to execute the setup scripts from your local machine.
 
-📦 Data Loading Strategy
+## 📦 Data Loading Strategy
 
 Ingestion: Airflow uploads raw CSV files to @taxi_stage.
 
