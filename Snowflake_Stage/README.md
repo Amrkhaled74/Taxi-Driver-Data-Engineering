@@ -4,7 +4,7 @@ This directory contains the scripts required to initialize the Snowflake environ
 
 ---
 **Table of Contents**
-1. [Infrastructure Overview](#-Infrastructure-Overview)
+1. [Infrastructure Overview](#infrastructure-overview)
 2. [Purpose of SQL Scripts](#-purpose-of-sql-scripts)
 3. [How to Apply](#-how-to-apply)
 4. [Data Loading Strategy](#-data-loading-strategy)
