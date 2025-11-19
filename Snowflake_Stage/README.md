@@ -2,6 +2,13 @@
 
 This directory contains the scripts required to initialize the Snowflake environment used for the NYC Taxi Data Pipeline. It sets up the Warehouse, Database, Schema, and Internal Stages required for data ingestion and transformation.
 
+---
+**Table of Contents**
+1. [Infrastructure Overview](#-infrastructure-overview)
+2. [Purpose of SQL Scripts](#-purpose-of-sql-scripts)
+3. [How to Apply](#-how-to-apply)
+4. [Data Loading Strategy](#-data-loading-strategy)
+---
 🏗️ Infrastructure Overview
 
 The pipeline follows a Raw → Stage → Mart architecture:
